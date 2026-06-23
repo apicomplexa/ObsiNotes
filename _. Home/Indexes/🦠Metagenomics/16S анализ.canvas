@@ -33,9 +33,9 @@
 		{"id":"7c3f721fc29fd4ec","type":"group","x":1760,"y":4200,"width":560,"height":700,"label":"Промежуточные результаты"},
 		{"id":"bfa50f1e19b8502a","type":"group","x":-760,"y":541,"width":1520,"height":480,"color":"4","label":"Сырой этап"},
 		{"id":"27582e7ab59b040d","type":"group","x":1878,"y":4640,"width":325,"height":225,"label":"Нормализованные"},
-		{"id":"ec200feb150d4cfe","type":"file","file":"notes_metagenome/Сбор микробиомных образцов.md","x":-720,"y":580,"width":400,"height":400},
-		{"id":"7cefcca3abf52146","type":"file","file":"notes_metagenome/Хранение и транспортировка метагеномных образцов.md","x":-200,"y":580,"width":400,"height":400},
-		{"id":"602eb0e4efe38de1","type":"file","file":"notes_metagenome/Экстракция ДНК.md","x":320,"y":580,"width":400,"height":400},
+		{"id":"ec200feb150d4cfe","type":"file","file":"Projects/_To restore/notes_metagenome/Сбор микробиомных образцов.md","x":-720,"y":580,"width":400,"height":400},
+		{"id":"7cefcca3abf52146","type":"file","file":"Projects/_To restore/notes_metagenome/Хранение и транспортировка метагеномных образцов.md","x":-200,"y":580,"width":400,"height":400},
+		{"id":"602eb0e4efe38de1","type":"file","file":"Projects/_To restore/notes_metagenome/Экстракция ДНК.md","x":320,"y":580,"width":400,"height":400},
 		{
 			"id":"33af4126795f4b91",
 			"type":"text",
@@ -310,7 +310,7 @@
 			"color":"4"
 		},
 		{"id":"18fd4975565b2f74","type":"file","file":"_. Home/Indexes/🧬Sequencing.md","x":-200,"y":1220,"width":480,"height":420},
-		{"id":"1b9af48128aa4d5d","type":"file","file":"notes_metagenome/Подготовка библиотек ДНК.md","x":-700,"y":1220,"width":400,"height":420},
+		{"id":"1b9af48128aa4d5d","type":"file","file":"Projects/_To restore/notes_metagenome/Подготовка библиотек ДНК.md","x":-700,"y":1220,"width":400,"height":420},
 		{
 			"id":"4dc370909466b246",
 			"type":"text",

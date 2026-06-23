@@ -14,7 +14,7 @@ summary: Агрегатор отчетов QC ([[FastQC]], [[RSeQC]] и др)
 # MultiQC
 
 > [!def] Описание
-> (def:: Агрегатор отчетов QC ([[FastQC]], [[RSeQC]] и др))
+> (def:: Агрегатор отчетов QC ([[Notes/FastQC]], [[RSeQC]] и др))
 
 wiki_link:: `pip install multiqc`
 

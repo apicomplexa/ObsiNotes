@@ -2,12 +2,12 @@
 	"nodes":[
 		{"id":"32ab91cda507d766","type":"group","x":-420,"y":-280,"width":1520,"height":520,"color":"6","label":"Секвенирование"},
 		{"id":"2037220b5e157389","type":"group","x":-420,"y":-1040,"width":1520,"height":480,"color":"4","label":"Сырой этап"},
-		{"id":"7442ed7c5001b48d","type":"file","file":"notes_metagenome/Дизайн метагеномного исследования.md","x":-1520,"y":-20,"width":680,"height":420},
+		{"id":"7442ed7c5001b48d","type":"file","file":"Projects/_To restore/notes_metagenome/Дизайн метагеномного исследования.md","x":-1520,"y":-20,"width":680,"height":420},
 		{"id":"4bb646522b95bb2c","type":"file","file":"_.Settings/Media/Pasted image 20260407154854.png","x":-1260,"y":-1085,"width":500,"height":813},
 		{
 			"id":"c24348227dab190f",
 			"type":"file",
-			"file":"notes_metagenome/Сбор микробиомных образцов.md",
+			"file":"Projects/_To restore/notes_metagenome/Сбор микробиомных образцов.md",
 			"styleAttributes":{
 				"border":null
 			},
@@ -17,20 +17,20 @@
 			"height":380,
 			"color":"4"
 		},
-		{"id":"67b5b556a1813eb4","type":"file","file":"notes_metagenome/Хранение и транспортировка метагеномных образцов.md","x":140,"y":-980,"width":400,"height":380,"color":"4"},
+		{"id":"67b5b556a1813eb4","type":"file","file":"Projects/_To restore/notes_metagenome/Хранение и транспортировка метагеномных образцов.md","x":140,"y":-980,"width":400,"height":380,"color":"4"},
 		{"id":"39c01a4e4a5fe24b","type":"file","file":"_. Home/Indexes/🧬Sequencing.md","x":140,"y":-220,"width":920,"height":420},
-		{"id":"ff54a94b3ac8c8df","type":"file","file":"notes_metagenome/Подготовка библиотек ДНК.md","x":-360,"y":-220,"width":400,"height":420},
-		{"id":"bb2bf8a34ffe8ad5","type":"file","file":"notes_metagenome/Экстракция ДНК.md","x":660,"y":-980,"width":400,"height":380,"color":"4"},
-		{"id":"3aea4287bbb3d73d","type":"file","file":"notes_metagenome/Контаминация в метагеномике.md","x":2140,"y":560,"width":400,"height":80},
-		{"id":"6db368102834b257","type":"file","file":"notes_metagenome/Метагеномная сборка.md","x":2740,"y":700,"width":400,"height":400},
-		{"id":"6f2fe02879c0f114","type":"file","file":"notes_metagenome/Контроль качества метагеномных данных.md","x":2140,"y":700,"width":400,"height":400},
-		{"id":"586496218d8567b4","type":"file","file":"notes_metagenome/MAGs (Metagenome-Assembled Genomes).md","x":2740,"y":1320,"width":400,"height":400},
-		{"id":"db895103733bf4de","type":"file","file":"notes_metagenome/Биннинг контигов.md","x":3360,"y":700,"width":400,"height":400},
-		{"id":"fac72253f256df60","type":"file","file":"notes_metagenome/Функциональная аннотация метагенома.md","x":3920,"y":700,"width":400,"height":400},
-		{"id":"8a5e881ef8eebf8b","type":"file","file":"notes_metagenome/Демультиплексирование.md","x":1800,"y":1380,"width":560,"height":540},
-		{"id":"112cc16137f0d89a","type":"file","file":"notes_metagenome/Воспроизводимость метагеномных исследований.md","x":2420,"y":1380,"width":400,"height":400},
-		{"id":"27097238666a727d","type":"file","file":"notes_metagenome/Подготовка библиотек ДНК.md","x":1340,"y":1140,"width":400,"height":400},
-		{"id":"cae679aecb861801","type":"file","file":"notes_metagenome/de Bruijn graph.md","x":2220,"y":-210,"width":400,"height":400}
+		{"id":"ff54a94b3ac8c8df","type":"file","file":"Projects/_To restore/notes_metagenome/Подготовка библиотек ДНК.md","x":-360,"y":-220,"width":400,"height":420},
+		{"id":"bb2bf8a34ffe8ad5","type":"file","file":"Projects/_To restore/notes_metagenome/Экстракция ДНК.md","x":660,"y":-980,"width":400,"height":380,"color":"4"},
+		{"id":"3aea4287bbb3d73d","type":"file","file":"Projects/_To restore/notes_metagenome/Контаминация в метагеномике.md","x":2140,"y":560,"width":400,"height":80},
+		{"id":"6db368102834b257","type":"file","file":"Projects/_To restore/notes_metagenome/Метагеномная сборка.md","x":2740,"y":700,"width":400,"height":400},
+		{"id":"6f2fe02879c0f114","type":"file","file":"Projects/_To restore/notes_metagenome/Контроль качества метагеномных данных.md","x":2140,"y":700,"width":400,"height":400},
+		{"id":"586496218d8567b4","type":"file","file":"Projects/_To restore/notes_metagenome/MAGs (Metagenome-Assembled Genomes).md","x":2740,"y":1320,"width":400,"height":400},
+		{"id":"db895103733bf4de","type":"file","file":"Projects/_To restore/notes_metagenome/Биннинг контигов.md","x":3360,"y":700,"width":400,"height":400},
+		{"id":"fac72253f256df60","type":"file","file":"Projects/_To restore/notes_metagenome/Функциональная аннотация метагенома.md","x":3920,"y":700,"width":400,"height":400},
+		{"id":"8a5e881ef8eebf8b","type":"file","file":"Projects/_To restore/notes_metagenome/Демультиплексирование.md","x":1800,"y":1380,"width":560,"height":540},
+		{"id":"112cc16137f0d89a","type":"file","file":"Projects/_To restore/notes_metagenome/Воспроизводимость метагеномных исследований.md","x":2420,"y":1380,"width":400,"height":400},
+		{"id":"27097238666a727d","type":"file","file":"Projects/_To restore/notes_metagenome/Подготовка библиотек ДНК.md","x":1340,"y":1140,"width":400,"height":400},
+		{"id":"cae679aecb861801","type":"file","file":"Projects/_To restore/notes_metagenome/de Bruijn graph.md","x":2220,"y":-210,"width":400,"height":400}
 	],
 	"edges":[
 		{

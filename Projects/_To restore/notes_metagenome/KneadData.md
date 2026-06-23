@@ -25,7 +25,7 @@ type: 📄note
 
 ## Связанные концепты
 - [[Контроль качества метагеномных данных]]
-- [[DeconSeq]]
+- [[Projects/_To restore/notes_metagenome/DeconSeq]]
 - [[Контаминация в метагеномике]]
 - [[HUMAnN]]
 

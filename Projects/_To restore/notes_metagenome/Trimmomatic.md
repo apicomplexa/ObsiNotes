@@ -39,7 +39,7 @@ type: 📄note
 
 ## Связанные концепты
 - [[Контроль качества метагеномных данных]]
-- [[FastQC]]
+- [[Projects/_To restore/notes_metagenome/FastQC]]
 - [[BBTOOLS]]
 
 ## CLI / Использование

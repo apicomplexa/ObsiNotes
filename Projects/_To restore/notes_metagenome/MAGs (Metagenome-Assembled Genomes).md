@@ -1,4 +1,4 @@
----
+[](Метагеномная%20сборка.md)---
 aliases:
   - MAGs
   - metagenome-assembled genomes

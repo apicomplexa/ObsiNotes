@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8093405ef6059353",
+        "id": "ac66cc5602f75096",
         "type": "tabs",
         "children": [
           {
-            "id": "d53ce038ec24c37f",
+            "id": "b4fb287effe9e17b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Дизайн направляющих РНК.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Дизайн направляющих РНК"
             }
           }
         ]
@@ -119,12 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notes/Дизайн направляющих РНК.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура Дизайн направляющих РНК"
             }
           },
           {
@@ -187,7 +193,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "Notes/Дизайн направляющих РНК.md"
+              },
               "icon": "lucide-file-signature",
               "title": "Сноски"
             }
@@ -207,7 +215,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 494
+    "width": 566
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,14 +231,16 @@
       "graph:Граф": false
     }
   },
-  "active": "d53ce038ec24c37f",
+  "active": "ecb8758d6e1d10bf",
   "lastOpenFiles": [
+    "_.Settings/Agent Skills/SKILL Obsidian CLI.md",
+    "_.Settings/Agent Skills",
+    "Untitled.md",
     "Notes/R cheatsheet.md",
     "Notes/Phyloseq.md",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "Notes/vegan.md",
     "Функциональные навыки меня.md",
-    "Untitled.md",
     "Notes/Визуализация ординации с Vegan.md",
     "Без названия.md",
     "TECH_COPY_Функциональные навыки меня 1.md",
@@ -269,10 +279,9 @@
     "Projects/Истории болезней/ИБ - клинфарма",
     "_. Home/Indexes/🦠Metagenomics",
     "Projects/GRW.zip",
-    "notes_metagenome",
+    "Projects/_To restore/notes_metagenome",
     "_.Settings/Templates/dataviews/indexPage/views/commonIndexPageVIew.ts",
     "Projects/Истории болезней/ИБ - Хир болезни",
-    "_.Settings/Templates/dataviews/indexPage/views/singleIndexView.ts",
     "Notes/Общий пайплайн обработки метагеномных данных.canvas",
     "Без названия.canvas",
     "_. Home/Indexes/🦠Microbiology/Без названия.canvas",
