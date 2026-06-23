@@ -1,0 +1,289 @@
+{
+  "main": {
+    "id": "b28e4d144395c575",
+    "type": "split",
+    "children": [
+      {
+        "id": "d612529261143fa8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3e81430d823864b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_. Home/__Карта хранилища.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2d5d9efb741532a",
+            "type": "leaf",
+            "state": {
+              "type": "log-log",
+              "state": {}
+            }
+          },
+          {
+            "id": "685a20d69d36727c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Физо СНК Палеогеномика/Курсач/1. Вступление доклад Палеогеномика СНК Норм Физо.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee2ee6ed4b444bdf",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "fd1b36a11d8bd9c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f76a30ec937fb49",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6bff696c415007e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbebbb793180a673",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "75aa5eae252cd8d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1fb26fc8ad0f695",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0b883412e80ec17a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1c6e252d1663ab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7c0c19e48fae170",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b102f987ecc03f7e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f3785b80c7465e38",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d6733ce478c6792a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "a71f419b0788b68e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "987d6efffe792ffd",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fa9e8a39c4056258",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "75a8167a661d88eb",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "3c4c1aa731b9dcb0",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-metatable:Metatable": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:Show log": false,
+      "obsidian-livesync:Show Customization sync": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c1c6e252d1663ab4",
+  "lastOpenFiles": [
+    "4. OthersNotes/2. Мой бред/GRW/Все везде и сразу.md",
+    "4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.md",
+    "4. OthersNotes/2. Мой бред/GRW/Маяк.md",
+    "4. OthersNotes/2. Мой бред/GRW/После конечности.md",
+    "T. Templates/grw.md",
+    "T. Templates/_  📄CommonPage.md",
+    "T. Templates/ГСИ мо.md",
+    "4. OthersNotes/2. Мой бред/GRW/Нулевой пациент.md",
+    "4. OthersNotes/2. Мой бред/GRW",
+    "4. OthersNotes/2. Мой бред/Без названия.md",
+    "3. Biology/MicroBiology/ГСИ/St. epidermidis.md",
+    "3. Biology/MicroBiology/ГСИ/St. aureus.md",
+    "1. Projects/Физо СНК Палеогеномика/Курсач/1. Вступление доклад Палеогеномика СНК Норм Физо 1.md",
+    "T. Templates/_ _ ГСИ мо.md",
+    "3. Biology/MicroBiology/ГСИ/_Гнойно септические заболевания.md",
+    "3. Biology/MicroBiology/ГСИ",
+    "1. Projects/Физо СНК Палеогеномика/Курсач/_Доклад СНК физо. Нобелевская премия 2022.pdf",
+    "1. Projects/Физо СНК Палеогеномика/Курсач/1. Вступление доклад Палеогеномика СНК Норм Физо.md",
+    "Без названия.md",
+    "_. Home/__Карта хранилища.md",
+    "E. Excalidraw/Парно-концевые прочтения illumina.excalidraw.md",
+    "E. Excalidraw/Парно-концевые прочтения illumina.excalidraw.light.png",
+    "E. Excalidraw/Артериальная система.excalidraw.dark.png",
+    "E. Excalidraw/Артериальная система.excalidraw.md",
+    "4. OthersNotes/2. Мой бред/Без названия.canvas",
+    "Сегодняшняя заметка.md",
+    "4. OthersNotes/2. Мой бред/Фундаментальная проблема современного подхода к образованию.md",
+    "3. Biology/Transcriptomics/RNAseq/1. Анализ bulk RNA seq/5. Диф Экспрессия/DEseq2 (RLE).md",
+    "1. Projects/Closed/Доклад Биохимия. Количественная транскриптомика РНК секвенирование.md",
+    "1. Projects/Closed/Доклад Биохимия. Количественная транскриптомика РНК секвенирование.docx",
+    "1. Projects/Closed/Prj - Мотивационное письмо ФШСБ.md",
+    "1. Projects/Closed/Prj - Мед Стартапы Проектная деятельность.md",
+    "1. Projects/Closed/Доклад на биологии репликация и процессинг/Доклад по репликации и процессингу РНК для СГМУ.md",
+    "1. Projects/Методы секвенирования белков/Определение структуры белков.pptx",
+    "1. Projects/Методы секвенирования белков/Prj - Методы определения структуры белков.docx",
+    "1. Projects/Методы секвенирования белков",
+    "1. Projects/Closed/Перевод по гисте.docx",
+    "1. Projects/Closed/Литературные памятники древней руси/Литературные памятники Киевской Руси. Тематика произведений.docx",
+    "1. Projects/Closed/Литературные памятники древней руси",
+    "1. Projects/Физо СНК Палеогеномика/media/Drawing 2024-01-14 16.49.19.excalidraw.light.png",
+    "1. Projects/Физо СНК Палеогеномика/media/Drawing 2024-01-14 16.49.19.excalidraw.dark.png",
+    "1. Projects/Физо СНК Палеогеномика/media/Drawing 2024-01-14 16.26.28.excalidraw.light.png",
+    "1. Projects/Физо СНК Палеогеномика/media/Drawing 2024-01-14 16.26.28.excalidraw.dark.png",
+    "3. Biology/Molecular biology/Геномика/Секвенирование геномов/Контиги и скафолды.dark.png",
+    "E. Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
+    "E. Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "E. Excalidraw/Scripts/Downloaded/Mindmap connector.svg"
+  ]
+}

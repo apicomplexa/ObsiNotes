@@ -1,0 +1,122 @@
+body {
+    --kanbar-list-color-alpha: 0.12
+}
+
+.kanban-plugin__lane-header-wrapper
+a.tag[href*="#st" i]{
+    display: none;
+}
+.kanban-plugin__lane-grip
+svg {
+    color: rgba(var(--ctp-text), 0.4);
+}
+.kanban-plugin__meta-key {
+    font-weight: 900;
+}
+
+.kanban-plugin__lane-wrapper[data-hitboxid*="4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.kanban.md"]
+.kanban-plugin__meta-row:has(.kanban-plugin__meta-key[data-key="tags"]){
+    display: none !important;
+}
+
+.kanban-plugin__lane-wrapper {
+    background-color: rgb(var(--ctp-base));
+    border-radius: var(--anp-kanban-lane-radius, 6px);
+}
+
+.kanban-plugin__lane,
+.kanban-plugin__item,
+.kanban-plugin__item-title-wrapper,
+.kanban-plugin__lane > * {
+    border-width: 0 !important;
+}
+.kanban-plugin__item-metadata-wrapper {
+    background-color: transparent !important;
+}
+
+.kanban-plugin__item-title-wrapper {
+    padding-bottom: 0 !important;
+}
+
+/* st/in_progress - blue */
+.kanban-plugin__lane:has(.kanban-plugin__lane-header-wrapper  a.tag[href="#st/blue" i]) {
+    background-color: rgba(var(--ctp-blue), var(--kanbar-list-color-alpha));
+}
+/* st/in_plans - mauve */
+.kanban-plugin__lane:has(.kanban-plugin__lane-header-wrapper  a.tag[href="#st/peach" i]) {
+    background-color: rgba(var(--ctp-peach), var(--kanbar-list-color-alpha));
+}
+/* st/wait - mauve */
+.kanban-plugin__lane:has(.kanban-plugin__lane-header-wrapper  a.tag[href="#st/mauve" i]) {
+    background-color: rgba(var(--ctp-mauve), var(--kanbar-list-color-alpha));
+}
+/* st/done - green */
+.kanban-plugin__lane:has(.kanban-plugin__lane-header-wrapper  a.tag[href="#st/green" i]) {
+    background-color: rgba(var(--ctp-green), var(--kanbar-list-color-alpha));
+}
+
+/* st/skiped - red */
+.kanban-plugin__lane:has(.kanban-plugin__lane-header-wrapper  a.tag[href="#st/red" i]) {
+    background-color: rgba(var(--ctp-red), var(--kanbar-list-color-alpha));
+}
+
+.kanban-plugin__lane-wrapper[data-hitboxid*="4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.kanban.md"]
+.kanban-plugin__meta-value-wrapper[data-value="Фильм"]
+.kanban-plugin__meta-value {
+    border: 1px solid rgb(var(--ctp-mauve));
+    max-width:fit-content;
+    padding: 0 4px;
+    border-radius: 100px;
+    background-color: rgb(var(--ctp-mauve));
+    color: rgb(var(--ctp-base));
+    font-weight:500;
+}
+.kanban-plugin__lane-wrapper[data-hitboxid*="4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.kanban.md"]
+.kanban-plugin__meta-value-wrapper[data-value="Книга"]
+.kanban-plugin__meta-value {
+    border: 1px solid rgb(var(--ctp-green));
+    max-width:fit-content;
+    padding: 0 4px;
+    border-radius: 100px;
+    background-color: rgb(var(--ctp-green));
+    color: rgb(var(--ctp-base));
+    font-weight:500;
+}
+.kanban-plugin__lane-wrapper[data-hitboxid*="4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.kanban.md"]
+.kanban-plugin__meta-value-wrapper[data-value="Сериал"]
+.kanban-plugin__meta-value {
+    border: 1px solid rgb(var(--ctp-yellow));
+    max-width:fit-content;
+    padding: 0 4px;
+    border-radius: 100px;
+    background-color: rgb(var(--ctp-yellow));
+    color: rgb(var(--ctp-base));
+    font-weight:500;
+}
+.kanban-plugin__lane-wrapper[data-hitboxid*="4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.kanban.md"]
+.kanban-plugin__meta-value-wrapper[data-value="Мультфильм"]
+.kanban-plugin__meta-value {
+    border: 1px solid rgb(var(--ctp-blue));
+    max-width:fit-content;
+    padding: 0 4px;
+    border-radius: 100px;
+    background-color: rgb(var(--ctp-blue));
+    color: rgb(var(--ctp-base));
+    font-weight:500;
+}
+.kanban-plugin__lane-wrapper[data-hitboxid*="4. OthersNotes/2. Мой бред/GRW/_GoogleReadWatch.kanban.md"]
+.kanban-plugin__meta-value-wrapper[data-value="Аниме"]
+.kanban-plugin__meta-value {
+    border: 1px solid rgb(var(--ctp-red));
+    max-width:fit-content;
+    padding: 0 4px;
+    border-radius: 100px;
+    background-color: rgb(var(--ctp-red));
+    color: rgb(var(--ctp-base));
+    font-weight:500;
+}
+
+
+.kanban-plugin__meta-key[data-key="Автор"] + .kanban-plugin__meta-value-wrapper span {
+    font-weight:700
+}

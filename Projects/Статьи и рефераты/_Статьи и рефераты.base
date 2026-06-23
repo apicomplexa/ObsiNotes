@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.name.startsWith("_")
+    - file.ext == "md"
+    - '!file.inFolder("Projects/Статьи и рефераты/Истории болезней")'
+    - file.hasTag("💡project")
+formulas:
+  Свойсва: note.keys()
+  Архивировано: file.folder.contains("Archive")
+properties:
+  note.done:
+    displayName: Closed
+views:
+  - type: table
+    name: Таблица
+    groupBy:
+      property: formula.Архивировано
+      direction: ASC
+    order:
+      - status
+      - file.name
+      - file.ctime
+      - formula.Архивировано
+    sort:
+      - property: formula.Архивировано
+        direction: ASC
+      - property: status
+        direction: ASC
+      - property: file.ctime
+        direction: DESC
+      - property: formula.Свойсва
+        direction: ASC
+    columnSize:
+      note.status: 109
+      file.name: 328
+      file.ctime: 152
+      note.done: 120
+  - type: cards
+    name: View
+    groupBy:
+      property: formula.Архивировано
+      direction: ASC
+    order:
+      - file.name
+      - file.ctime
+      - status
+    imageAspectRatio: 1.1
+    cardSize: 350

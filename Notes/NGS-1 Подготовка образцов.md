@@ -1,0 +1,30 @@
+---
+aliases:
+  - "Подготовка образцов NGS"
+cssclasses:
+  - "page-color-ge"
+date: 02-11-2025
+dg-publish: true
+parent:
+summary:
+tags: []
+type: "📄note"
+⚙️Methods:
+  - "samplePreparation"
+🧬Sequencing:
+  - "tech/illumina"
+---
+
+# Раздел: [[_NGS|NGS]]
+
+# NGS - Sample preparation
+
+Для каждого из вариантов NGS необходима ==библиотека== подготовленных ДНК (н.п. определенного размера, содержащие адаптеры)
+
+## Этапы пробоподготовки ДНК
+
+1. Выделение ДНК/РНК
+2. [[Фрагментация]]
+3. [[Лигирование Адаптеров (Y-образные illumina)]]
+
+## [[Создание библиотеки RNAseq|Создание библиотеки РНК]]

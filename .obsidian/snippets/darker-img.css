@@ -1,0 +1,7 @@
+.theme-dark .markdown-source-view img {
+    opacity: .4;                   
+}
+
+.theme-dark .markdown-source-view img:hover {
+    opacity: .9;
+}

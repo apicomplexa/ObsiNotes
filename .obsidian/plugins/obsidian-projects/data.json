@@ -1,0 +1,342 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "image": {
+          "richText": true
+        },
+        "🎬Тип": {
+          "options": [
+            "Аниме",
+            "Комикс/манга",
+            "Фильм",
+            "Сериал",
+            "Мультфильм"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_.Settings/Templates/grw.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Projects/GRW",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "img": {
+                "width": 475
+              },
+              "image": {
+                "hide": false
+              },
+              "tags": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "🎬Автор": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "🎬Оценка",
+              "path",
+              "🎬Автор",
+              "🎬Жанры",
+              "🎬Тип",
+              "status",
+              "summary",
+              "tags",
+              "image",
+              "done",
+              "started"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#00d26a",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "🟢Done"
+                }
+              },
+              {
+                "color": "#fcd53f",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "🟡 In Plans"
+                }
+              },
+              {
+                "color": "#0074ba",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "🔵 In Progress"
+                }
+              },
+              {
+                "color": "#f8312f",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "🔴 Skiped"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "status",
+                "order": "desc",
+                "enabled": true
+              },
+              {
+                "field": "🎬Оценка",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "aec581a9-483a-4d79-bc96-b0fd4e4c4327",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "🎬Жанры",
+              "🎬Оценка",
+              "🎬Тип"
+            ],
+            "columns": {
+              "🔵 In Progress": {
+                "weight": 0,
+                "records": [
+                  "Projects/GRW/Цветы для Элджернона.md"
+                ]
+              },
+              "🟡 In Plans": {
+                "weight": 1,
+                "records": [
+                  "Projects/GRW/Царство падальщиков.md",
+                  "Projects/GRW/Ход королевы.md",
+                  "Projects/GRW/Zom 100.md",
+                  "Projects/GRW/Спокойной ночи Пун-Пун.md",
+                  "Projects/GRW/Спой мне 'Yesterday'.md",
+                  "Projects/GRW/Создатель (2023).md",
+                  "Projects/GRW/Репетиция.md",
+                  "Projects/GRW/Плутон.md",
+                  "Projects/GRW/Нью-Йорк Нью-Йорк.md",
+                  "Projects/GRW/Маяк.md",
+                  "Projects/GRW/Кролик Джо-Джо.md",
+                  "Projects/GRW/Для тебя бессмертный.md",
+                  "Projects/GRW/Дека-Данс.md",
+                  "Projects/GRW/Голубоглазый самурай.md",
+                  "Projects/GRW/Блич.md",
+                  "Projects/GRW/Агент времени (s2).md"
+                ]
+              },
+              "🟢Done": {
+                "weight": 2
+              },
+              "🔴 Skiped": {
+                "weight": 3,
+                "records": [
+                  "Projects/GRW/Сага о Винланде.md",
+                  "Projects/GRW/Виви Песнь флюоритового глаза.md",
+                  "Projects/GRW/Операция  Семейка Ёдзакура.md",
+                  "Projects/GRW/Магия и мускулы.md",
+                  "Projects/GRW/Жизнь девушки карателя.md",
+                  "Projects/GRW/Аватар (нетфликс).md"
+                ]
+              }
+            },
+            "columnWidth": 330
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "🎬Оценка",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "bdcf10aa-351a-4a45-ad16-5f800a9ffc66",
+          "name": "Board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "coverField": "image",
+            "includeFields": [
+              "🎬Жанры",
+              "🎬Оценка",
+              "🎬Тип",
+              "status",
+              "summary"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "status",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "84c9a8e5-1fd3-43a5-900e-2283e3d98a6f",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "id": "659765d6-7b54-445d-a44b-2d81cccb1688",
+      "name": "🎬GRW"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "_.Settings/Templates/_  📄CommonPage.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Notes",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "tags",
+              "path",
+              "☠️Pathology",
+              "☣️Immunology",
+              "⚗️Biochemistry",
+              "⚙️Biophisics",
+              "⚙️Methods",
+              "✂️GeneEdit",
+              "👨BodyPart",
+              "💥Termodynamic",
+              "💻Bioinfo",
+              "📊Statistic",
+              "📊Transcriptomics",
+              "📏Proteomic",
+              "🔬Histology",
+              "🕰️Enzymes",
+              "🖥️IT",
+              "🥼Med",
+              "🦠Cytology",
+              "🦠Microbiology",
+              "🧠Neurobio",
+              "🧩Epigenomics",
+              "🧬Genetics",
+              "🧬Sequencing",
+              "🩸Endocrinology",
+              "🫀Anatomy",
+              "aliases",
+              "creation date",
+              "cssclasses",
+              "date",
+              "dg-publish",
+              "excalidraw-plugin",
+              "image",
+              "nsmu",
+              "parent",
+              "summary",
+              "taskbone-ocr",
+              "type",
+              "wiki_link"
+            ],
+            "fieldConfig": {
+              "tags": {
+                "width": 522
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "tags",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "ee91af68-aeaf-49ac-ae21-1d50865ebc42",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "74342694-4acd-4dcb-b3d5-61b1b44a2318",
+      "name": "Notes"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "QUOTE_DOUBLE"
+    },
+    "locale": {
+      "firstDayOfWeek": "monday"
+    },
+    "commands": [],
+    "linkBehavior": "open-note"
+  }
+}

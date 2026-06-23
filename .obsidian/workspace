@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "55a85fc386208c8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e3888bf04460212",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3. Biology/Системная биология/_ Системная биология.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64b9c04ced3b9cde",
+    "type": "split",
+    "children": [
+      {
+        "id": "91ec616d2ce75801",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70e88f3aeba293a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1b2526728a45fd25",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "109b79cfecd1eb4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#nsmu/доклад",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fcf7e417ef83474",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a852aeee1ac9793e",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 424.5
+  },
+  "right": {
+    "id": "96fc1bc1662eb85e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e190ad7e7117abb7",
+        "type": "tabs",
+        "dimension": 47.11246200607903,
+        "children": [
+          {
+            "id": "ba472d97f65bf9ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. Biology/Системная биология/_ Системная биология.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "9ef2f9c61b385eaf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. Biology/Системная биология/_ Системная биология.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5f6666b521485fca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3. Biology/Системная биология/_ Системная биология.md"
+              }
+            }
+          },
+          {
+            "id": "d94e4fcd65a97ea0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ecbefee8f9ee9bad",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b38fa9723b36c998",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "555606bd5fb26170",
+        "type": "tabs",
+        "dimension": 52.88753799392097,
+        "children": [
+          {
+            "id": "ccf76543a10496b3",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "3. Biology/Системная биология/_ Системная биология.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#papers",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431432
+                      }
+                    },
+                    {
+                      "query": "tag:#project/open",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5526240
+                      }
+                    },
+                    {
+                      "query": "tag:#project/close",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1.04009843400447,
+                  "lineSizeMultiplier": 3.03254586129754,
+                  "collapse-forces": true,
+                  "centerStrength": 0.445223126867979,
+                  "repelStrength": 20,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3242333202184644,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 269.5
+  },
+  "active": "6e3888bf04460212",
+  "lastOpenFiles": [
+    "_. Home/Карта хранилища.md",
+    "3. Biology/Системная биология/_ Системная биология.md",
+    "1. Projects/Доклад студенческая конференция СГМУ/Доклад студенческая конференция СГМУ.md",
+    "M. Media/Pasted image 20220925150424.png",
+    "2. Zotero/Biology/MolBio_and_Genetic/Medical_using/First CRISPR clinical trial gets green light from US panel.md",
+    "2. Zotero/Biology/MolBio_and_Genetic/Medical_using/Safety and feasibility of CRISPR-edited T cells in patients with refractory non-small-cell lung cancer.md",
+    "2. Zotero/Biology/MolBio_and_Genetic/Medical_using/Regulatory evaluation of Glybera in Europe — two committees, one mission.md",
+    "2. Zotero/Biology/MolBio_and_Genetic/Medical_using/PD-1 Knockout Engineered T Cells for Metastatic Non-small Cell Lung Cancer - Study Results - ClinicalTrials.gov.md",
+    "2. Zotero/Biology/MolBio_and_Genetic/Medical_using/Partial recovery of visual function in a blind patient after optogenetic therapy.md",
+    "2. Zotero/Biology/MolBio_and_Genetic/Medical_using/Neonatal AAV gene therapy rescues hearing in a mouse model of SYNE4 deafness.md"
+  ]
+}

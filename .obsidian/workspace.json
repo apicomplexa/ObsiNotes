@@ -1,0 +1,284 @@
+{
+  "main": {
+    "id": "55a85fc386208c8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8093405ef6059353",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d53ce038ec24c37f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64b9c04ced3b9cde",
+    "type": "split",
+    "children": [
+      {
+        "id": "91ec616d2ce75801",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecb8758d6e1d10bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "1b2526728a45fd25",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "6906c1a8261bbf78",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "23fdc0b28ab52765",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          },
+          {
+            "id": "109b79cfecd1eb4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "phylose",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327
+  },
+  "right": {
+    "id": "96fc1bc1662eb85e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e190ad7e7117abb7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f6666b521485fca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          },
+          {
+            "id": "db89da52b40d3d0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "ASV.md"
+              },
+              "icon": "lucide-info",
+              "title": "Свойства файла для ASV"
+            }
+          },
+          {
+            "id": "9ef2f9c61b385eaf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projects/_To restore/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Фармакотерапия_Бронхиальной_Астмы_Конспект"
+            }
+          },
+          {
+            "id": "ba472d97f65bf9ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/decontam.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для decontam"
+            }
+          },
+          {
+            "id": "11eada95c9bab01b",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "quote-glyph",
+              "title": "References"
+            }
+          },
+          {
+            "id": "49ef6132b2c52a93",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Сноски"
+            }
+          },
+          {
+            "id": "6bd13da1767935d8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 494
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Меню быстрого перехода": false,
+      "canvas:Создать новый холст": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "obsidian-kanban:Создать новую доску": false,
+      "iconic:Открыть свод правил": false,
+      "templater-obsidian:Templater": false,
+      "graph:Граф": false
+    }
+  },
+  "active": "d53ce038ec24c37f",
+  "lastOpenFiles": [
+    "Notes/R cheatsheet.md",
+    "Notes/Phyloseq.md",
+    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
+    "Notes/vegan.md",
+    "Функциональные навыки меня.md",
+    "Untitled.md",
+    "Notes/Визуализация ординации с Vegan.md",
+    "Без названия.md",
+    "TECH_COPY_Функциональные навыки меня 1.md",
+    "Функциональные навыки меня 1.md",
+    "TECH_COPY_Phyloseq.md",
+    "Notes/DADA2.md",
+    "_. Home/_Карта хранилища.md",
+    "Notes/R metaprogramming cheatsheet.md",
+    "R_bioinformatics_cheatsheet (2).md",
+    "R_bioinformatics_cheatsheet (1).md",
+    "Notes/Иерархическая кластеризация образцов AVS.md",
+    "Projects/Истории болезней/ИБ - акушерство/Drawing 2026-06-02 22.46.55.excalidraw.md",
+    "Projects/Истории болезней/ИБ - акушерство/История родов.md",
+    "_.Settings/Media/Pasted Image 20260602224958_753.png",
+    "_.Settings/Media/Pasted Image 20260602224701_608.png",
+    "Projects/Истории болезней/ИБ - клинфарма/ИБ - клинфарма.md",
+    "Projects/Истории болезней/ИБ - акушерство",
+    "_.Settings/Templates/Templater/_  📄CommonPage.md",
+    "Notes/Нормализация AVS.md",
+    "doklad_FMBA_MSCh_travmatizm.md",
+    "Notes/DEseq2 (RLE).md",
+    "Notes/Дифференциальная Экспрессия.md",
+    "Notes/NK-клетки.md",
+    "_.Settings/Media/Pasted image 20260424111910.png",
+    "_.Settings/Media/Pasted image 20260424111448.png",
+    "_.Settings/Media/Pasted image 20260424102645.png",
+    "_.Settings/Media/Pasted image 20260422093656.png",
+    "_.Settings/Media/Pasted image 20260421150144.png",
+    "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",
+    "_. Home/Indexes/🦠Metagenomics/Классический пайплан обработки Метагеномных данных.canvas",
+    "_.Settings/Media/deciper_taxa.pdf",
+    "deciper_taxa.pfd",
+    "_.Settings/Media/Pasted image 20260419172214.png",
+    "_.Settings/Media/Pasted image 20260419171504.png",
+    "_.Settings/Media/Pasted image 20260419171459.png",
+    "Projects/Истории болезней/ИБ - клинфарма",
+    "_. Home/Indexes/🦠Metagenomics",
+    "Projects/GRW.zip",
+    "notes_metagenome",
+    "_.Settings/Templates/dataviews/indexPage/views/commonIndexPageVIew.ts",
+    "Projects/Истории болезней/ИБ - Хир болезни",
+    "_.Settings/Templates/dataviews/indexPage/views/singleIndexView.ts",
+    "Notes/Общий пайплайн обработки метагеномных данных.canvas",
+    "Без названия.canvas",
+    "_. Home/Indexes/🦠Microbiology/Без названия.canvas",
+    "4. OthersNotes/2. Мой бред/Без названия.canvas",
+    "4. OthersNotes/3. DnD/Космическая Компания/Сессия 1/Сессия 1.canvas",
+    "4. OthersNotes/3. DnD/Космическая Компания/КП. Космические исследователи.canvas",
+    "T. Templates/Template.canvas"
+  ]
+}

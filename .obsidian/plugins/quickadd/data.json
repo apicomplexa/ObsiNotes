@@ -1,0 +1,460 @@
+{
+  "choices": [
+    {
+      "id": "6e31e933-28ec-43a6-9d32-b8ee36f57514",
+      "name": "New common note",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "New common note",
+        "id": "fd07fe00-7fb5-4b53-8a3a-e08c30766f1d",
+        "commands": [
+          {
+            "name": "Новая вкладка",
+            "type": "Obsidian",
+            "id": "ec8f66f1-ba1d-400c-ab85-5f09f732a90b",
+            "commandId": "workspace:new-tab"
+          },
+          {
+            "name": "Templater: Create _  📄CommonPage",
+            "type": "Obsidian",
+            "id": "840da068-19b5-448a-b135-794014728d8c",
+            "commandId": "templater-obsidian:create-_.Settings/Templates/Templater/_  📄CommonPage.md"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3d67eab5-21cb-44e8-8289-e929ccb3d229",
+      "name": "Export: DOC",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Export: DOC",
+        "id": "53112b7f-ddac-4ec1-942e-44e8f4085236",
+        "commands": [
+          {
+            "name": "convertLinks",
+            "type": "UserScript",
+            "id": "ad1d0a0c-5285-4423-919c-bfa1976cd754",
+            "path": "_.Settings/Templates/Scripts/convertLinks.js",
+            "settings": {}
+          },
+          {
+            "name": "format_with_regexp",
+            "type": "UserScript",
+            "id": "c449e995-50ce-46ee-801b-418f6db49b89",
+            "path": "_.Settings/Templates/Scripts/format_with_regexp.js",
+            "settings": {}
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "daa2aed3-d4bc-4d51-9f4b-c51a57e23db0",
+            "time": 1000
+          },
+          {
+            "name": "Pandoc Plugin: Export as Word Document (docx)",
+            "type": "Obsidian",
+            "id": "41b19017-5bce-43e3-8373-0a3a642870ac",
+            "commandId": "obsidian-pandoc:pandoc-export-docx"
+          },
+          {
+            "name": "Wait",
+            "type": "Wait",
+            "id": "ac8aec03-bdd8-44f3-8745-f229b3e50998",
+            "time": 1000
+          },
+          {
+            "name": "restore_from_tech_copy",
+            "type": "UserScript",
+            "id": "125414cd-cc27-4532-ae14-ae9d8e956401",
+            "path": "_.Settings/Templates/Scripts/restore_from_tech_copy.js",
+            "settings": {}
+          }
+        ]
+      }
+    }
+  ],
+  "inputPrompt": "multi-line",
+  "persistInputPromptDrafts": true,
+  "useSelectionAsCaptureValue": true,
+  "devMode": false,
+  "templateFolderPath": "_.Settings/Templates/Scripts",
+  "announceUpdates": "all",
+  "version": "2.12.3",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": false,
+  "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "dateAliases": {
+    "t": "today",
+    "tm": "tomorrow",
+    "yd": "yesterday",
+    "nw": "next week",
+    "nm": "next month",
+    "ny": "next year",
+    "lw": "last week",
+    "lm": "last month",
+    "ly": "last year"
+  },
+  "ai": {
+    "defaultModel": "gpt-4o",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "g4f",
+        "endpoint": "https://gpt-api.apicomplexa.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-4o",
+            "maxTokens": 1e+29
+          }
+        ],
+        "modelSource": "auto",
+        "apiKeyRef": "quickadd-ai-g4f"
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "consolidateFileExistsBehavior": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true,
+    "backfillFileOpeningDefaults": true,
+    "setProviderModelDiscoveryMode": true,
+    "migrateProviderApiKeysToSecretStorage": true,
+    "repairTemplateFileExistsBehavior": true
+  },
+  "macros": [
+    {
+      "name": "🖨️Make tech copy",
+      "id": "43ba7df6-dc4f-405c-89a2-4fe2847601a0",
+      "commands": [
+        {
+          "name": "Сохранить текущий файл",
+          "type": "Obsidian",
+          "id": "0028477f-5177-4e36-8114-a3470b6b7b75",
+          "commandId": "editor:save-file"
+        },
+        {
+          "name": "format_with_regexp",
+          "type": "UserScript",
+          "id": "00d3241f-d5c0-4dfa-ad63-266c31ed5caa",
+          "path": "_.Settings/Templates/Scripts/format_with_regexp.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🔃Restore",
+      "id": "22ddf9c6-0ab7-4dd8-91a0-5fbb3041bb0e",
+      "commands": [
+        {
+          "name": "restore_from_tech_copy",
+          "type": "UserScript",
+          "id": "cbdae2cc-4234-4bd3-8501-540b02eedfaf",
+          "path": "_.Settings/Templates/Scripts/restore_from_tech_copy.js",
+          "settings": {}
+        },
+        {
+          "name": "Сохранить текущий файл",
+          "type": "Obsidian",
+          "id": "8ab75fb7-68e6-46b1-bf5f-96cef719a796",
+          "commandId": "editor:save-file"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "📤📄 MS Docx",
+      "id": "e12e443a-cfa1-4134-b90d-f03838a69181",
+      "commands": [
+        {
+          "name": "Создать копию текущего файла",
+          "type": "Obsidian",
+          "id": "4da51fa6-6cf2-470b-bcce-393408e4e11d",
+          "commandId": "file-explorer:duplicate-file"
+        },
+        {
+          "name": "🖨️Make tech copy",
+          "type": "Choice",
+          "id": "80bdaa40-ad71-4c4f-94de-cde889793425",
+          "choiceId": "25f2feac-a5b3-4782-8cbc-d82cf19075b9"
+        },
+        {
+          "name": "🔗Replace Links and Embeds",
+          "type": "Choice",
+          "id": "f785650f-c4df-45f2-9016-c91daede865e",
+          "choiceId": "bda9b91f-bc36-471f-aa52-b418d57d65d0"
+        },
+        {
+          "name": "Pandoc Plugin: Export as Word Document (docx)",
+          "type": "Obsidian",
+          "id": "a4a5fd92-ec67-43c2-9c89-c3a142cb33f9",
+          "commandId": "obsidian-pandoc:pandoc-export-docx"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f12c5192-86be-4b75-94f6-3af5fcf38ec8",
+          "time": 500
+        },
+        {
+          "name": "🔃Restore",
+          "type": "Choice",
+          "id": "bb19b6df-9df2-4fda-ab97-cb7e9449129e",
+          "choiceId": "9124a84d-1594-43ca-a21f-f92566e4f3ff"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "📌Templater: Open modal",
+      "id": "a1860646-21c9-4b8c-95fd-2162b70603d4",
+      "commands": [
+        {
+          "name": "Templater: Open Insert Template modal",
+          "type": "Obsidian",
+          "id": "e0cdd7ee-c874-406e-b570-a6b9a799c404",
+          "commandId": "templater-obsidian:insert-templater"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🌈Lint active file",
+      "id": "6b8ae7aa-a69c-4154-99f2-c1e06c9e514d",
+      "commands": [
+        {
+          "name": "Linter: Линт текущего файла",
+          "type": "Obsidian",
+          "id": "f8a53f6c-a453-4a4e-b6cd-6c7bff5ea6b3",
+          "commandId": "obsidian-linter:lint-file"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "📚 Zotero: Pandoc",
+      "id": "0987b5a2-ea6e-42e3-866e-05653b7f90da",
+      "commands": [
+        {
+          "name": "Zotero Integration: Pandoc",
+          "type": "Obsidian",
+          "id": "d12bcb04-d32f-4718-8dce-4c653f0324ed",
+          "commandId": "obsidian-zotero-desktop-connector:zdc-Pandoc"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🔗Replace Links and Embeds",
+      "id": "5eaa10c2-99ea-4bc1-be55-9cfa2a0277f7",
+      "commands": [
+        {
+          "name": "convertLinks",
+          "type": "UserScript",
+          "id": "e046292f-9369-49c3-8e6b-1970db1630e2",
+          "path": "_.Settings/Templates/Scripts/convertLinks.js",
+          "settings": {}
+        },
+        {
+          "name": "Linter: Lint the current file",
+          "type": "Obsidian",
+          "id": "e67b69b9-99df-4415-a2ba-9bfb5aa5ab1c",
+          "commandId": "obsidian-linter:lint-file"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "0cf3be06-86b7-48f2-a129-6fcaaa499d41",
+          "time": 1000
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🌐Publish Single Note ",
+      "id": "515e67a6-84e9-4c90-9b3c-e3ed1543f148",
+      "commands": [
+        {
+          "name": "Digital Garden: Publish Single Note",
+          "type": "Obsidian",
+          "id": "3cbb23f8-2137-4ad4-a3d2-2c938233043b",
+          "commandId": "digitalgarden:publish-note"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🌐Publish Multiple Notes",
+      "id": "986ec0d0-50be-4990-bc91-2447ef11861c",
+      "commands": [
+        {
+          "name": "Digital Garden: Publish Multiple Notes",
+          "type": "Obsidian",
+          "id": "972e8028-9c57-4d30-a2ac-9d8f2a0c10d2",
+          "commandId": "digitalgarden:publish-multiple-notes"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🌐Open Pulish Center",
+      "id": "5e6b493c-ff94-4150-9f3a-8ef62541734f",
+      "commands": [
+        {
+          "name": "Digital Garden: Open Publication Center",
+          "type": "Obsidian",
+          "id": "c570b873-5427-4592-9e12-4ea72f53ffb7",
+          "commandId": "digitalgarden:dg-open-publish-modal"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "✅Create Task",
+      "id": "eb9effe7-b941-4c34-8b2b-b855f0466ac7",
+      "commands": [
+        {
+          "name": "Tasks: Create or edit task",
+          "type": "Obsidian",
+          "id": "9681a6e2-4fe5-4199-a12c-649dbaca52a4",
+          "commandId": "obsidian-tasks-plugin:edit-task"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "⚡LIveMode",
+      "id": "d638e7a7-fdc3-4f42-9fa5-0ed4d84a0b50",
+      "commands": [
+        {
+          "name": "Self-hosted LiveSync: Toggle LiveSync",
+          "type": "Obsidian",
+          "id": "9a3e793a-0d51-4f1d-b06e-da6854ef716e",
+          "commandId": "obsidian-livesync:livesync-toggle"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🔄️Replicate Now",
+      "id": "bc3a46de-39ba-4cce-9819-8709754ce255",
+      "commands": [
+        {
+          "name": "Self-hosted LiveSync: Replicate now",
+          "type": "Obsidian",
+          "id": "1c844f73-cace-4b9c-b030-d8b428017141",
+          "commandId": "obsidian-livesync:livesync-replicate"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "🔀Resolve Conflicts",
+      "id": "9c2dfd03-6ecb-4e13-bba4-0664bc08d545",
+      "commands": [
+        {
+          "name": "Self-hosted LiveSync: Resolve if conflicted.",
+          "type": "Obsidian",
+          "id": "7600848d-1b5a-4503-8ae1-17dc733b4287",
+          "commandId": "obsidian-livesync:livesync-checkdoc-conflicted"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "AI Summary",
+      "id": "d6868c7d-2b09-4528-a72e-d6df88e58dff",
+      "commands": [
+        {
+          "name": "update_summary",
+          "type": "UserScript",
+          "id": "2ab83c1c-e786-47e9-9352-8fc45510e40f",
+          "path": "_.Settings/Templates/Scripts/update_summary.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "➕Add new note",
+      "id": "4eb49186-22ab-41d0-84c1-a32ace0f68a2",
+      "commands": [
+        {
+          "name": "Untitled Template Choice",
+          "type": "NestedChoice",
+          "id": "58554d0d-21f6-44f4-9bde-d7d157449c79",
+          "choice": {
+            "id": "4161b617-0106-46c6-91c2-cea3da00b3b4",
+            "name": "Untitled Template Choice",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_.Settings/Templates/Templater/_  📄CommonPage.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "__UNTITLED"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Notes"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsBehavior": {
+              "kind": "apply",
+              "mode": "increment"
+            }
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "⏭️Go to (new tab)",
+      "id": "521e9dc2-d91f-4c20-975c-915708fcfe6a",
+      "commands": [
+        {
+          "name": "Новая вкладка",
+          "type": "Obsidian",
+          "id": "f204fb3d-e24c-4225-a482-5ad13f2d003c",
+          "commandId": "workspace:new-tab"
+        },
+        {
+          "name": "Быстрый переход: Меню быстрого перехода",
+          "type": "Obsidian",
+          "id": "71f1888a-b5c3-479f-8aa1-1873b9298e71",
+          "commandId": "switcher:open"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}

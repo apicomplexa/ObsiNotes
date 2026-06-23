@@ -1,0 +1,5 @@
+# C:\Users\alex\Clouds\NextCloud\Заметки\ObsiNotes\_.Settings\pandoc-defaults.yaml
+resource-path: ["C:\\Users\\alex\\Clouds\\NextCloud\\Заметки\\ObsiNotes"]
+bibliography: "C:\\Users\\alex\\Clouds\\NextCloud\\Заметки\\ObsiNotes\\_.Settings\\allZotBib.bib"
+csl: "C:\\Users\\alex\\Clouds\\NextCloud\\Заметки\\ObsiNotes\\_.Settings\\gost-r-7-0-5-2008-numeric-alphabetical.csl"
+# template: "C:\\Users\\alex\\Clouds\\NextCloud\\Заметки\\ObsiNotes\\_.Settings\\article.tplx"

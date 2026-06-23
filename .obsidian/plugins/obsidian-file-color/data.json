@@ -1,0 +1,103 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "h9KJgA9WiNz4kTerQFFMt",
+      "name": "",
+      "value": "#a94740"
+    },
+    {
+      "id": "pAEueSqEqQLYy0HmK0CVI",
+      "name": "",
+      "value": "#ab7741"
+    },
+    {
+      "id": "1iL9bi0zsXn4hsQljVUWH",
+      "name": "",
+      "value": "#d2af4a"
+    },
+    {
+      "id": "JyEPHCTkOuHE7qp7H7_FK",
+      "name": "",
+      "value": "#4dab9a"
+    },
+    {
+      "id": "rByj6ZSb6s0EBROyrUWwm",
+      "name": "",
+      "value": "#529cc8"
+    },
+    {
+      "id": "FePEnNz2y61-OLi0TvRNv",
+      "name": "",
+      "value": "#95a1e2"
+    },
+    {
+      "id": "NFrAUHIsDB4hdTOdreY_b",
+      "name": "",
+      "value": "#946fc8"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "_. Home",
+      "color": "h9KJgA9WiNz4kTerQFFMt"
+    },
+    {
+      "path": "_.Settings",
+      "color": "h9KJgA9WiNz4kTerQFFMt"
+    },
+    {
+      "path": "Excalidraw",
+      "color": "JyEPHCTkOuHE7qp7H7_FK"
+    },
+    {
+      "path": "Notes",
+      "color": "FePEnNz2y61-OLi0TvRNv"
+    },
+    {
+      "path": "Projects",
+      "color": "NFrAUHIsDB4hdTOdreY_b"
+    },
+    {
+      "path": "Projects/_To restore",
+      "color": "h9KJgA9WiNz4kTerQFFMt"
+    },
+    {
+      "path": "Projects/Истории болезней",
+      "color": "NFrAUHIsDB4hdTOdreY_b"
+    },
+    {
+      "path": "Projects/Статьи и рефераты",
+      "color": "NFrAUHIsDB4hdTOdreY_b"
+    },
+    {
+      "path": "_. Home/Indexes",
+      "color": "h9KJgA9WiNz4kTerQFFMt"
+    },
+    {
+      "path": "Lists",
+      "color": "1iL9bi0zsXn4hsQljVUWH"
+    },
+    {
+      "path": "_.Settings/Media",
+      "color": "JyEPHCTkOuHE7qp7H7_FK"
+    },
+    {
+      "path": "_.Settings/Templates",
+      "color": "JyEPHCTkOuHE7qp7H7_FK"
+    },
+    {
+      "path": "Clippings",
+      "color": "rByj6ZSb6s0EBROyrUWwm"
+    },
+    {
+      "path": "_. Home/Bases",
+      "color": "h9KJgA9WiNz4kTerQFFMt"
+    },
+    {
+      "path": "Projects/Статьи и рефераты/_Статьи и рефераты.base",
+      "color": "NFrAUHIsDB4hdTOdreY_b"
+    }
+  ]
+}

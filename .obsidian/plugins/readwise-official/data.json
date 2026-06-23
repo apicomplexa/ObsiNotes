@@ -1,0 +1,20 @@
+{
+  "token": "m97moRS0aPbgAMrBeoMyM8TgHGfNEN1LCTVql0lKlWEKJ7hSb1",
+  "readwiseDir": "R. Readwise",
+  "frequency": "1440",
+  "triggerOnLoad": true,
+  "isSyncing": false,
+  "lastSyncFailed": false,
+  "lastSavedStatusID": 7509827,
+  "currentSyncStatusID": 0,
+  "refreshBooks": false,
+  "booksToRefresh": [
+    "22682352",
+    "23557658"
+  ],
+  "booksIDsMap": {
+    "R. Readwise/Articles/Getting Started With Reader.md": "22682352",
+    "R. Readwise/Articles/Шопенгауэр, Артур.md": "23557658"
+  },
+  "reimportShowConfirmation": true
+}

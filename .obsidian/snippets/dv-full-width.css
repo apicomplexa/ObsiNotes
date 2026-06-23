@@ -1,0 +1,21 @@
+div:has(> table.dataview) {
+    max-width: fit-content;
+    overflow-x: visible;
+    overflow-x: visible !important;
+    z-index: 1000;
+    position: relative;
+    left: 0;
+    top: 0  ;
+    --file-line-width: 100% !important
+}
+table.dataview {
+    width: max-content;
+    overflow-x: visible;
+}
+.dataview td {
+    max-width: 500px !important;
+}
+.wide-page {
+    --file-line-width: 100% !important;
+    padding-left: 20px;
+}

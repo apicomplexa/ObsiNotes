@@ -1,0 +1,280 @@
+body {
+    --callout-icon-arrow: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path d="m21 12-7-7v4H3v6h11v4z"></path></svg>;
+}
+
+
+
+.theme-dark {
+    --table-border-color: rgba(70 70 70) !important
+}
+
+.orange {
+    color: rgb(var(--ctp-peach));
+}
+.yellow {
+    color: rgb(var(--ctp-yellow))
+}
+.green {
+    color: rgb(var(--ctp-green));
+}
+.blue {
+    color: rgb(var(--ctp-blue));
+}
+.purple {
+    color: rgb(var(--ctp-mauve));
+}
+.pink {
+    color: rgb(var(--ctp-pink));
+}
+.red {
+    color: rgb(var(--ctp-red));
+}
+
+
+/* highlight */
+.cm-highlight,
+mark {
+    background-color:  rgb(var(--ctp-accent), .3) !important;
+    color: rgb(var(--ctp-text)) !important;
+    border-radius: 0.9rem 0.15rem 0.9rem 0.15rem;
+    padding: 0 0.4rem 0 0.4rem;
+}
+
+.inline-title {
+    color: rgb(var(--ctp-accent));
+}
+
+/* text pills */
+.text_pill {
+    --pill-color: rgba(var(--ctp-accent));
+    --pill-text-color: rgb(201, 201, 201);
+    --pill-border: none;
+
+    background-color: var(--pill-color);
+    color: var(--pill-text-color);
+    font-size: 14px;
+    padding: 1px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px !important;
+    border-radius: 14px;
+}
+
+.text_pill.right {
+    border-radius: 0px 14px 14px 0px;
+}
+.text_pill.left {
+    border-radius: 14px 0px 0px 14px;
+}
+
+.text_pill.bordered {
+    background-color: transparent !important;
+    border: 2px var(--pill-color) solid;
+    padding: 0px 6px;
+    --pill-text-color: rgb(201, 201, 201);
+}
+
+.text_pill.orange {
+    --pill-color: rgb(var(--ctp-peach));
+}
+
+.text_pill.yellow {
+    --pill-color: rgb(var(--ctp-yellow));
+    --pill-text-color: black;
+
+}
+
+.text_pill.green {
+    --pill-color: rgb(var(--ctp-green));
+}
+
+.text_pill.blue {
+    --pill-color: rgb(var(--ctp-blue));
+}
+
+.text_pill.purple {
+    --pill-color: rgb(var(--ctp-mauve));
+}
+
+.text_pill.pink {
+    --pill-color: rgb(var(--ctp-pink)); 
+}
+
+.text_pill.red {
+    --pill-color: rgb(var(--ctp-red));
+}
+
+.callout-subtitle {
+    color: rgb(var(--callout-color));
+}
+
+/* callout */
+.callout[data-callout*="def"],
+.callout[data-callout*="$"] {
+    --callout-color: var(--ctp-accent);
+    --callout-icon: lucide-arrow-big-right
+}
+
+.callout[data-callout*="img"],
+.callout[data-callout*="@"] {
+    --callout-color: 0;
+    --callout-icon: lucide-image;
+    padding: 0.2rem !important;
+}
+
+.callout[data-callout*="bug"] {
+    --callout-color: var(--ctp-peach) !important;
+}
+
+.callout[data-callout*="todo"] {
+    --callout-color: var(--ctp-accent) !important;
+}
+
+.callout[data-callout*="closeatack"] {
+    --callout-color: var(--ctp-red);
+    --callout-icon: lucide-swords;
+}
+
+.callout[data-callout*="faratack"] {
+    --callout-color: var(--ctp-peach);
+    --callout-icon: lucide-pickaxe;
+}
+
+.callout[data-callout*="spellatack"] {
+    --callout-color: var(--ctp-yellow);
+    --callout-icon: lucide-sparkles;
+}
+
+.callout[data-callout*="challengspell"] {
+    --callout-color: var(--ctp-green);
+    --callout-icon: lucide-shell;
+}
+
+.callout[data-callout*="спасброски"] {
+    --callout-color: var(--ctp-red);
+    --callout-icon: lucide-activity;
+}
+
+.callout[data-callout*="навыки"] {
+    --callout-color: var(--ctp-peach);
+    --callout-icon: lucide-award;
+}
+
+.callout[data-callout*="status-immunity"] {
+    --callout-color: var(--ctp-yellow);
+    --callout-icon: lucide-heart-crack;
+}
+
+.callout[data-callout*="damage-sens"] {
+    --callout-color: var(--ctp-green);
+    --callout-icon: lucide-shield-off;
+}
+
+.callout[data-callout*="damage-resist"] {
+    --callout-color: var(--ctp-blue);
+    --callout-icon: lucide-shield-half;
+}
+
+.callout[data-callout*="damage-immunity"] {
+    --callout-color: var(--ctp-mauve);
+    --callout-icon: lucide-shield-check;
+}
+
+/* math */ 
+.math-block mjx-container{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    background-color: rgba(var(--ctp-accent), 0.25);
+    border-radius: calc(var(--callout-radius)*1.2);
+    padding: 1em !important;
+    min-width: 380px;
+    width: fit-content !important;
+}
+
+.math-block mjx-math {
+    font-size: 115%;
+    overflow: scroll;
+    width: fit-content !important;
+    height: max-content !important;
+}
+
+/* link */
+a,
+.cm-hmd-internal-link {
+    background-color: rgba(var(--ctp-accent), 0.17) !important;
+    border-radius: 0.3em !important;
+    color: rgb(var(--ctp-accent)) !important;
+    border: 0 !important;
+    border-color: rgba(var(--ctp-accent), 0.3) !important;
+    text-decoration: none !important;
+    text-decoration-color: rgb(var(--ctp-accent)) !important;
+    padding: 0 1px !important;
+    font-size: 0.95em !important;
+}
+
+.suggestion-item.is-selected {
+    background-color: rgb(var(--ctp-accent));
+    color: rgb(0,0,0)
+}
+
+
+.max-w {
+    --file-line-width: calc(100% - 50px) !important;
+}
+
+.bold-color {
+    --bold-color: rgb(var(--ctp-red)) !important
+}
+
+.table-view-table {
+    display: block;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.table-view-table td {
+    min-width: auto !important;
+}
+  
+
+.zebra-table .table-view-table tr:nth-child(odd) {
+    background-color: #000 !important
+}
+
+.zebra-table .table-view-table tr:nth-child(even) {
+    background-color: #171717 !important
+}
+
+.table-fix-first-col .table-view-table td:first-child {
+    background-color: #171717;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.for-gradient-text {
+    background-clip: text !important;
+    color: transparent !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.cm-hmd-barelink {
+    color: rgba(var(--ctp-text), 0.7) !important;
+}
+
+.footnote-link {
+    background-color: transparent !important;
+    color:rgba(var(--ctp-text), 0.7) !important;
+    text-decoration: underline solid rgba(var(--ctp-text), 0.7) !important;
+}
+
+.footnote-link:hover {
+    color:rgb(var(--ctp-accent)) !important;
+    text-decoration: underline solid rgb(var(--ctp-accent)) !important;
+
+}

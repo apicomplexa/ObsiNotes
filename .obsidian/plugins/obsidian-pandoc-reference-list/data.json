@@ -1,0 +1,21 @@
+{
+  "pathToPandoc": "C:\\Users\\alex\\AppData\\Local\\Pandoc\\pandoc.exe",
+  "tooltipDelay": 800,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "Моя библиотека",
+      "lastUpdate": 1782222373364
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pathToBibliography": "C:\\Users\\alex\\Clouds\\NextCloud\\Library\\zotero_lib.bib",
+  "cslStyle": "D:\\Alex\\GDrive\\ObsiNotes\\_.Settings\\gost-r-7-0-5-2008-numeric-alphabetical.csl",
+  "showCitekeyTooltips": true,
+  "enableCiteKeyCompletion": true,
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/gost-r-7-0-5-2008-numeric-alphabetical.csl",
+  "hideLinks": true,
+  "pullFromZotero": true
+}

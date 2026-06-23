@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1725771939361,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1728203135463,
+          "path": "OthersNotes/3. СГМУ/ЭКЗ – ПАТАН – тест.md"
+        }
+      ],
+      "title": "📌Pin"
+    },
+    {
+      "type": "file",
+      "ctime": 1711637276403,
+      "path": "_. Home/_Карта хранилища.md",
+      "title": "Карта хранилища"
+    },
+    {
+      "type": "search",
+      "ctime": 1731235221833,
+      "query": "tag:#nsmu",
+      "title": "#NSMU"
+    },
+    {
+      "type": "folder",
+      "ctime": 1731235292545,
+      "path": "_. Home/Indexes"
+    }
+  ]
+}

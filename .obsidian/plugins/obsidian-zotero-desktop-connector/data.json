@@ -1,0 +1,31 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Pandoc",
+      "format": "pandoc",
+      "cslStyle": "gost-r-7-0-5-2008-numeric",
+      "brackets": true
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import #1",
+      "outputPathTemplate": "/OthersNotes/Clippings/{{title}}.md",
+      "imageOutputPathTemplate": "_.Settings/Media",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "_.Settings/Templates/Templater/Zotero tmp.md",
+      "cslStyle": "gost-r-7-0-5-2008-numeric-alphabetical"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exeVersion": "1.0.15",
+  "shouldShowCiteSuggest": true,
+  "_exeInternalVersion": 1
+}

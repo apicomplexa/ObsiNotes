@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "KabanColors",
+    "supercharged-links-gen",
+    "coloredTags",
+    "main",
+    "dv-full-width",
+    "darker-img"
+  ],
+  "theme": "system",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "baseFontSize": 16
+}

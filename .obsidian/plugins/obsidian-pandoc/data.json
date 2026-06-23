@@ -1,0 +1,15 @@
+{
+  "showCLICommands": true,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "link",
+  "highDPIDiagrams": true,
+  "pandoc": "C:\\Users\\alex\\AppData\\Local\\Pandoc\\pandoc.exe",
+  "pdflatex": null,
+  "outputFolder": "C:\\Users\\alex\\Downloads",
+  "extraArguments": "--defaults=C:\\Users\\alex\\Clouds\\NextCloud\\Заметки\\ObsiNotes\\_.Settings\\pandoc-defaults.yaml\n--citeproc -f markdown+mark",
+  "exportFrom": "md"
+}

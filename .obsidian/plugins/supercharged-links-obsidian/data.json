@@ -1,0 +1,41 @@
+{
+  "targetAttributes": [
+    "kanban-plugin",
+    "type"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "✒️lecture",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "a3dd-0b59",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "type",
+      "value": "📝practics class",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "b1b0-4139",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    }
+  ]
+}

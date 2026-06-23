@@ -1,0 +1,51 @@
+{
+  "statusBar": [
+    {
+      "prefix": "char: ",
+      "suffix": "",
+      "metric": {
+        "type": 0,
+        "counter": 1
+      }
+    },
+    {
+      "prefix": " | w: ",
+      "suffix": " ",
+      "metric": {
+        "type": 0,
+        "counter": 0
+      }
+    },
+    {
+      "prefix": " | sent: ",
+      "suffix": " ",
+      "metric": {
+        "type": 0,
+        "counter": 2
+      }
+    },
+    {
+      "prefix": " | p: ",
+      "suffix": "",
+      "metric": {
+        "type": 0,
+        "counter": 5
+      }
+    }
+  ],
+  "altBar": [
+    {
+      "prefix": "ObsiNotes ",
+      "suffix": " files",
+      "metric": {
+        "type": 2,
+        "counter": 6
+      }
+    }
+  ],
+  "countComments": true,
+  "collectStats": true,
+  "displaySectionCounts": true,
+  "pageWords": 380,
+  "statsPath": ".obsidian/vault-stats.json"
+}

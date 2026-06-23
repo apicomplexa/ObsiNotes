@@ -1,0 +1,392 @@
+/* Dark theme */
+.theme-dark {
+    --text-gray: 150, 150, 150;
+    --text-brown: 147, 114, 100;
+    /* --text-orange: 213, 136, 59; */
+    --text-orange: 197, 138, 79;
+    --text-yellow: 213, 188, 87;
+    --text-green: 77, 171, 154;
+    --text-blue: 82, 156, 202;
+    --text-purple: 148, 111, 200;
+    --text-pink: 213, 92, 157;
+    --text-red: 225, 98, 89;
+
+    --background-gray: 69, 75, 78;
+    --background-brown: 67, 64, 64;
+    --background-orange: 89, 74, 5;
+    --background-yellow: 89, 86, 5;
+    --background-green: 53, 76, 75;
+    --background-blue: 54, 73, 84;
+    --background-purple: 68, 63, 89;
+    --background-pink: 83, 59, 76;
+    --background-red: 89, 65, 65;
+
+    --backgrounded-text-color: 255, 255, 255;
+}
+
+/* Light theme */
+.theme-light {
+    --text-gray: 50, 50, 50;
+    --text-brown: 100, 71, 58;
+    --text-orange: 217, 115, 13;
+    --text-yellow: 223, 171, 1;
+    --text-green: 15, 123, 108;
+    --text-blue: 11, 110, 153;
+    --text-purple: 105, 64, 165;
+    --text-pink: 173, 26, 114;
+    --text-red: 224, 62, 62;
+    
+    --background-gray: 235, 236, 237;
+    --background-brown: 233, 229, 227;
+    --background-orange: 250, 235, 221;
+    --background-yellow: 251, 243, 219;
+    --background-green: 221, 237, 234;
+    --background-blue: 221, 235, 241;
+    --background-purple: 234, 228, 242;
+    --background-pink: 244, 223, 235;
+    --background-red: 251, 228, 228;
+
+    --backgrounded-text-color: 0, 0, 0;
+}
+body {
+    --page-color: var(--text-purple);
+    --page-bg: var(--background-purple);
+
+    --callout-icon-arrow: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path d="m21 12-7-7v4H3v6h11v4z"></path></svg>;
+}
+
+
+.page-color-gr {
+    --page-color: var(--text-gray);
+    --page-bg: var(--background-gray);
+}
+
+.page-color-br {
+    --page-color: var(--text-brown);
+    --page-bg: var(--background-brown);
+}
+
+.page-color-or {
+    --page-color: var(--text-orange);
+    --page-bg: var(--background-orange);
+}
+
+.page-color-ye {
+    --page-color: var(--text-yellow);
+    --page-bg: var(--background-yellow);
+}
+
+.page-color-ge {
+    --page-color: var(--text-green);
+    --page-bg: var(--background-green);
+}
+
+.page-color-bl {
+    --page-color: var(--text-blue);
+    --page-bg: var(--background-blue);
+}
+
+.page-color-pu {
+    --page-color: var(--text-purple);
+    --page-bg: var(--background-purple);
+}
+
+.page-color-pi {
+    --page-color: var(--text-pink);
+    --page-bg: var(--background-pink);
+}
+
+.page-color-re {
+    --page-color: var(--text-red);
+    --page-bg: var(--background-red);
+}
+
+.gray {
+    color: rgb(var(--text-gray));
+}
+
+.brown {
+    color: rgb(var(--text-brown));
+}
+
+.orange {
+    color: rgb(var(--text-orange));
+}
+
+.yellow {
+    color: rgb(var(--text-yellow))
+}
+
+.green {
+    color: rgb(var(--text-green));
+}
+
+.blue {
+    color: rgb(var(--text-blue));
+}
+
+.purple {
+    color: rgb(var(--text-purple));
+}
+
+.pink {
+    color: rgb(var(--text-pink));
+}
+
+.red {
+    color: rgb(var(--text-red));
+}
+/* highlight */
+.cm-highlight,
+mark {
+    background-color: transparent !important;
+    color: rgb(var(--page-color)) !important;
+}
+
+.cm-highlight.cm-strikethrough,
+mark>del {
+    background-color:  rgb(var(--page-color)) !important;
+    color: rgb(var(--backgrounded-text-color)) !important;
+    text-decoration: none;
+}
+
+.app-container .view-content hr {
+    border-top: 1px solid;
+    border-color: rgb(var(--page-color));
+}
+
+/* headers */
+h1,
+.HyperMD-header-1 {
+    color: rgb(var(--page-color)) !important;
+    border-color: rgb(var(--page-color));
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    padding-top: .1em !important;
+    padding-bottom: .1em !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    letter-spacing: 0.05em;
+}
+
+h2,
+.HyperMD-header-2 {
+    color: rgb(var(--page-color)) !important;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+}
+
+h2::before,
+h2::after,
+.HyperMD-header-2::before,
+.HyperMD-header-2::after {
+    background-color: rgb(var(--page-color));
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h2::before,
+.HyperMD-header-2::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2::after,
+.HyperMD-header-2::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+h3,
+.HyperMD-header-3 {
+    color: rgb(var(--page-color)) !important;
+    border-left: 2px solid rgb(var(--page-color));
+    padding: 0.5em !important;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+}
+
+h4,
+.HyperMD-header-4 {
+    color: rgb(var(--page-color)) !important;
+    text-decoration: underline;
+    text-decoration-color: rgb(var(--page-color));
+    font-size: 1.2em;
+}
+
+h5,
+h6,
+.HyperMD-header-5,
+.HyperMD-header-6 {
+    color: rgb(var(--page-color)) !important;
+    font-size: 1.1em;
+}
+
+/* quote */
+.HyperMD-quote:before, blockquote {
+    --blockquote-border-color: rgb(var(--page-color));
+    --blockquote-border-thickness: 3px
+}
+.HyperMD-quote, blockquote {
+    background-color: rgba(var(--page-color), 0.1) !important;
+    border-radius: calc(var(--callout-radius)*2);
+}
+blockquote {
+    border-radius: 0 calc(var(--callout-radius)*2) calc(var(--callout-radius)*2) 0;
+}
+
+/* text pills */
+.text_pill {
+    background-color: rgba(var(--page-color));
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 1px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+.text_pill.gray {
+    background-color: rgb(var(--text-gray));
+    color: black;
+}
+
+.text_pill.brown {
+    background-color: rgb(var(--text-brown));
+}
+
+.text_pill.orange {
+    background-color: rgb(var(--text-orange));
+    color: black;
+}
+
+.text_pill.yellow {
+    background-color: rgb(var(--text-yellow));
+    color: black;
+}
+
+.text_pill.green {
+    background-color: rgb(var(--text-green));
+}
+
+.text_pill.blue {
+    background-color: rgb(var(--text-blue));
+}
+
+.text_pill.purple {
+    background-color: rgb(var(--text-purple));
+}
+
+.text_pill.pink {
+    background-color: rgb(var(--text-pink));
+    color: black;
+}
+
+.text_pill.red {
+    background-color: rgb(var(--text-red));
+}
+
+/* callout */
+
+.callout[data-callout*="def"] {
+    --callout-color: var(--page-color);
+    --callout-icon: var(--callout-icon-arrow)
+}
+.callout[data-callout*="img"] {
+    --callout-color: 0;
+    --callout-icon: lucide-image;
+    padding: 0.2rem !important;
+}
+
+.callout[data-callout*="gray"] {
+    --callout-color: var(--text-gray);
+}
+.callout[data-callout*="brown"] {
+    --callout-color: var(--text-brown);
+}
+.callout[data-callout*="orange"] {
+    --callout-color: var(--text-orange);
+}
+.callout[data-callout*="yellow"] {
+    --callout-color: var(--text-yellow);
+}
+.callout[data-callout*="green"] {
+    --callout-color: var(--text-green);
+}
+.callout[data-callout*="blue"] {
+    --callout-color: var(--text-blue);
+}
+.callout[data-callout*="purple"] {
+    --callout-color: var(--text-purple);
+}
+.callout[data-callout*="pink"] {
+    --callout-color: var(--text-pink);
+}
+.callout[data-callout*="red"] {
+    --callout-color: var(--text-red);
+}
+
+.callout[data-callout*="arrow"] {
+    --callout-icon: var(--callout-icon-arrow)
+}
+.callout[data-callout*="list"] {
+    --callout-icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+}
+.callout[data-callout*="micro"] {
+    --callout-icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8"></path><path d="M3 22h18"></path><path d="M14 22a7 7 0 1 0 0-14h-1"></path><path d="M9 14h2"></path><path d="M8 6h4"></path><path d="M13 10V6.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2.5a.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V10c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2Z"></path></svg>
+}
+.callout[data-callout*="minus"] {
+    --callout-icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+}
+.callout[data-callout*="arrow"] {
+    --callout-icon: <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+}
+
+
+/* math */ 
+.math-block mjx-container{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    background-color: rgba(var(--page-color), 0.1);
+    border-radius: calc(var(--callout-radius)*1.2);
+    font-size: 110%;
+    padding: 1em !important;
+    width: fit-content !important;
+    min-width: 380px;
+}
+
+
+/* link */
+a,
+.cm-hmd-internal-link {
+    background-color: rgba(var(--background-purple), 0.35);
+    border-radius: 0.3em;
+    color: rgb(var(--text-purple)) !important;
+    border: 0.3em;
+    border-color: rgba(var(--background-purple), 0.3);
+    text-decoration: underline;
+    text-decoration-color: rgb(var(--text-purple));
+    /* padding-left: 0.3em; */
+    /* padding-right: 0.3em; */
+    /* padding-bottom: 0.2em; */
+    font-size: 0.95em;
+}
+
+
+/* timeline */
+.timeline.no-space > .description {
+    margin-bottom: 1rem !important
+}

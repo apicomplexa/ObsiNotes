@@ -1,0 +1,322 @@
+{
+  "biggerIcons": "desktop",
+  "clickableIcons": "off",
+  "showAllFileIcons": true,
+  "showAllFolderIcons": true,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "Clippings": {
+      "icon": "lucide-import",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "blue"
+    },
+    "Excalidraw": {
+      "icon": "lucide-file-pen",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "green"
+    },
+    "Lists": {
+      "icon": "lucide-list-todo",
+      "color": "yellow",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    },
+    "Notes": {
+      "icon": "lucide-file",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "purple"
+    },
+    "Projects": {
+      "icon": "lucide-archive",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "purple"
+    },
+    "Projects/_To restore": {
+      "icon": "lucide-file-warning",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "red"
+    },
+    "Projects/Истории болезней": {
+      "icon": "lucide-briefcase-medical",
+      "color": "pink",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    },
+    "Projects/Статьи и рефераты": {
+      "icon": "lucide-book-open",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "pink"
+    },
+    "Projects/Статьи и рефераты/_Archive": {
+      "icon": "lucide-inbox",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    },
+    "Projects/Статьи и рефераты/_Статьи и рефераты.base": {
+      "color": "pink",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    },
+    "_. Home": {
+      "icon": "lucide-home",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "red"
+    },
+    "_. Home/Bases": {
+      "icon": "lucide-database",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "red"
+    },
+    "_. Home/Indexes/🖥️IT": {
+      "icon": "lucide-compass",
+      "color": "red",
+      "unsynced": [
+        "fd9f8c14707d7910"
+      ]
+    },
+    "_. Home/Indexes/🦠Metagenomics": {
+      "icon": "lucide-compass",
+      "color": "red",
+      "unsynced": [
+        "fd9f8c14707d7910"
+      ]
+    },
+    "_. Home/_Карта хранилища.md": {
+      "icon": "lucide-home"
+    },
+    "_.Settings": {
+      "icon": "lucide-settings",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ],
+      "color": "red"
+    },
+    "_.Settings/Media": {
+      "icon": "lucide-file-image",
+      "color": "green",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    },
+    "_.Settings/Templates": {
+      "icon": "lucide-file-json-2",
+      "color": "green",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {
+    "aliases": {
+      "icon": "lucide-venetian-mask"
+    },
+    "date": {
+      "icon": "lucide-calendar"
+    },
+    "dg-publish": {
+      "icon": "lucide-cloudy"
+    },
+    "parent": {
+      "icon": "lucide-git-compare-arrows"
+    },
+    "summary": {
+      "icon": "lucide-text-search"
+    },
+    "tags": {
+      "icon": "lucide-tags"
+    },
+    "type": {
+      "icon": "lucide-tag"
+    }
+  },
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "GMzZI",
+      "name": "Index",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:type",
+          "operator": "contains",
+          "value": "index"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-compass"
+    },
+    {
+      "id": "xDu7Q",
+      "name": "BI tools",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:💻Bioinfo",
+          "operator": "includes",
+          "value": "tool"
+        }
+      ],
+      "enabled": true,
+      "icon": "ms-code"
+    },
+    {
+      "id": "YHWSJ",
+      "name": "GRW",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "allContain",
+          "value": "grw"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-film"
+    },
+    {
+      "id": "rYyMm",
+      "name": "Список",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:type",
+          "operator": "contains",
+          "value": "task"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-list-todo"
+    },
+    {
+      "id": "HMJiC",
+      "name": "Excalidraw",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains",
+          "value": ".excalidraw"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file-pen"
+    },
+    {
+      "id": "qbEWh",
+      "name": "not md",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "!is",
+          "value": "md"
+        },
+        {
+          "source": "path",
+          "operator": "!contains",
+          "value": "Media"
+        },
+        {
+          "source": "extension",
+          "operator": "!is",
+          "value": "base"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file-plus"
+    },
+    {
+      "id": "GesSZ",
+      "name": "Base",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "is",
+          "value": "base"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-database-zap"
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "4OXIZ",
+      "name": "Index",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "path",
+          "operator": "contains",
+          "value": "Indexes"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-compass",
+      "color": "red"
+    }
+  ],
+  "rememberDeletedItems": false
+}

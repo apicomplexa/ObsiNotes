@@ -1,0 +1,42 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.hasTag("🎬grw")
+    order:
+      - status
+      - file.name
+      - 🎬Тип
+      - 🎬Оценка
+      - 🎬Жанры
+      - summary
+      - 🎬Автор
+    sort:
+      - property: status
+        direction: ASC
+    columnSize:
+      note.🎬Тип: 152
+      note.summary: 465
+      note.🎬Автор: 142
+  - type: cards
+    name: Карточки
+    filters:
+      and:
+        - file.hasTag("🎬grw")
+    order:
+      - file.name
+      - 🎬Автор
+      - 🎬Жанры
+      - 🎬Оценка
+      - 🎬Тип
+      - status
+    sort:
+      - property: status
+        direction: DESC
+      - property: 🎬Оценка
+        direction: DESC
+    cardSize: 250
+    image: note.image
+    imageFit: ""
+    imageAspectRatio: 0.55
