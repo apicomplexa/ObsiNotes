@@ -1,13 +1,15 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-aliases: 
-tags: 
+parent:
 summary: Метод для анализа групп коэкспрессированных генов
-📊Transcriptomics:
-  - functionalAnalisis
+tags: []
+type: 📄note
 💻Bioinfo:
   - tool
+📊Transcriptomics:
+  - functionalAnalisis
 ---
 
 > [!$] `$=dv.current().file.name`

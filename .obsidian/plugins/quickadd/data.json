@@ -380,20 +380,6 @@
       "runOnStartup": false
     },
     {
-      "name": "AI Summary",
-      "id": "d6868c7d-2b09-4528-a72e-d6df88e58dff",
-      "commands": [
-        {
-          "name": "update_summary",
-          "type": "UserScript",
-          "id": "2ab83c1c-e786-47e9-9352-8fc45510e40f",
-          "path": "_.Settings/Templates/Scripts/update_summary.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
       "name": "➕Add new note",
       "id": "4eb49186-22ab-41d0-84c1-a32ace0f68a2",
       "commands": [

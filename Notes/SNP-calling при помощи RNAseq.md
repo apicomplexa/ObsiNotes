@@ -1,15 +1,16 @@
 ---
-type: 📄note
-summary: 
-dg-publish: true
 aliases:
   - SNP-calling при помощи RNAseq
-tags: 
+date: 02-11-2025
+dg-publish: true
+parent:
+summary: 
+tags: []
+type: 📄note
 📊Transcriptomics: 
 🧬Genetics:
   - SNP
 ---
-
 
 > [!$] Лучше так не делать (надо геномные/экзомные данные)
 

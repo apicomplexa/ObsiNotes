@@ -1,10 +1,13 @@
 ---
 aliases: []
 date: 02-11-2025
+dg-publish: true
 excalidraw-plugin: parsed
 parent:
+summary:
 tags:
   - excalidraw
+type: 📄note
 📊Transcriptomics:
   - functionalAnalisis
   - difExpr

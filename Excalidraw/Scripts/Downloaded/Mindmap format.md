@@ -1,33 +1,40 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
+parent:
+summary:
+tags: []
+type: 📄note
 ---
+
 /*
 
-format **the left to right** mind map
+format __the left to right__ mind map
 
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-mindmap-format-1.png)
 
-# tree
+# Tree
 
-Mind map is actually a tree, so you must have a **root node**. The script will determine **the leftmost element** of the selected element as the root element (node is excalidraw element, e.g. rectangle, diamond, ellipse, text, image, but it can't be arrow, line, freedraw, **group**)
+Mind map is actually a tree, so you must have a __root node__. The script will determine __the leftmost element__ of the selected element as the root element (node is excalidraw element, e.g. rectangle, diamond, ellipse, text, image, but it can't be arrow, line, freedraw, __group__)
 
-The element connecting node and node must be an **arrow** and  have the correct direction, e.g. **parent node -> children node**
+The element connecting node and node must be an __arrow__ and have the correct direction, e.g. __parent node -> children node__
 
-# sort
+# Sort
 
-The order of nodes in the Y axis or vertical direction is determined by **the creation time** of the arrow connecting it
+The order of nodes in the Y axis or vertical direction is determined by __the creation time__ of the arrow connecting it
 
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-mindmap-format-2.png)
 
-So if you want to readjust the order, you can **delete arrows and reconnect them**
+So if you want to readjust the order, you can __delete arrows and reconnect them__
 
-# setting
+# Setting
 
 Script provides options to adjust the style of mind map, The option is at the bottom of the option of the exalidraw plugin(e.g. Settings -> Community plugins -> Excalidraw -> drag to bottom)
 
-# problem
+# Problem
 
-1. since the start bingding and end bingding of the arrow are easily disconnected from the node, so if there are unformatted parts, please **check the connection** and use the script to **reformat**
+1. since the start bingding and end bingding of the arrow are easily disconnected from the node, so if there are unformatted parts, please __check the connection__ and use the script to __reformat__
 
 ```javascript
 */

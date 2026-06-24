@@ -283,8 +283,16 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "additionalFileExtensions": [],
-  "foldersToIgnore": [],
-  "filesToIgnore": [],
+  "foldersToIgnore": [
+    "_.Settings"
+  ],
+  "filesToIgnore": [
+    {
+      "match": "^claude-enterypoint\\.md$",
+      "flags": "",
+      "label": ""
+    }
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],

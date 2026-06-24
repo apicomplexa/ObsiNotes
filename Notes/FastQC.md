@@ -1,14 +1,20 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
+parent:
 summary: Рассчитывает различные метрики качества для NGS
-aliases: 
-tags: 
+tags: []
+type: 📄note
+⚙️Methods:
+  - QC
 💻Bioinfo:
   - tool
-📊Transcriptomics: 
-🧬Sequencing: 
-⚙️Methods:
+📊Transcriptomics:
+  - preprocessing
+🦠Metagenomics:
+  - preprocessing
+🧬Sequencing:
   - QC
 ---
 
@@ -21,7 +27,7 @@ wiki_link:: [Link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
 ## Алгоритм
 
-###### Загрузка, распаковка, назначение исполняемым, сознание папки для результатов
+### Загрузка, распаковка, назначение исполняемым, сознание папки для результатов
 
 ``` Bash
 wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip
@@ -30,7 +36,7 @@ chmod +x FastQC/fastqc
 mkdir qc
 ```
 
-###### Запуск fastqc
+### Запуск fastqc
 
 - `-o` - папка для результатов
 - `-f` - формат входа (необязателен, может спарсить формат сам)

@@ -1,18 +1,20 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
+parent:
+summary: Оценка качества выравнивания NGS
+tags: []
 type: 📄note
-aliases: 
-tags: 
+⚙️Methods:
+  - QC
 💻Bioinfo:
   - tool
 🧬Sequencing:
   - aligniment
-⚙️Methods:
-  - QC
-summary: Оценка качества выравнивания NGS
 ---
 
 > [!def] Описание
 > (def:: Оценка качества выравнивания NGS)
 
-wiki_link:: 
+wiki_link::

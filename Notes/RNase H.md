@@ -1,14 +1,16 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
+parent:
+summary: "Описание\rРасщепляет дцРНК или ДНК/РНК по гидролитическому механизму"
+tags: []
 type: 📄note
-aliases: 
-tags: 
+wiki_link:
+  - https://en.wikipedia.org/wiki/Ribonuclease_H?useskin=vector
 🕰️Enzymes:
   - RNA
   - ase
-summary: "Описание\rРасщепляет дцРНК или ДНК/РНК по гидролитическому механизму"
-wiki_link:
-  - https://en.wikipedia.org/wiki/Ribonuclease_H?useskin=vector
 ---
 
 # RNase H

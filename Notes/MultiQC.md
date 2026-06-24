@@ -1,13 +1,15 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-aliases: 
-tags: []
+parent:
 summary: Агрегатор отчетов QC ([[FastQC]], [[RSeQC]] и др)
-💻Bioinfo:
-  - tool
+tags: []
+type: 📄note
 ⚙️Methods:
   - QC
+💻Bioinfo:
+  - tool
 🧬Sequencing: 
 ---
 
@@ -20,13 +22,16 @@ wiki_link:: `pip install multiqc`
 
 ## Алгоритм
 
-###### Установка
+### Установка
+
 ```BASH
 pip install multiqc
 ```
 
-###### Запуск
+### Запуск
+
 - аргумент – путь к папке с отчетами `fastQC`
+
 ```bash
 multiqc qc
 ```

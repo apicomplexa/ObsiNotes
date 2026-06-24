@@ -1,15 +1,17 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-aliases: 
-tags: 
+parent:
 summary: Инструмент для [[Деконволюция bulkRNAseq]]. Заточен под Карциному и лимфому.
-📊Transcriptomics:
-  - functionalAnalisis
-💻Bioinfo:
-  - tool
+tags: []
+type: 📄note
 wiki_link:
   - https://ecotyper.stanford.edu
+💻Bioinfo:
+  - tool
+📊Transcriptomics:
+  - functionalAnalisis
 ---
 
 > [!$] `$=dv.current().file.name`

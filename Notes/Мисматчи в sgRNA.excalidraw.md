@@ -1,35 +1,49 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-summary: 
 excalidraw-plugin: parsed
+parent:
+summary: 
 tags:
   - excalidraw
+type: 📄note
 ✂️GeneEdit:
   - CRISPR
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
+
 ## Text Elements
+
  RNA - 5'-GGAGCGAC[CTCGTCTTTCCG]-PAM-3' ^Nuu2MZBD
 
-Мисматч за пределами 
+Мисматч за пределами
+
 коровой обл. почти никак не влияет
+
 на связывание с таргетом ^EMEIneQY
 
 Мисматч в перефирии коровой обл
-оказывает большее влияние 
+
+оказывает большее влияние
+
 на связывание с ДНК
+
 но все еще может позволять офтаргеты ^2xTOKojo
 
-Мисматчи в 3нк от PAM 
-с очень большой вероятностью 
+Мисматчи в 3нк от PAM
+
+с очень большой вероятностью
+
 НЕ дадут офтаргет ^jQIy7rxT
 
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebTiAVho6IIR9BA4oZm4AbXAwUDAi6HhxdEDsKI5lYOSiyEYWdi40HgBGAGZ+YsbWTgA5TjFuAA4OgAYEkYBONoA2bshCDmIs
 
@@ -87,4 +101,5 @@ fCv0LVCdoe0f6CQKTnWr2Ozb5DCfEekcWOJW8B4EqcyeZqqXoBDOQfSe8fwdR3TsUCzvmvKdGeif6CLg
 
 qy1libxoEAwZHB0TjfaMsdaqkbiedqcBMP3IQBwCBBmDCDMA+q1dVeWedlPz3B2yu55tqwZC4CaDBAwTSISpEAqr3ezju7vsmPwvCBQAYRlBqrY0FSaBAgICVDMD/Du5wDQJsCrB2fXe3eqEyLjd2HwjhBzcgCARAA==
 ```
+
 %%

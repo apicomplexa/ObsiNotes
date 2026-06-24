@@ -1,0 +1,37 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.folder.startsWith("Projects/")
+    order:
+      - file.name
+      - type
+      - summary
+      - tags
+      - date
+    sort:
+      - property: type
+        direction: ASC
+      - property: date
+        direction: DESC
+    columnSize:
+      note.summary: 400
+      note.type: 120
+      note.tags: 150
+  - type: cards
+    name: Карточки
+    filters:
+      and:
+        - file.folder.startsWith("Projects/")
+    order:
+      - file.name
+      - type
+      - summary
+      - tags
+    sort:
+      - property: type
+        direction: ASC
+      - property: date
+        direction: DESC
+    cardSize: 220

@@ -1,8 +1,11 @@
 ---
 aliases: []
 date: 17-06-2026
+dg-publish: true
 parent:
+summary: "Шпаргалка по метапрограммированию R: окружения и лексическое связывание, объекты AST, promises и lazy evaluation, NSE через quote/substitute/eval, современный API rlang (quosures, {{ }}, !!), data mask и eval_tidy(), tidyselect, замыкания и фабрики функций."
 tags: []
+type: 📄note
 🖥️IT:
   - R
 ---

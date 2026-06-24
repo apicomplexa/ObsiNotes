@@ -1,21 +1,25 @@
 ---
-type: 📄note
-summary: 
-dg-publish: true
-cssclasses:
-  - page-color-pu
 aliases:
   - Лигирование Адаптеров (Y-образные illumina)
-tags: 
-🧬Sequencing:
-  - tech/illumina
+cssclasses:
+  - page-color-pu
+date: 02-11-2025
+dg-publish: true
+parent:
+summary: 
+tags: []
+type: 📄note
 ⚙️Methods:
   - samplePreparation
----
-##### Раздел: [[NGS-1 Подготовка образцов]]
+🧬Sequencing:
+  - tech/illumina
 ---
 
-### Лигирование Адаптеров (Y-образные illumina)
+# Раздел: [[NGS-1 Подготовка образцов]]
+
+---
+
+# Лигирование Адаптеров (Y-образные illumina)
 
 - Для парно-концевых прочтений
 

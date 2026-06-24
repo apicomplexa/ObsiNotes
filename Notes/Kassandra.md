@@ -8,6 +8,11 @@ tags: []
 type: 📄note
 wiki_link:
   - https://science.bostongene.com/kassandra
+💻Bioinfo:
+  - tool
+📊Transcriptomics:
+  - BulkSpecific
+  - deconvolution
 ---
 
 > [!$] `$=dv.current().file.name`

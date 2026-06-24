@@ -1,13 +1,15 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 🗂️index
-aliases: 
+parent:
+summary: Индекс для раздела
 tags:
   - dv_exclude
   - 📌pin
-summary: Индекс для раздела
+type: 🗂️index
 ---
 
  ```dataviewjs
-dv.view('_.Settings/Templates/dataviews/tagDataview')
+dv.view('_.Settings/Templates/dist/dataviews/tagIndexPage')
 ```

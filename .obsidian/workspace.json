@@ -8,18 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b4fb287effe9e17b",
+            "id": "2d6c2e54f09d6c30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Дизайн направляющих РНК.md",
+                "file": "Notes/Таксономическая классификация в метагеномике.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Дизайн направляющих РНК"
+              "title": "Таксономическая классификация в метагеномике"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "phylose",
+                "query": "QC RNAseq raw output",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Дизайн направляющих РНК.md",
+                "file": "_. Home/Bases/Projects.base",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Дизайн направляющих РНК"
+              "title": "Структура Projects"
             }
           },
           {
@@ -194,7 +194,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Notes/Дизайн направляющих РНК.md"
+                "file": "_.Settings/Agent Skills/AUDIT Report 2 — Предложения по структуре.md"
               },
               "icon": "lucide-file-signature",
               "title": "Сноски"
@@ -231,39 +231,47 @@
       "graph:Граф": false
     }
   },
-  "active": "ecb8758d6e1d10bf",
+  "active": "2d6c2e54f09d6c30",
   "lastOpenFiles": [
-    "_.Settings/Agent Skills/SKILL Obsidian CLI.md",
-    "_.Settings/Agent Skills",
-    "Untitled.md",
-    "Notes/R cheatsheet.md",
-    "Notes/Phyloseq.md",
+    "_.Settings/Agent Skills/ACTION PLAN — Рефакторинг хранилища.md.tmp.294316.6e96c012b269",
+    "_. Home/$nsmu.md.tmp.294316.3e7e55b82aab",
+    "_.Settings/Templates/dist/dataviews/tagIndexPage/view.js",
+    "_.Settings/Templates/dist/dataviews/tagIndexPage",
+    "_.Settings/Templates/dataviews/indexPage/views/commonIndexPageVIew.ts.tmp.294316.a80e5339e7e1",
+    "_.Settings/Templates/build-dataviews.cjs.tmp.294316.43611cce3699",
+    "_.Settings/Templates/build-dataviews.cjs.tmp.294316.1ffeb29878b8",
+    "_.Settings/Templates/dataviews/tagIndexPage/view.ts",
+    "_.Settings/Templates/dataviews/tagIndexPage/view.ts.tmp.294316.8af99e8ce66a",
+    "_.Settings/Templates/dataviews/tagIndexPage/tsconfig.json",
+    "_.Settings/Templates/dataviews/tagIndexPage/tsconfig.json.tmp.294316.01993cecb8a2",
+    "Notes/Маркерные гены.md",
+    "Notes/MetaPhlAn4.md",
+    "Notes/StrainPhlAn.md",
+    "_. Home/Indexes/🦠Metagenomics/🦠Metagenomics.md",
+    "Notes/Metatag_ 🦠Metagenomics — Расширение.md",
+    "_. Home/Indexes/🦠Metagenomics/Metagenomics Tools.md",
+    "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
+    "Notes/Конспект_Фармакология_ЖКТ.md",
+    "Notes/NGS-3 Обработка данных.md",
+    "Notes/VAMB.md",
+    "Notes/Ultraplex.md",
+    "Notes/Trimmomatic.md",
+    "Notes/Strain Tracking.md",
+    "Notes/sourmash.md",
+    "Notes/RefSeq.md",
+    "Notes/Prodigal.md",
+    "Notes/PRINSEQ.md",
+    "Notes/Pfam.md",
+    "Notes/NanoFilt.md",
+    "Notes/mOTUs (marker gene Operational Taxonomic Units).md",
+    "Notes/MG-RAST.md",
+    "Notes/metaSPAdes.md",
+    "Notes/metaMDBG.md",
+    "Notes/Metalign.md",
+    "Notes/metaHi-C.md",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
-    "Notes/vegan.md",
-    "Функциональные навыки меня.md",
-    "Notes/Визуализация ординации с Vegan.md",
-    "Без названия.md",
-    "TECH_COPY_Функциональные навыки меня 1.md",
-    "Функциональные навыки меня 1.md",
-    "TECH_COPY_Phyloseq.md",
-    "Notes/DADA2.md",
-    "_. Home/_Карта хранилища.md",
-    "Notes/R metaprogramming cheatsheet.md",
-    "R_bioinformatics_cheatsheet (2).md",
-    "R_bioinformatics_cheatsheet (1).md",
-    "Notes/Иерархическая кластеризация образцов AVS.md",
-    "Projects/Истории болезней/ИБ - акушерство/Drawing 2026-06-02 22.46.55.excalidraw.md",
-    "Projects/Истории болезней/ИБ - акушерство/История родов.md",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
     "_.Settings/Media/Pasted Image 20260602224701_608.png",
-    "Projects/Истории болезней/ИБ - клинфарма/ИБ - клинфарма.md",
-    "Projects/Истории болезней/ИБ - акушерство",
-    "_.Settings/Templates/Templater/_  📄CommonPage.md",
-    "Notes/Нормализация AVS.md",
-    "doklad_FMBA_MSCh_travmatizm.md",
-    "Notes/DEseq2 (RLE).md",
-    "Notes/Дифференциальная Экспрессия.md",
-    "Notes/NK-клетки.md",
     "_.Settings/Media/Pasted image 20260424111910.png",
     "_.Settings/Media/Pasted image 20260424111448.png",
     "_.Settings/Media/Pasted image 20260424102645.png",
@@ -271,17 +279,9 @@
     "_.Settings/Media/Pasted image 20260421150144.png",
     "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",
     "_. Home/Indexes/🦠Metagenomics/Классический пайплан обработки Метагеномных данных.canvas",
-    "_.Settings/Media/deciper_taxa.pdf",
-    "deciper_taxa.pfd",
     "_.Settings/Media/Pasted image 20260419172214.png",
     "_.Settings/Media/Pasted image 20260419171504.png",
     "_.Settings/Media/Pasted image 20260419171459.png",
-    "Projects/Истории болезней/ИБ - клинфарма",
-    "_. Home/Indexes/🦠Metagenomics",
-    "Projects/GRW.zip",
-    "Projects/_To restore/notes_metagenome",
-    "_.Settings/Templates/dataviews/indexPage/views/commonIndexPageVIew.ts",
-    "Projects/Истории болезней/ИБ - Хир болезни",
     "Notes/Общий пайплайн обработки метагеномных данных.canvas",
     "Без названия.canvas",
     "_. Home/Indexes/🦠Microbiology/Без названия.canvas",

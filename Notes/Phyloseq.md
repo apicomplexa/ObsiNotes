@@ -79,7 +79,7 @@ plot_richness(ASV_physeq, color="char", measures=c("Chao1", "Shannon")) +
     theme_bw() + theme(legend.title = element_blank(), axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
 ```
 
-![445](_.Settings/Media/Pasted%20image%2020260424111448.png)
+![611](_.Settings/Media/Pasted%20image%2020260424111448.png)
 
 > [!warning] Не подходит для сравнения между экспериментами
 > Это просто метрики, подсвечивающие образцы _внутри_ эксперимента, и не означают __реальные__ значения чего-либо

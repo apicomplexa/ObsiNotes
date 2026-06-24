@@ -11,5 +11,5 @@ type: 🗂️index
 ---
 
  ```dataviewjs
-dv.view('_.Settings/Templates/dataviews/tagDataview')
+dv.view('_.Settings/Templates/dist/dataviews/tagIndexPage')
 ```

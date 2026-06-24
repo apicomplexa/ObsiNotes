@@ -1,16 +1,18 @@
 ---
-dg-publish: true
-type: 📄note
 aliases:
   - GO
-tags: 
+date: 02-11-2025
+dg-publish: true
+parent:
 summary: |-
   База данных функциональных аннотаций генов по трем онтологиям:
   `Biological_Process`; `Molecular_Function`; `Cellular_Component`
-📊Transcriptomics:
-  - functionalAnalisis
+tags: []
+type: 📄note
 💻Bioinfo:
   - database
+📊Transcriptomics:
+  - functionalAnalisis
 ---
 
 > [!$] `$=dv.current().file.name`
@@ -25,7 +27,7 @@ summary: |-
 # GO Enreachment
 
 > [!$] Самый интуитивный вариант
-> Взять диф. экспрессированные гены и посмотреть к каким GO категориям они относятся 
+> Взять диф. экспрессированные гены и посмотреть к каким GO категориям они относятся
 > => эти процессы и будут больше всего менятся
 
 ![[{54815C6D-EEE1-4AB9-881A-20AAA3940639}.png|300]]
@@ -37,4 +39,3 @@ summary: |-
 ![[{89A70A7B-D6AF-4B77-89C8-47993D83C5EB}.png|400]]
 
 Для оценки случайности пересечения диф экспр генов с онтологией используют [[Точный тест Фишера]]
-

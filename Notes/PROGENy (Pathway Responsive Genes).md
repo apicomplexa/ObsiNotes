@@ -1,17 +1,19 @@
 ---
-dg-publish: true
-type: 📄note
 aliases:
   - PROGENy
   - Pathway Responsive Genes
-tags: 
+date: 02-11-2025
+dg-publish: true
+parent:
 summary: База данных, которая содержит биологические пути (ген и его вес), необходимые для реконструкции активности пути
+tags: []
+type: 📄note
+☣️Immunology:
+  - pathway
 💻Bioinfo:
   - database
 📊Transcriptomics:
   - functionalAnalisis
-☣️Immunology:
-  - pathway
 🦠Cytology:
   - cellsContact
 ---
@@ -25,4 +27,4 @@ summary: База данных, которая содержит биологич
 
 Активность пути - линейная комбинация экспрессии генов этого пути и их весами
 
-Почти всегда  идет в связке с [[DoRothEA]]
+Почти всегда идет в связке с [[DoRothEA]]

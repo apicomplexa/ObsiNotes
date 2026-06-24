@@ -1,11 +1,19 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
+parent:
+summary:
+tags: []
+type: 📄note
 ---
+
 /*
 
 ![](https://github.com/xllowl/obsidian-excalidraw-plugin/blob/master/images/mindmap%20connector.png)
 
 ![](https://github.com/xllowl/obsidian-excalidraw-plugin/blob/master/images/Mindmap%20connector1.png)
+
 This script creates mindmap like lines(only right and down side are available). The line will starts according to the creation time of the elements. So you may need to create the header element first.
 
 ```javascript

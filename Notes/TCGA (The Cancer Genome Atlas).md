@@ -1,17 +1,18 @@
 ---
-dg-publish: true
-type: 📄note
 aliases:
   - TCGA
   - The Cancer Genome Atlas
-tags: 
+date: 02-11-2025
+dg-publish: true
+parent:
 summary: 
-💻Bioinfo:
-  - database
+tags: []
+type: 📄note
 ☣️Immunology:
   - cancer
+💻Bioinfo:
+  - database
 ---
 
 > [!$] `$=dv.current().file.name`
 > `$=dv.current().summary`
-

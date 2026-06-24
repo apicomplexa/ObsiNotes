@@ -1,9 +1,11 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-aliases: 
-tags: 
+parent:
 summary: 
+tags: []
+type: 📄note
 ☣️Immunology:
   - cancer
   - TNF
@@ -13,21 +15,21 @@ summary:
   - gene
 ---
 
-# Обсуждение 
+# Обсуждение
 
-## TNFRSF12A - протоонкоген
+## TNFRSF12A - Протоонкоген
 
-TNFRSF12A (также известный как CD266, TWEAKR, FN14) является мембранный рецептором факторов некроза опухоли. Лигандом является провоспалительный цитокин TWEAK.  TNFRSF12A участвует в регуляции клеточного цикла.[@pubchemTNFRSF12ATNFReceptor; @iknerTWEAKInducesApoptosis2011] TNFRSF12A вовлечен в пути NF-kB[@pubchemTNFR2NoncanonicalNFkB; @wangKnockdownDifferentiallyExpressed2017; @abendRegulationTumorNecrosis2010; @winklesTWEAKFn14Cytokine2008]. 
+TNFRSF12A (также известный как CD266, TWEAKR, FN14) является мембранный рецептором факторов некроза опухоли. Лигандом является провоспалительный цитокин TWEAK. TNFRSF12A участвует в регуляции клеточного цикла.[@pubchemTNFRSF12ATNFReceptor; @iknerTWEAKInducesApoptosis2011] TNFRSF12A вовлечен в пути NF-kB[@pubchemTNFR2NoncanonicalNFkB; @wangKnockdownDifferentiallyExpressed2017; @abendRegulationTumorNecrosis2010; @winklesTWEAKFn14Cytokine2008].
 
 ### Сигнальные TNFRSF12A
 
-Основными сигнальными путями, в которые включен TNFRSF12A являются сигнальные пути неканонической активации NF-kB [@wangKnockdownDifferentiallyExpressed2017; @abendRegulationTumorNecrosis2010; @wangOncogenicRoleTNFRSF12A2025]. TNFRSF12A взаимодействует с димером NFKB1/RELA. Образовавшийся комплекс NF-kB активирует транскрипцию множества генов, показано что TNFRSF12A стимулирует экспрессию BRIC3 и MMP-9, что способствует активной пролиферации клеток и их миграции.[@wangOncogenicRoleTNFRSF12A2025] Также показано влияние на процессы гликолиза через NAMPT[@simTWEAKFn14Signalling2024]. 
+Основными сигнальными путями, в которые включен TNFRSF12A являются сигнальные пути неканонической активации NF-kB [@wangKnockdownDifferentiallyExpressed2017; @abendRegulationTumorNecrosis2010; @wangOncogenicRoleTNFRSF12A2025]. TNFRSF12A взаимодействует с димером NFKB1/RELA. Образовавшийся комплекс NF-kB активирует транскрипцию множества генов, показано что TNFRSF12A стимулирует экспрессию BRIC3 и MMP-9, что способствует активной пролиферации клеток и их миграции.[@wangOncogenicRoleTNFRSF12A2025] Также показано влияние на процессы гликолиза через NAMPT[@simTWEAKFn14Signalling2024].
 
 ![[Pasted image 20250329202529.png|Сигнальные пути TNFRSF12A]]
 
 ### Влияние TNFRSF12A на онкогенез
 
-Исследования показывают положительную корреляцию между повышенной экспрессией TNFRSF12A и интенсивностью процессов канцерогенеза и клеточной миграции в различных типах опухолей.[@tanOverexpressionFn14Gliomas2018; @wangOncogenicRoleTNFRSF12A2025; @xuRoleTNFRSF12ACell2025] 
+Исследования показывают положительную корреляцию между повышенной экспрессией TNFRSF12A и интенсивностью процессов канцерогенеза и клеточной миграции в различных типах опухолей.[@tanOverexpressionFn14Gliomas2018; @wangOncogenicRoleTNFRSF12A2025; @xuRoleTNFRSF12ACell2025]
 
 В частности, показано, что повышенная экспрессия TNFRSF12A значимо (p<10⁶) увеличивает чувствительность теломеразы, которая является одним из основных предикторов онкогенеза.[@tanOverexpressionFn14Gliomas2018]
 
@@ -41,6 +43,6 @@ TNFRSF12A (также известный как CD266, TWEAKR, FN14) являе�
 
 В то время как клеточные модели с нокаутированным TNFRSF12A демонстрируют сниженную пролиферативную активность[@wangKnockdownDifferentiallyExpressed2017]. Так же TNFRSF12A предлагают использовать как одну из мишеней клеточной CAR-T терапии.[@liFn14targetedBiTECART]
 
-## TNFRSF12A оверэкспрессирован в трофобласте мужских эмбрионов
+## TNFRSF12A Оверэкспрессирован в трофобласте мужских эмбрионов
 
 TNFRSF12A достоверно демонстрирует повышенную экспрессию в клетках хориона трофобласта эмбрионов мужского пола в сравнении с женскими. Уровень активности TNFRSF12A, как обсуждалось выше, положительно коррелирует с рисками развития опухоли, темпами ее роста и вероятности метастазирования. Таким образом, можно предложить, что мужской пол эмбриона будет является фактор способствующим увеличения риска формирования хориокарциномы и утяжеления течения сформированной.

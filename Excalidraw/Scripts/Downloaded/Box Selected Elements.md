@@ -1,9 +1,21 @@
+---
+aliases: []
+date: 02-11-2025
+dg-publish: true
+parent:
+summary:
+tags: []
+type: 📄note
+---
+
 /*
+
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-box-elements.jpg)
 
 This script will add an encapsulating box around the currently selected elements in Excalidraw.
 
 See documentation for more details:
+
 https://zsviczian.github.io/obsidian-excalidraw-plugin/ExcalidrawScriptsEngine.html
 
 ```javascript

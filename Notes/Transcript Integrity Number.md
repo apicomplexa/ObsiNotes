@@ -1,16 +1,18 @@
 ---
-type: 📄note
-summary: 
-dg-publish: true
-cssclasses:
-  - page-color-ye
 aliases:
   - Transcript Integrity Number
   - TIN
-tags: 
-📊Transcriptomics: 
+cssclasses:
+  - page-color-ye
+date: 02-11-2025
+dg-publish: true
+parent:
+summary: 
+tags: []
+type: 📄note
 ⚙️Methods:
   - QC
+📊Transcriptomics: 
 ---
 
 # Transcript Integrity Number

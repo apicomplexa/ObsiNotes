@@ -1,7 +1,15 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
+parent:
+summary:
+tags: []
+type: 📄note
 ---
+
 /*
+
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-normalize-selected-arrows.png)
 
 This script will reset the start and end positions of the selected arrows. The arrow will point to the center of the connected box and will have a gap of 8px from the box.

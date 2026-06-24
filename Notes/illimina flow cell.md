@@ -1,18 +1,21 @@
 ---
-type: "📄note"
-summary:
-dg-publish: true
-cssclasses:
-  - "page-color-pu"
 aliases:
   - "Illumina flow cell"
   - "Проточная ячейка"
+cssclasses:
+  - "page-color-pu"
+date: 02-11-2025
+dg-publish: true
+parent:
+summary:
 tags: []
+type: "📄note"
 🧬Sequencing:
   - "tech/illumina"
   - "machineSeq"
 ---
-##### Раздел: [[Illumina seq]]
+
+# Раздел: [[Illumina seq]]
 
 # Illumina flow cell (Проточная ячейка)
 
@@ -21,6 +24,6 @@ tags: []
 
 - На каждой дорожке пришиты олигонк, комплиментарные адаптерам, пришитым к ДНК библиотеки
 - В каждой дорожке секвенирование ~независимо
-- От количества дорожек зависит 
+- От количества дорожек зависит
 	- Стоимость ячейки
-	- Выходы секвенатора 
+	- Выходы секвенатора

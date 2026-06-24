@@ -1,11 +1,13 @@
 ---
-type: 📄note
-summary: 
-dg-publish: true
 aliases:
   - SLEUTH
 creation date: 01-09-2023
+date: 02-11-2025
+dg-publish: true
+parent:
+summary: 
 tags: []
+type: 📄note
 💻Bioinfo:
   - tool
 📊Transcriptomics:
@@ -23,4 +25,3 @@ wiki_link:: [GitHub - pachterlab/sleuth: Differential analysis of RNA-Seq](https
 
 - Посчитать диф. экспрессию между изоформами
 - Агрегировать p-value для подсчета экспрессии гена
-

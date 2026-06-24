@@ -5,12 +5,15 @@ created: 2025-08-13
 
 date: 02-11-2025
 description: "FROM V1.87.0 ONWARDS, PLEASE USE THIS SNIPPET INSTEADconst { dirname, resolve } = require('path')const Layer = require('router/lib/layer')const { issue..."
+dg-publish: true
 parent:
 published: 2024-04-18
 source: "https://kb.jarylchng.com/i/n8n-and-authelia-bypass-n8n-native-login-page-usin-sNRmS-7j5u1/"
+summary:
 tags:
   - "clippings"
 title: "n8n & Authelia - Bypass n8n native login page using Trusted Header Single Sign-On and custom hooks configuration"
+type: 📄note
 ---
 
 # From v1.87.0 onwards, please use this snippet instead

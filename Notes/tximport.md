@@ -1,11 +1,13 @@
 ---
-type: 📄note
-summary: The `tximport` package is designed to aggregate transcript-level data into gene-level summaries for RNA-seq analysis, facilitating data integration from various quantification tools like Salmon and Kallisto. It allows for the import of transcript abundance estimates while accounting for transcript lengths, making it useful for differential expression analysis.
-dg-publish: true
 aliases:
   - tximport
 creation date: 01-09-2023
+date: 02-11-2025
+dg-publish: true
+parent:
+summary: The `tximport` package is designed to aggregate transcript-level data into gene-level summaries for RNA-seq analysis, facilitating data integration from various quantification tools like Salmon and Kallisto. It allows for the import of transcript abundance estimates while accounting for transcript lengths, making it useful for differential expression analysis.
 tags: []
+type: 📄note
 💻Bioinfo:
   - tool
 📊Transcriptomics:
@@ -18,11 +20,13 @@ tags: []
 > (def:: Агрегирует данные с уровня транскриптов до уговня генов)
 
 wiki_link:: [Importing transcript abundance with tximport](https://bioconductor.org/packages/release/bioc/vignettes/tximport/inst/doc/tximport.html#Introduction)
+
 wiki_link:: [Bioconductor - tximport](https://bioconductor.org/packages/release/bioc/html/tximport.html)
 
 # Принцип работы с изоформами
 
-Добавляет в модель 
+Добавляет в модель
+
 ![[DEseq2 (RLE)#^f1d95c]]
 
 Доп. коф для учета длины транскрипта
@@ -50,6 +54,7 @@ txi <- tximport(
 	 ignoreTxVErsion=T
 )
 ```
+
 ^6adcd2
 
 Можно седлать импорт TPM для ручных подсчетов
@@ -63,4 +68,3 @@ tpm_ <- tximport(
     countsFromAbundance = "lengthScaledTPM"
 )$counts
 ```
-

@@ -1,21 +1,26 @@
 ---
-type: "📄note"
-summary:
-dg-publish: true
 aliases:
   - "Mait-pair библиотеки"
+date: 02-11-2025
+dg-publish: true
+parent:
+summary:
 tags: []
+type: "📄note"
 🧬Sequencing:
   - "tech/illumina"
   - "machineSeq"
 ---
-##### Раздел: [[Illumina seq]]
+
+# Раздел: [[Illumina seq]]
+
 ---
+
 # Зачем
 
-Иллюмина не получает [[Paired-end reads]] для ==.>750пн== 
-Поэтому ==для ориентации далеко расположенных контигов== используют mait-pair библиотеки
+Иллюмина не получает [[Paired-end reads]] для ==.>750пн==
 
+Поэтому ==для ориентации далеко расположенных контигов== используют mait-pair библиотеки
 
 # Технология
 

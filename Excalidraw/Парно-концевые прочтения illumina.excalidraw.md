@@ -1,13 +1,15 @@
 ---
-aliases: 
+aliases: []
 
 date: 02-11-2025
 dg-publish: true
 
 excalidraw-plugin: parsed
 parent:
+summary:
 tags:
   - excalidraw
+type: 📄note
 ---
 
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==

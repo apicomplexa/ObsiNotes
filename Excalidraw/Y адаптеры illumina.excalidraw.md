@@ -6,8 +6,10 @@ dg-publish: true
 
 excalidraw-plugin: parsed
 parent:
+summary:
 tags:
   - excalidraw
+type: 📄note
 ---
 
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
@@ -23,7 +25,7 @@ tags:
 Адаптер из 2 частей
 
 1. Комплементарная
-1. Висячие концы
+2. Висячие концы
  ^XEeIMPEZ
 
 Использовав праймер

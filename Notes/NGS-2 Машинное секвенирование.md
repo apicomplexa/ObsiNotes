@@ -1,19 +1,24 @@
 ---
-type: "📄note"
-summary:
-dg-publish: true
-cssclasses:
-  - "page-color-pu"
 aliases:
   - "NGS - Machine sequencing"
+cssclasses:
+  - "page-color-pu"
+date: 02-11-2025
+dg-publish: true
+parent:
+summary:
 tags: []
+type: "📄note"
 🧬Sequencing:
   - "machineSeq"
 ---
-##### Раздел: [[_NGS|NGS]]
+
+# Раздел: [[_NGS|NGS]]
+
 ---
 
 # Технологии
+
 ```dataviewjs
 let otherRools = ' and #biology/methods/seq/ngs/tech' //start from spase " "
 let a = dv.current();

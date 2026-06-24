@@ -10,7 +10,9 @@ type: 📄note
   - tool
 📊Transcriptomics:
   - deNovo
-🧬Sequencing: 
+🦠Metagenomics:
+  - preprocessing
+🧬Sequencing:
 ---
 
 > [!def] Описание

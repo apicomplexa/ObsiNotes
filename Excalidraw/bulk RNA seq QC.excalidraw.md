@@ -1,28 +1,40 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
 
 excalidraw-plugin: parsed
-tags: [excalidraw]
-
+parent:
+summary:
+tags:
+  - excalidraw
+type: 📄note
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
 # Excalidraw Data
+
 ## Text Elements
+
 "Случайные праймеры" ^TU5u8Dmp
 
 Ожидаемое распр. ^AGkn3n6a
 
-Бимодальное распредение > 
+Бимодальное распредение >
+
 2 организма ^qobPQJhH
 
 ## Embedded Files
+
 6583a273e88b4289ed3d6c72dda49131733ad20b: [[Pasted Image 20230106150604_627.png]]
+
 b634d21bd945c7c7d83f5113122b0d2e61997f29: [[Pasted Image 20230106152305_068.png]]
 
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebTiAVho6IIR9BA4oZm4AbXAwUDAi6HhxdEJ9aKR+YsYWdi40AEYADj58yDrWTgA5TjFuJoBmABYWgDYATh4ABgmayEIOYixu
 
@@ -56,4 +68,5 @@ gyg2fUgTRN/NgCgf6KSPjYoQQrgtIV8ZYN4bERQkIN2MMHQs/eSbEWEO4bgV5eITiKYAUeiEYFMaCDfY
 
 xTge8UXEiQIMwYQZgFtVxYgXIlQyAenBAKJS2VxB1NAEojIV9YILCQfXPIgAOfLUgeJS4WLZfS464waCJJJbgArOIqLTQL4BAYyZgYEWLOAJcNgFYTQo4iXMIcAHoyVGEcIYYkATSIAA
 ```
+
 %%

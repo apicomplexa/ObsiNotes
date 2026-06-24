@@ -1,13 +1,15 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-aliases: 
-tags: 
+parent:
 summary: "База данных с большим количеством __регулонов__ (пар: транскрипционный фактор + список таргетов транскрипционного фактора)"
-📊Transcriptomics:
-  - functionalAnalisis
+tags: []
+type: 📄note
 💻Bioinfo:
   - database
+📊Transcriptomics:
+  - functionalAnalisis
 ---
 
 > [!$] `$=dv.current().file.name`

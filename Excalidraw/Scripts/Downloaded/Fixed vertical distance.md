@@ -1,4 +1,15 @@
+---
+aliases: []
+date: 02-11-2025
+dg-publish: true
+parent:
+summary:
+tags: []
+type: 📄note
+---
+
 /*
+
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-download-raw.jpg)
 
 Download this file and save to your Obsidian Vault including the first line, or open it in "Raw" and copy the entire contents to Obsidian.

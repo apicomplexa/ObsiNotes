@@ -1,17 +1,19 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
-type: 📄note
-aliases: 
-tags: 
+parent:
 summary: Программа для сборки транскриптомов
+tags: []
+type: 📄note
+💻Bioinfo:
+  - tool
 📊Transcriptomics:
   - deNovo
 🧬Sequencing: 
-💻Bioinfo:
-  - tool
 ---
 
 > [!def] Описание
 > (def:: Программа для сборки транскриптомов)
 
-wiki_link:: 
+wiki_link::

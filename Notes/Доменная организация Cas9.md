@@ -1,15 +1,19 @@
 ---
+aliases: []
+date: 02-11-2025
 dg-publish: true
+parent:
+summary: 
+tags: []
 type: 📄note
-aliases: 
-tags: 
 ✂️GeneEdit:
   - CRISPR
-summary: 
 ---
+
 # Доменная организация Cas9
 
 ## Доменная организация Cas9
+
 > [!img]-
 > ![[Pasted image 20221203015213.png]]
 
@@ -21,4 +25,3 @@ summary:
 - `Bridge helix` (`BH`) – мостиковая спираль, много `Arg`
 
  ![[PAM#PAM]]
-

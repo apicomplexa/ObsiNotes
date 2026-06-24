@@ -1,26 +1,30 @@
 ---
-type: 📄note
 aliases:
   - RLR
   - RIG-I–like receptors
   - РИГ-I-подобные рецепторы
+date: 02-11-2025
 dg-publish: true
-tags: 
+parent:
 summary: Рецепторы связывающие вирусную РНК в цитоплазме
+tags: []
+type: 📄note
 ☣️Immunology:
   - innate
   - PRR
   - receptor
 ---
-> [!$]  RIG-I-like receptor
+
+> [!$] RIG-I-like receptor
 > Рецепторы вирусной РНК в цитоплазме __практически вcех клеток__
 > - `MDA5` – dsRNA
 > - `RIG-1` – ssRNA – через некэпированный 5' конец – (P)₃
 > - `LGP2` – есть только хеликазные домен → не запускает сигнал сам, но регулирует первые 2
 
-> [!$] Структура 
+> [!$] Структура
 > - C-концевой РНК-хеликазный домен
 > - N-концевой CARD^[caspase recruitment domains (домен рекрутинга каспаз)] – взаимодействует с адаптерным белком MAVS^[mitochondrial antiviral signaling] и заякоревается на внешней мембране митохондрии
+
 # Сигнальный путь
 
 1. Связывание РНК отдельными RLR
