@@ -11,36 +11,18 @@
             "id": "2d6c2e54f09d6c30",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
-                "viewState": {
-                  "x": 2035.3234731029224,
-                  "y": 3405.240635136114,
-                  "zoom": -1.1471575793309412
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "16S анализ"
-            }
-          },
-          {
-            "id": "a3a1b4ee8063c3d6",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "PICRUSt2.md",
+                "file": "Функциональные навыки меня.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PICRUSt2"
+              "title": "Функциональные навыки меня"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,8 +104,7 @@
               "title": "Поиск"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_. Home/Bases/Projects.base",
+                "file": "Функциональные навыки меня.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Projects"
+              "title": "Структура Функциональные навыки меня"
             }
           },
           {
@@ -213,7 +194,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "_.Settings/Agent Skills/AUDIT Report 2 — Предложения по структуре.md"
+                "file": "Функциональные навыки меня.md"
               },
               "icon": "lucide-file-signature",
               "title": "Сноски"
@@ -229,12 +210,12 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 470
+    "width": 269,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,14 +231,16 @@
       "graph:Граф": false
     }
   },
-  "active": "6bd13da1767935d8",
+  "active": "2d6c2e54f09d6c30",
   "lastOpenFiles": [
+    "PICRUSt2.md.tmp.325948.70fbf683f1a5",
+    "PICRUSt2.md.tmp.325948.822f3b3f7b57",
     "CLAUDE.md",
+    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
+    "PICRUSt2.md",
     "CLAUDE.md.tmp.325948.df29fd38d086",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
-    "PICRUSt2.md",
-    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "Notes/Бутстрэп.md",
     "Функциональные навыки меня.md",
     "Notes/Таксономическая классификация в метагеномике.md",
@@ -271,7 +254,6 @@
     "_.Settings/Templates/build-dataviews.cjs.tmp.294316.43611cce3699",
     "_.Settings/Templates/build-dataviews.cjs.tmp.294316.1ffeb29878b8",
     "_.Settings/Templates/dataviews/tagIndexPage/view.ts",
-    "_.Settings/Templates/dataviews/tagIndexPage/view.ts.tmp.294316.8af99e8ce66a",
     "Notes/Маркерные гены.md",
     "Notes/MetaPhlAn4.md",
     "Notes/StrainPhlAn.md",
@@ -290,7 +272,6 @@
     "Notes/Prodigal.md",
     "Notes/PRINSEQ.md",
     "Notes/Pfam.md",
-    "Notes/NanoFilt.md",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
     "_.Settings/Media/Pasted Image 20260602224701_608.png",
     "_.Settings/Media/Pasted image 20260424111910.png",

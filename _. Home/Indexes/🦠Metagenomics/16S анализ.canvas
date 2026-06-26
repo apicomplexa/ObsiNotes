@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"id":"4fc5fa0c7f3c235a","type":"group","x":-980,"y":1980,"width":4740,"height":2020,"color":"4","label":"Процессинг"},
-		{"id":"a965309425e48e59","type":"group","x":-4440,"y":5120,"width":2760,"height":1160,"color":"1","label":"Альфа  разнообразие"},
 		{
 			"id":"5b2a98d525603b40",
 			"type":"group",
@@ -15,6 +14,8 @@
 			"color":"4",
 			"label":"DADA2 - Выделение AVS, Построение таксономии"
 		},
+		{"id":"7c3f721fc29fd4ec","type":"group","x":1760,"y":4200,"width":560,"height":700,"label":"Промежуточные результаты"},
+		{"id":"a965309425e48e59","type":"group","x":-4440,"y":5120,"width":2760,"height":1160,"color":"1","label":"Альфа  разнообразие"},
 		{"id":"b3715db612bcec2e","type":"group","x":-1260,"y":5120,"width":2140,"height":960,"color":"1","label":"Бета разнообразие"},
 		{
 			"id":"ffbc6d0a4f44a7b0",
@@ -31,7 +32,6 @@
 		},
 		{"id":"bfa50f1e19b8502a","type":"group","x":-760,"y":541,"width":1520,"height":480,"color":"4","label":"Сырой этап"},
 		{"id":"fdf28836b0b540e7","type":"group","x":-760,"y":1160,"width":1380,"height":520,"color":"2","label":"Секвенирование"},
-		{"id":"7c3f721fc29fd4ec","type":"group","x":1760,"y":4200,"width":560,"height":700,"label":"Промежуточные результаты"},
 		{"id":"27582e7ab59b040d","type":"group","x":1878,"y":4640,"width":325,"height":225,"label":"Нормализованные"},
 		{"id":"ec200feb150d4cfe","type":"file","file":"Projects/_To restore/notes_metagenome/Сбор микробиомных образцов.md","x":-720,"y":580,"width":400,"height":400},
 		{"id":"7cefcca3abf52146","type":"file","file":"Projects/_To restore/notes_metagenome/Хранение и транспортировка метагеномных образцов.md","x":-200,"y":580,"width":400,"height":400},
@@ -59,28 +59,6 @@
 		},
 		{"id":"18fd4975565b2f74","type":"file","file":"_. Home/Indexes/🧬Sequencing.md","x":-200,"y":1220,"width":480,"height":420},
 		{"id":"1b9af48128aa4d5d","type":"file","file":"Projects/_To restore/notes_metagenome/Подготовка библиотек ДНК.md","x":-700,"y":1220,"width":400,"height":420},
-		{
-			"id":"37710a1d3063f8b7",
-			"type":"text",
-			"text":"### __fasta файлы__\n",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1900,
-			"y":4240,
-			"width":285,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"285182e253b3a624",
-			"type":"text",
-			"text":"### __Таблица каунтов__",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1900,
-			"y":4360,
-			"width":285,
-			"height":60,
-			"color":"2"
-		},
 		{
 			"id":"11b0f688e6b9b0f2",
 			"type":"text",
@@ -114,21 +92,6 @@
 			"y":2100,
 			"width":300,
 			"height":400
-		},
-		{
-			"id":"4dc370909466b246",
-			"type":"text",
-			"text":"## **Необходимые пакеты**\n\n```R\nlibrary(tidyverse)\nlibrary(phyloseq)\nlibrary(vegan)\nlibrary(DESeq2)\nlibrary(dendextend)\nlibrary(viridis)\n```\n",
-			"styleAttributes":{
-				"shape":"database",
-				"border":null,
-				"textAlign":"center"
-			},
-			"x":1120,
-			"y":4240,
-			"width":420,
-			"height":605,
-			"color":"1"
 		},
 		{"id":"9d3f202c1d9060cc","type":"file","file":"Notes/Phyloseq.md","subpath":"#Альфа разнообразие","x":-3880,"y":5240,"width":400,"height":400},
 		{"id":"fd5e27090c4d464e","type":"file","file":"Notes/Chao1 & Shannon.md","x":-3360,"y":5240,"width":600,"height":560},
@@ -216,6 +179,65 @@
 			"color":"3"
 		},
 		{
+			"id":"ccf5722d5d44c0e6",
+			"type":"text",
+			"text":"После деконтаминаци нужно удалить контроли из таблицы каунтов",
+			"styleAttributes":{},
+			"x":3400,
+			"y":3440,
+			"width":280,
+			"height":140
+		},
+		{
+			"id":"2f5735727cd3c1a3",
+			"type":"text",
+			"text":"### __Нормализованные каунты__",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1898,
+			"y":4775,
+			"width":285,
+			"height":70,
+			"color":"6"
+		},
+		{"id":"d23fb014359b55dd","type":"file","file":"Notes/Бета разнообразие.md","x":420,"y":5165,"width":400,"height":300,"color":"1"},
+		{
+			"id":"37710a1d3063f8b7",
+			"type":"text",
+			"text":"### __fasta файлы__\n",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1900,
+			"y":4240,
+			"width":285,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"285182e253b3a624",
+			"type":"text",
+			"text":"### __Таблица каунтов__",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1900,
+			"y":4360,
+			"width":285,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"4dc370909466b246",
+			"type":"text",
+			"text":"## **Необходимые пакеты**\n\n```R\nlibrary(tidyverse)\nlibrary(phyloseq)\nlibrary(vegan)\nlibrary(DESeq2)\nlibrary(dendextend)\nlibrary(viridis)\n```\n",
+			"styleAttributes":{
+				"shape":"database",
+				"border":null,
+				"textAlign":"center"
+			},
+			"x":1120,
+			"y":4240,
+			"width":420,
+			"height":605,
+			"color":"1"
+		},
+		{
 			"id":"7f085c3a42da8c4e",
 			"type":"file",
 			"file":"Notes/decontam.md",
@@ -241,18 +263,6 @@
 			"height":540
 		},
 		{
-			"id":"af2adb143121191f",
-			"type":"text",
-			"text":"# Удаление организмов-загрязнений\n\nМожно использовать [[decontam]] для определения, какие организмы попали в пробы \n\nПосле удалить из [[DADA2#^nl3lgz|трез основных аутпутов]] \n\n```R\n# making new fasta file\ncontam_indices <-which(asv_fasta %in% paste0(\">\", contam_asvs))\ndont_want <-sort(c(contam_indices, contam_indices + 1))\nasv_fasta_no_contam <-asv_fasta[dont_want]\n\n    # making new count table\nasv_tab_no_contam <-asv_tab[!row.names(asv_tab) %in% contam_asvs, ]\n\n    # making new taxonomy table\nasv_tax_no_contam <-asv_tax[!row.names(asv_tax) %in% contam_asvs, ]\n\n    ## and now writing them out to files\nwrite(asv_fasta_no_contam, \"ASVs-no-contam.fa\")\nwrite.table(asv_tab_no_contam, \"ASVs_counts-no-contam.tsv\",\n            sep=\"\\t\", quote=F, col.names=NA)\nwrite.table(asv_tax_no_contam, \"ASVs_taxonomy-no-contam.tsv\",\n            sep=\"\\t\", quote=F, col.names=NA)\n```\n\n\n",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":3120,
-			"y":2740,
-			"width":560,
-			"height":540
-		},
-		{
 			"id":"0d5b3b9dc9521c9f",
 			"type":"file",
 			"file":"Notes/DADA2.md",
@@ -264,27 +274,6 @@
 			"y":2740,
 			"width":530,
 			"height":540
-		},
-		{
-			"id":"ccf5722d5d44c0e6",
-			"type":"text",
-			"text":"После деконтаминаци нужно удалить контроли из таблицы каунтов",
-			"styleAttributes":{},
-			"x":3400,
-			"y":3440,
-			"width":280,
-			"height":140
-		},
-		{
-			"id":"2f5735727cd3c1a3",
-			"type":"text",
-			"text":"### __Нормализованные каунты__",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1898,
-			"y":4775,
-			"width":285,
-			"height":70,
-			"color":"6"
 		},
 		{
 			"id":"7df890ffe5a7d2f7",
@@ -299,20 +288,6 @@
 			"width":530,
 			"height":480
 		},
-		{"id":"d23fb014359b55dd","type":"file","file":"Notes/Бета разнообразие.md","x":420,"y":5165,"width":400,"height":300,"color":"1"},
-		{
-			"id":"54d87b210da726f0",
-			"type":"file",
-			"file":"Notes/DADA2.md",
-			"subpath":"#Генерация таблицы каунтов",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":435,
-			"y":2740,
-			"width":530,
-			"height":540
-		},
 		{
 			"id":"4e97c3c1060057a7",
 			"type":"file",
@@ -322,6 +297,31 @@
 				"border":null
 			},
 			"x":1040,
+			"y":2740,
+			"width":530,
+			"height":540
+		},
+		{
+			"id":"af2adb143121191f",
+			"type":"text",
+			"text":"# Удаление организмов-загрязнений\n\nМожно использовать [[decontam]] для определения, какие организмы попали в пробы \n\nПосле удалить из [[DADA2#^nl3lgz|трез основных аутпутов]] \n\n```R\n# making new fasta file\ncontam_indices <-which(asv_fasta %in% paste0(\">\", contam_asvs))\ndont_want <-sort(c(contam_indices, contam_indices + 1))\nasv_fasta_no_contam <-asv_fasta[dont_want]\n\n    # making new count table\nasv_tab_no_contam <-asv_tab[!row.names(asv_tab) %in% contam_asvs, ]\n\n    # making new taxonomy table\nasv_tax_no_contam <-asv_tax[!row.names(asv_tax) %in% contam_asvs, ]\n\n    ## and now writing them out to files\nwrite(asv_fasta_no_contam, \"ASVs-no-contam.fa\")\nwrite.table(asv_tab_no_contam, \"ASVs_counts-no-contam.tsv\",\n            sep=\"\\t\", quote=F, col.names=NA)\nwrite.table(asv_tax_no_contam, \"ASVs_taxonomy-no-contam.tsv\",\n            sep=\"\\t\", quote=F, col.names=NA)\n```\n\n\n",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":3120,
+			"y":2740,
+			"width":560,
+			"height":540
+		},
+		{
+			"id":"54d87b210da726f0",
+			"type":"file",
+			"file":"Notes/DADA2.md",
+			"subpath":"#Генерация таблицы каунтов",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":435,
 			"y":2740,
 			"width":530,
 			"height":540
