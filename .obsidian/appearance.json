@@ -11,6 +11,6 @@
   ],
   "theme": "system",
   "showViewHeader": true,
-  "showRibbon": true,
+  "showRibbon": false,
   "baseFontSize": 16
 }

@@ -29,9 +29,9 @@
 			"color":"4",
 			"label":"Тримминг"
 		},
+		{"id":"bfa50f1e19b8502a","type":"group","x":-760,"y":541,"width":1520,"height":480,"color":"4","label":"Сырой этап"},
 		{"id":"fdf28836b0b540e7","type":"group","x":-760,"y":1160,"width":1380,"height":520,"color":"2","label":"Секвенирование"},
 		{"id":"7c3f721fc29fd4ec","type":"group","x":1760,"y":4200,"width":560,"height":700,"label":"Промежуточные результаты"},
-		{"id":"bfa50f1e19b8502a","type":"group","x":-760,"y":541,"width":1520,"height":480,"color":"4","label":"Сырой этап"},
 		{"id":"27582e7ab59b040d","type":"group","x":1878,"y":4640,"width":325,"height":225,"label":"Нормализованные"},
 		{"id":"ec200feb150d4cfe","type":"file","file":"Projects/_To restore/notes_metagenome/Сбор микробиомных образцов.md","x":-720,"y":580,"width":400,"height":400},
 		{"id":"7cefcca3abf52146","type":"file","file":"Projects/_To restore/notes_metagenome/Хранение и транспортировка метагеномных образцов.md","x":-200,"y":580,"width":400,"height":400},
@@ -45,6 +45,175 @@
 			"y":1220,
 			"width":260,
 			"height":60
+		},
+		{
+			"id":"61e66a58f4ec4983",
+			"type":"text",
+			"text":"##  `.FASTQ`\nНефильтрованные",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":-120,
+			"y":1760,
+			"width":300,
+			"height":120,
+			"color":"4"
+		},
+		{"id":"18fd4975565b2f74","type":"file","file":"_. Home/Indexes/🧬Sequencing.md","x":-200,"y":1220,"width":480,"height":420},
+		{"id":"1b9af48128aa4d5d","type":"file","file":"Projects/_To restore/notes_metagenome/Подготовка библиотек ДНК.md","x":-700,"y":1220,"width":400,"height":420},
+		{
+			"id":"37710a1d3063f8b7",
+			"type":"text",
+			"text":"### __fasta файлы__\n",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1900,
+			"y":4240,
+			"width":285,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"285182e253b3a624",
+			"type":"text",
+			"text":"### __Таблица каунтов__",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1900,
+			"y":4360,
+			"width":285,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"11b0f688e6b9b0f2",
+			"type":"text",
+			"text":"### __Таблица таксономии__\n\nЛучше перезагрузить из файлов",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1900,
+			"y":4460,
+			"width":285,
+			"height":120,
+			"color":"3"
+		},
+		{
+			"id":"158b61306835edb1",
+			"type":"text",
+			"text":"### __Матрица евклидовых расстояний__",
+			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
+			"x":1898,
+			"y":4660,
+			"width":285,
+			"height":70,
+			"color":"5"
+		},
+		{
+			"id":"24a5f449d1fafe29",
+			"type":"file",
+			"file":"Notes/Тримминг.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-880,
+			"y":2100,
+			"width":300,
+			"height":400
+		},
+		{
+			"id":"4dc370909466b246",
+			"type":"text",
+			"text":"## **Необходимые пакеты**\n\n```R\nlibrary(tidyverse)\nlibrary(phyloseq)\nlibrary(vegan)\nlibrary(DESeq2)\nlibrary(dendextend)\nlibrary(viridis)\n```\n",
+			"styleAttributes":{
+				"shape":"database",
+				"border":null,
+				"textAlign":"center"
+			},
+			"x":1120,
+			"y":4240,
+			"width":420,
+			"height":605,
+			"color":"1"
+		},
+		{"id":"9d3f202c1d9060cc","type":"file","file":"Notes/Phyloseq.md","subpath":"#Альфа разнообразие","x":-3880,"y":5240,"width":400,"height":400},
+		{"id":"fd5e27090c4d464e","type":"file","file":"Notes/Chao1 & Shannon.md","x":-3360,"y":5240,"width":600,"height":560},
+		{"id":"bbdd61da44f66328","type":"file","file":"_.Settings/Media/Pasted image 20260424111448.png","x":-3880,"y":5888,"width":400,"height":302},
+		{"id":"955fdc06d84cf58e","type":"file","file":"_.Settings/Media/Pasted image 20260424111910.png","x":-4360,"y":5890,"width":399,"height":300},
+		{
+			"id":"89d1dfbe943ae767",
+			"type":"text",
+			"text":"```R\nplot_richness(ASV_physeq, x=\"type\", color=\"char\", measures=c(\"Chao1\", \"Shannon\")) + \n    scale_color_manual(values=unique(sample_info_tab$color[order(sample_info_tab$char)])) +\n    theme_bw() + theme(legend.title = element_blank(), axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))\n    \n```",
+			"styleAttributes":{},
+			"x":-4360,
+			"y":5740,
+			"width":400,
+			"height":120
+		},
+		{
+			"id":"2c8a7a8ef5216126",
+			"type":"file",
+			"file":"Notes/DADA2.md",
+			"subpath":"#Создание модели ошибок",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-880,
+			"y":2740,
+			"width":530,
+			"height":540
+		},
+		{
+			"id":"fc2a9d5f42fa77f0",
+			"type":"file",
+			"file":"Notes/DADA2.md",
+			"subpath":"#Выявление ASVs",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-220,
+			"y":2740,
+			"width":530,
+			"height":540
+		},
+		{
+			"id":"ac2cb4a988488ff5",
+			"type":"file",
+			"file":"Notes/DADA2.md",
+			"subpath":"#Контроль качества, тримминг, фильтрация",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":230,
+			"y":2100,
+			"width":470,
+			"height":400
+		},
+		{
+			"id":"140884686efe56af",
+			"type":"file",
+			"file":"Notes/cutadapt.md",
+			"subpath":"#Универсальный пример для 16S",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-470,
+			"y":2190,
+			"width":580,
+			"height":220
+		},
+		{"id":"cdbd7247c56ecd92","type":"file","file":"Notes/vegan.md","subpath":"#Оценка богатства образцов ASVs – `rarecurve`","x":-2640,"y":5240,"width":400,"height":360},
+		{"id":"69aec3dc57d60c2a","type":"file","file":"_.Settings/Media/Pasted image 20260424102645.png","x":-2640,"y":5739,"width":399,"height":261},
+		{"id":"7a1992fb26b74603","type":"file","file":"Notes/Альфа разнообразие.md","x":-2140,"y":5240,"width":400,"height":280,"color":"1"},
+		{"id":"67c7d869b965cafb","type":"file","file":"Notes/Нормализация AVS.md","x":-75,"y":5165,"width":400,"height":400},
+		{"id":"766788a18f663c74","type":"file","file":"Notes/Иерархическая кластеризация образцов AVS.md","x":-595,"y":5165,"width":400,"height":400},
+		{"id":"1360819114e7f7f9","type":"file","file":"_.Settings/Media/Pasted image 20260421150144.png","x":-595,"y":5645,"width":400,"height":248},
+		{"id":"c8d768f8b5871a41","type":"file","file":"Notes/Phyloseq.md","subpath":"#ASV Ordination","x":-1215,"y":5165,"width":400,"height":400},
+		{"id":"849cfb13a9cd432e","type":"file","file":"_.Settings/Media/Pasted image 20260422093656.png","x":-1215,"y":5650,"width":400,"height":243},
+		{
+			"id":"991512eb88d6e5e6",
+			"type":"text",
+			"text":"> [!warning] Это исследовательская визуализация, не имеющая статистической значимости. но позволяет прикинуть, куда копать дальше",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-900,
+			"y":5960,
+			"width":380,
+			"height":80,
+			"color":"3"
 		},
 		{
 			"id":"7f085c3a42da8c4e",
@@ -107,50 +276,6 @@
 			"height":140
 		},
 		{
-			"id":"37710a1d3063f8b7",
-			"type":"text",
-			"text":"### __fasta файлы__\n",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1900,
-			"y":4240,
-			"width":285,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"285182e253b3a624",
-			"type":"text",
-			"text":"### __Таблица каунтов__",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1900,
-			"y":4360,
-			"width":285,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"11b0f688e6b9b0f2",
-			"type":"text",
-			"text":"### __Таблица таксономии__\n\nЛучше перезагрузить из файлов",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1900,
-			"y":4460,
-			"width":285,
-			"height":120,
-			"color":"3"
-		},
-		{
-			"id":"158b61306835edb1",
-			"type":"text",
-			"text":"### __Матрица евклидовых расстояний__",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":1898,
-			"y":4660,
-			"width":285,
-			"height":70,
-			"color":"5"
-		},
-		{
 			"id":"2f5735727cd3c1a3",
 			"type":"text",
 			"text":"### __Нормализованные каунты__",
@@ -174,53 +299,7 @@
 			"width":530,
 			"height":480
 		},
-		{"id":"9d3f202c1d9060cc","type":"file","file":"Notes/Phyloseq.md","subpath":"#Альфа разнообразие","x":-3880,"y":5240,"width":400,"height":400},
-		{"id":"cdbd7247c56ecd92","type":"file","file":"Notes/vegan.md","subpath":"#Оценка богатства образцов ASVs – `rarecurve`","x":-2640,"y":5240,"width":400,"height":360},
-		{"id":"69aec3dc57d60c2a","type":"file","file":"_.Settings/Media/Pasted image 20260424102645.png","x":-2640,"y":5739,"width":399,"height":261},
-		{"id":"fd5e27090c4d464e","type":"file","file":"Notes/Chao1 & Shannon.md","x":-3360,"y":5240,"width":600,"height":560},
-		{"id":"bbdd61da44f66328","type":"file","file":"_.Settings/Media/Pasted image 20260424111448.png","x":-3880,"y":5888,"width":400,"height":302},
-		{"id":"955fdc06d84cf58e","type":"file","file":"_.Settings/Media/Pasted image 20260424111910.png","x":-4360,"y":5890,"width":399,"height":300},
-		{
-			"id":"89d1dfbe943ae767",
-			"type":"text",
-			"text":"```R\nplot_richness(ASV_physeq, x=\"type\", color=\"char\", measures=c(\"Chao1\", \"Shannon\")) + \n    scale_color_manual(values=unique(sample_info_tab$color[order(sample_info_tab$char)])) +\n    theme_bw() + theme(legend.title = element_blank(), axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))\n    \n```",
-			"styleAttributes":{},
-			"x":-4360,
-			"y":5740,
-			"width":400,
-			"height":120
-		},
-		{"id":"7a1992fb26b74603","type":"file","file":"Notes/Альфа разнообразие.md","x":-2140,"y":5240,"width":400,"height":280,"color":"1"},
 		{"id":"d23fb014359b55dd","type":"file","file":"Notes/Бета разнообразие.md","x":420,"y":5165,"width":400,"height":300,"color":"1"},
-		{"id":"67c7d869b965cafb","type":"file","file":"Notes/Нормализация AVS.md","x":-75,"y":5165,"width":400,"height":400},
-		{"id":"766788a18f663c74","type":"file","file":"Notes/Иерархическая кластеризация образцов AVS.md","x":-595,"y":5165,"width":400,"height":400},
-		{"id":"1360819114e7f7f9","type":"file","file":"_.Settings/Media/Pasted image 20260421150144.png","x":-595,"y":5645,"width":400,"height":248},
-		{"id":"c8d768f8b5871a41","type":"file","file":"Notes/Phyloseq.md","subpath":"#ASV Ordination","x":-1215,"y":5165,"width":400,"height":400},
-		{"id":"849cfb13a9cd432e","type":"file","file":"_.Settings/Media/Pasted image 20260422093656.png","x":-1215,"y":5650,"width":400,"height":243},
-		{
-			"id":"991512eb88d6e5e6",
-			"type":"text",
-			"text":"> [!warning] Это исследовательская визуализация, не имеющая статистической значимости. но позволяет прикинуть, куда копать дальше",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-900,
-			"y":5960,
-			"width":380,
-			"height":80,
-			"color":"3"
-		},
-		{
-			"id":"2c8a7a8ef5216126",
-			"type":"file",
-			"file":"Notes/DADA2.md",
-			"subpath":"#Создание модели ошибок",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-880,
-			"y":2740,
-			"width":530,
-			"height":540
-		},
 		{
 			"id":"54d87b210da726f0",
 			"type":"file",
@@ -230,19 +309,6 @@
 				"border":null
 			},
 			"x":435,
-			"y":2740,
-			"width":530,
-			"height":540
-		},
-		{
-			"id":"fc2a9d5f42fa77f0",
-			"type":"file",
-			"file":"Notes/DADA2.md",
-			"subpath":"#Выявление ASVs",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-220,
 			"y":2740,
 			"width":530,
 			"height":540
@@ -259,72 +325,6 @@
 			"y":2740,
 			"width":530,
 			"height":540
-		},
-		{
-			"id":"24a5f449d1fafe29",
-			"type":"file",
-			"file":"Notes/Тримминг.md",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-880,
-			"y":2100,
-			"width":300,
-			"height":400
-		},
-		{
-			"id":"ac2cb4a988488ff5",
-			"type":"file",
-			"file":"Notes/DADA2.md",
-			"subpath":"#Контроль качества, тримминг, фильтрация",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":230,
-			"y":2100,
-			"width":470,
-			"height":400
-		},
-		{
-			"id":"140884686efe56af",
-			"type":"file",
-			"file":"Notes/cutadapt.md",
-			"subpath":"#Универсальный пример для 16S",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-470,
-			"y":2190,
-			"width":580,
-			"height":220
-		},
-		{
-			"id":"61e66a58f4ec4983",
-			"type":"text",
-			"text":"##  `.FASTQ`\nНефильтрованные",
-			"styleAttributes":{"textAlign":"center","shape":"predefined-process"},
-			"x":-120,
-			"y":1760,
-			"width":300,
-			"height":120,
-			"color":"4"
-		},
-		{"id":"18fd4975565b2f74","type":"file","file":"_. Home/Indexes/🧬Sequencing.md","x":-200,"y":1220,"width":480,"height":420},
-		{"id":"1b9af48128aa4d5d","type":"file","file":"Projects/_To restore/notes_metagenome/Подготовка библиотек ДНК.md","x":-700,"y":1220,"width":400,"height":420},
-		{
-			"id":"4dc370909466b246",
-			"type":"text",
-			"text":"## **Необходимые пакеты**\n\n```R\nlibrary(tidyverse)\nlibrary(phyloseq)\nlibrary(vegan)\nlibrary(DESeq2)\nlibrary(dendextend)\nlibrary(viridis)\n```\n",
-			"styleAttributes":{
-				"shape":"database",
-				"border":null,
-				"textAlign":"center"
-			},
-			"x":1120,
-			"y":4240,
-			"width":420,
-			"height":605,
-			"color":"1"
 		}
 	],
 	"edges":[

@@ -148,6 +148,10 @@
       ],
       "color": "red"
     },
+    "_.Settings/Agent Skills": {
+      "icon": "lucide-sparkles",
+      "color": "green"
+    },
     "_.Settings/Media": {
       "icon": "lucide-file-image",
       "color": "green",

@@ -11,18 +11,36 @@
             "id": "2d6c2e54f09d6c30",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
+                "viewState": {
+                  "x": 2035.3234731029224,
+                  "y": 3405.240635136114,
+                  "zoom": -1.1471575793309412
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "16S анализ"
+            }
+          },
+          {
+            "id": "a3a1b4ee8063c3d6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Таксономическая классификация в метагеномике.md",
+                "file": "PICRUSt2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Таксономическая классификация в метагеномике"
+              "title": "PICRUSt2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "QC RNAseq raw output",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,7 +122,8 @@
               "title": "Поиск"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -231,8 +250,17 @@
       "graph:Граф": false
     }
   },
-  "active": "2d6c2e54f09d6c30",
+  "active": "a3a1b4ee8063c3d6",
   "lastOpenFiles": [
+    "_.Settings/Media/Pasted image 20260626171004.png",
+    "_.Settings/Media/Pasted image 20260626170949.png",
+    "PICRUSt2.md",
+    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
+    "Notes/Бутстрэп.md",
+    "Функциональные навыки меня.md",
+    "Notes/Таксономическая классификация в метагеномике.md",
+    "Notes/Таксономическая классификация в метагеномике.md",
+    "claude-enterypoint.md",
     "_.Settings/Agent Skills/ACTION PLAN — Рефакторинг хранилища.md.tmp.294316.6e96c012b269",
     "_. Home/$nsmu.md.tmp.294316.3e7e55b82aab",
     "_.Settings/Templates/dist/dataviews/tagIndexPage/view.js",
@@ -243,7 +271,6 @@
     "_.Settings/Templates/dataviews/tagIndexPage/view.ts",
     "_.Settings/Templates/dataviews/tagIndexPage/view.ts.tmp.294316.8af99e8ce66a",
     "_.Settings/Templates/dataviews/tagIndexPage/tsconfig.json",
-    "_.Settings/Templates/dataviews/tagIndexPage/tsconfig.json.tmp.294316.01993cecb8a2",
     "Notes/Маркерные гены.md",
     "Notes/MetaPhlAn4.md",
     "Notes/StrainPhlAn.md",
@@ -263,13 +290,6 @@
     "Notes/PRINSEQ.md",
     "Notes/Pfam.md",
     "Notes/NanoFilt.md",
-    "Notes/mOTUs (marker gene Operational Taxonomic Units).md",
-    "Notes/MG-RAST.md",
-    "Notes/metaSPAdes.md",
-    "Notes/metaMDBG.md",
-    "Notes/Metalign.md",
-    "Notes/metaHi-C.md",
-    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
     "_.Settings/Media/Pasted Image 20260602224701_608.png",
     "_.Settings/Media/Pasted image 20260424111910.png",
@@ -281,7 +301,6 @@
     "_. Home/Indexes/🦠Metagenomics/Классический пайплан обработки Метагеномных данных.canvas",
     "_.Settings/Media/Pasted image 20260419172214.png",
     "_.Settings/Media/Pasted image 20260419171504.png",
-    "_.Settings/Media/Pasted image 20260419171459.png",
     "Notes/Общий пайплайн обработки метагеномных данных.canvas",
     "Без названия.canvas",
     "_. Home/Indexes/🦠Microbiology/Без названия.canvas",
