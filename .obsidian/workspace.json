@@ -234,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 566
+    "width": 470
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,8 +250,10 @@
       "graph:Граф": false
     }
   },
-  "active": "a3a1b4ee8063c3d6",
+  "active": "6bd13da1767935d8",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "CLAUDE.md.tmp.325948.df29fd38d086",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
     "PICRUSt2.md",
@@ -270,7 +272,6 @@
     "_.Settings/Templates/build-dataviews.cjs.tmp.294316.1ffeb29878b8",
     "_.Settings/Templates/dataviews/tagIndexPage/view.ts",
     "_.Settings/Templates/dataviews/tagIndexPage/view.ts.tmp.294316.8af99e8ce66a",
-    "_.Settings/Templates/dataviews/tagIndexPage/tsconfig.json",
     "Notes/Маркерные гены.md",
     "Notes/MetaPhlAn4.md",
     "Notes/StrainPhlAn.md",
@@ -300,7 +301,6 @@
     "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",
     "_. Home/Indexes/🦠Metagenomics/Классический пайплан обработки Метагеномных данных.canvas",
     "_.Settings/Media/Pasted image 20260419172214.png",
-    "_.Settings/Media/Pasted image 20260419171504.png",
     "Notes/Общий пайплайн обработки метагеномных данных.canvas",
     "Без названия.canvas",
     "_. Home/Indexes/🦠Microbiology/Без названия.canvas",
