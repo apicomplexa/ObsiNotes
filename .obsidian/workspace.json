@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Функциональные навыки меня.md",
+                "file": "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Функциональные навыки меня"
+              "title": "Фармакотерапия_Бронхиальной_Астмы_Конспект"
+            }
+          },
+          {
+            "id": "8dbf838d0e2a956e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEGG.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "KEGG"
             }
           }
         ]
@@ -93,7 +108,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "фармако",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,7 +119,8 @@
               "title": "Поиск"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -124,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Функциональные навыки меня.md",
+                "file": "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Функциональные навыки меня"
+              "title": "Структура Фармакотерапия_Бронхиальной_Астмы_Конспект"
             }
           },
           {
@@ -194,7 +210,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Функциональные навыки меня.md"
+                "file": "PICRUSt2.md"
               },
               "icon": "lucide-file-signature",
               "title": "Сноски"
@@ -214,7 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269,
+    "width": 491,
     "collapsed": true
   },
   "left-ribbon": {
@@ -233,16 +249,17 @@
   },
   "active": "2d6c2e54f09d6c30",
   "lastOpenFiles": [
+    "PICRUSt2.md",
+    "Notes/KEGG.md",
+    "Функциональные навыки меня.md",
     "PICRUSt2.md.tmp.325948.70fbf683f1a5",
     "PICRUSt2.md.tmp.325948.822f3b3f7b57",
     "CLAUDE.md",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
-    "PICRUSt2.md",
     "CLAUDE.md.tmp.325948.df29fd38d086",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
     "Notes/Бутстрэп.md",
-    "Функциональные навыки меня.md",
     "Notes/Таксономическая классификация в метагеномике.md",
     "Notes/Таксономическая классификация в метагеномике.md",
     "claude-enterypoint.md",
@@ -253,7 +270,6 @@
     "_.Settings/Templates/dataviews/indexPage/views/commonIndexPageVIew.ts.tmp.294316.a80e5339e7e1",
     "_.Settings/Templates/build-dataviews.cjs.tmp.294316.43611cce3699",
     "_.Settings/Templates/build-dataviews.cjs.tmp.294316.1ffeb29878b8",
-    "_.Settings/Templates/dataviews/tagIndexPage/view.ts",
     "Notes/Маркерные гены.md",
     "Notes/MetaPhlAn4.md",
     "Notes/StrainPhlAn.md",
