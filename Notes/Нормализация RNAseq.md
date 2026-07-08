@@ -7,7 +7,7 @@ creation date: 22-07-2023
 date: 02-11-2025
 dg-publish: true
 parent: 
-summary: 
+summary: Метрики нормализации РНК-секвенирования: CPM, RPKM и TPM для сравнения экспрессии между образцами и генами
 tags: []
 type: 📄note
 📊Transcriptomics:

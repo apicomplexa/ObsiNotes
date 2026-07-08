@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Нормализация амплификонных последовательностей метагеномных данных методом variance stabilizing transformation
 tags: []
 type: 📄note
 🦠Metagenomics:
