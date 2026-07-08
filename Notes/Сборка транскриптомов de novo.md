@@ -4,7 +4,7 @@ creation date: 16-03-2023
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Процесс восстановления транскриптома из reads: нормализация, сборка с помощью графов k-меров, очистка от контаминаций и проверка полноты
 tags: []
 type: 📄note
 📊Transcriptomics:

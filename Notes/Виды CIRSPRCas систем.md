@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Классификация CRISPR/Cas систем по типам эффекторных комплексов; тип I использует множество белков, тип II — один белок
 tags: []
 type: 📄note
 ✂️GeneEdit:

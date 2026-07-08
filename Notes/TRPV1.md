@@ -9,7 +9,7 @@ date: 02-11-2025
 dg-publish: true
 nsmu: false
 parent:
-summary:
+summary: Ионный канал для восприятия тепла и боли, активируемый капсаицином и высокой температурой
 tags: []
 type: "📄note"
 🦠Cytology:

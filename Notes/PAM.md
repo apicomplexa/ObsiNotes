@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Узнаваемая нуклеотидная последовательность рядом с протоспейсером в системе CRISPR для направления Cas9
 tags: []
 type: 📄note
 ✂️GeneEdit:

@@ -5,7 +5,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Международная база данных полногеномных последовательностей и биоинформационных данных опухолей различных типов
 tags: []
 type: 📄note
 ☣️Immunology:

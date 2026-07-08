@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Метод математического моделирования метаболических путей организма через оптимизацию потоков метаболитов
 tags: []
 type: 📄note
 💻Bioinfo:

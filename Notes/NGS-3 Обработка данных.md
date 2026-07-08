@@ -5,7 +5,7 @@ creation date: 11-12-2022
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Обработка и анализ данных высокопроизводительного секвенирования, включая сборку генома и аннотацию
 tags: []
 type: 📄note
 💻Bioinfo:

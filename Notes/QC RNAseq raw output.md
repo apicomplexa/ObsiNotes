@@ -6,7 +6,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Контроль качества сырых данных РНК-секвенирования, проверка адаптеров, контаминации и целостности фрагментов
 tags: []
 type: 📄note
 ⚙️Methods:

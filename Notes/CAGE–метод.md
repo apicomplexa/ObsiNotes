@@ -6,7 +6,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Метод обогащения и анализа 5' концов коротких регуляторных РНК через выделение рРНК после обратной транскрипции
 tags: []
 type: "📄note"
 ⚙️Methods:

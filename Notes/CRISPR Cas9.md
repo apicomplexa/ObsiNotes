@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Адаптивная иммунная система бактерий и программируемый инструмент [[✂️GeneEdit|редактирования]] генома эукариот
 tags:
   - 📌pin
 type: 📄note

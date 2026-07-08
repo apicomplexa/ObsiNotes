@@ -4,7 +4,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Полимеразная цепная реакция — молекулярный метод амплификации ДНК in vitro
 tags:
   - 📌pin
 type: 📄note

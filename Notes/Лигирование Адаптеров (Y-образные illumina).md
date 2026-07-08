@@ -6,7 +6,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Этап подготовки образцов для парно-концевого секвенирования на платформе Illumina путём присоединения Y-образных адаптеров
 tags: []
 type: 📄note
 ⚙️Methods:

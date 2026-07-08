@@ -5,7 +5,7 @@ cssclasses: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Метод идентификации белков масс-спектрометрией через анализ масс пептидных фрагментов после протеолиза
 tags: []
 type: 📄note
 📏Proteomic:

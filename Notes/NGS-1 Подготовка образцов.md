@@ -6,7 +6,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Этапы подготовки ДНК/РНК к секвенированию: выделение, фрагментация и лигирование адаптеров Illumina
 tags: []
 type: "📄note"
 ⚙️Methods:

@@ -8,7 +8,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Метрика оценки равномерности покрытия гена секвенированными ридами; индикатор качества образца и сохранности РНК
 tags: []
 type: "📄note"
 ⚙️Methods:

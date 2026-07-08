@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Архитектура белка Cas9 с описанием распознающих и нуклеазных доменов
 tags: []
 type: 📄note
 ✂️GeneEdit:

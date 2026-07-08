@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Выборки.md",
+                "file": "Notes/PICRUSt2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Выборки"
+              "title": "PICRUSt2"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "фармако",
+                "query": "picrust",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -120,7 +120,8 @@
               "title": "Поиск"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Выборки.md",
+                "file": "Notes/PICRUSt2.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Выборки"
+              "title": "Структура PICRUSt2"
             }
           },
           {
@@ -246,12 +247,20 @@
       "graph:Граф": false
     }
   },
-  "active": "ecb8758d6e1d10bf",
+  "active": "8dbf838d0e2a956e",
   "lastOpenFiles": [
+    "Notes/Gen Body Coverage.md.tmp.70924.b48b3a2f19d0",
+    "Notes/График насыщаемости.md.tmp.70924.e7ce4928f762",
+    "Notes/CRISPR Cas9.md.tmp.70924.5ce232cf75b7",
+    "Notes/Подходы системной биологии.md.tmp.70924.0a34a77882f7",
+    "Notes/Введение в мед генетику.md.tmp.70924.ddca6ef7c523",
+    "Notes/Абсцесс головного или спинного мозга.md.tmp.70924.c152207b59a0",
+    "Notes/Выборки.md",
+    "Notes/Катетеризация подключички.md.tmp.70924.08c4a43f558a",
+    "Notes/Ионные каналы.md.tmp.70924.09188f695bca",
+    "Notes/Дифференциальная Экспрессия.md.tmp.70924.68e24fb5e920",
     "Notes/Нормализация RNAseq.md.tmp.70924.5b7cd1954200",
     "Notes/Молекулярно-генетические методы анализа в клинике.md.tmp.70924.65c870402635",
-    "Notes/Модель взаимодействия.md.tmp.70924.d3f4334cb544",
-    "Notes/Критерий Стьюдента.md.tmp.70924.b597d3308859",
     "Notes/Абсцесс головного или спинного мозга.md",
     "Notes/Биннинг контигов.md",
     "Notes/PICRUSt2.md",
@@ -260,20 +269,13 @@
     "PICRUSt2.md",
     "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
     "Функциональные навыки меня.md",
-    "PICRUSt2.md.tmp.325948.70fbf683f1a5",
-    "PICRUSt2.md.tmp.325948.822f3b3f7b57",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
-    "CLAUDE.md.tmp.325948.df29fd38d086",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
     "Notes/Бутстрэп.md",
     "Notes/Таксономическая классификация в метагеномике.md",
     "Notes/Таксономическая классификация в метагеномике.md",
     "claude-enterypoint.md",
-    "_.Settings/Agent Skills/ACTION PLAN — Рефакторинг хранилища.md.tmp.294316.6e96c012b269",
-    "_. Home/$nsmu.md.tmp.294316.3e7e55b82aab",
-    "_.Settings/Templates/dist/dataviews/tagIndexPage/view.js",
-    "_.Settings/Templates/dist/dataviews/tagIndexPage",
     "Notes/Маркерные гены.md",
     "Notes/MetaPhlAn4.md",
     "Notes/StrainPhlAn.md",
@@ -286,7 +288,6 @@
     "Notes/Ultraplex.md",
     "Notes/Trimmomatic.md",
     "Notes/Strain Tracking.md",
-    "Notes/sourmash.md",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
     "_.Settings/Media/Pasted Image 20260602224701_608.png",
     "_.Settings/Media/Pasted image 20260424111910.png",

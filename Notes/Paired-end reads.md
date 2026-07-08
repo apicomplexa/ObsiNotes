@@ -7,7 +7,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Технология Illumina, при которой секвенируют обе концы фрагмента ДНК для лучшего покрытия и сборки
 tags: []
 type: "📄note"
 🧬Sequencing:

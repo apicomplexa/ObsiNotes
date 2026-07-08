@@ -4,7 +4,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Технология создания библиотек для секвенирования дальноудалённых фрагментов ДНК через биотинилирование и циклизацию
 tags: []
 type: "📄note"
 🧬Sequencing:

@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Справочник по основным функциям и приёмам программирования на языке R для биоанализа и статистики
 tags: []
 type: 📄note
 🖥️IT:

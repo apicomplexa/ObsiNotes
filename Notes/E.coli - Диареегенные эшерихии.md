@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Диареегенные серовары E. coli — патогенные штаммы с факторами вирулентности, вызывающие кишечные инфекции
 tags: []
 type: 📄note
 🦠Microbiology:
