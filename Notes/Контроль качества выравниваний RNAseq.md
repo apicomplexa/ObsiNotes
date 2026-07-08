@@ -5,7 +5,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Оценка качества выравниваний RNAseq: распределение ридов, clipping profile, Gene Body Coverage, анализ подготовки библиотеки
 tags: []
 type: 📄note
 ⚙️Methods:

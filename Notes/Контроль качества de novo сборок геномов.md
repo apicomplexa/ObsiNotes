@@ -7,7 +7,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Метрики качества de novo сборок геномов: N50/L50, ошибки выравнивания, оценка полноты генов через BUSCO
 tags: []
 type: 📄note
 ⚙️Methods:
