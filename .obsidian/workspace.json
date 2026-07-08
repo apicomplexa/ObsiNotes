@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Фармакотерапия_Бронхиальной_Астмы_Конспект"
+              "title": "CLAUDE"
             }
           },
           {
@@ -28,16 +28,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/KEGG.md",
+                "file": "Notes/Выборки.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "KEGG"
+              "title": "Выборки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,8 +120,7 @@
               "title": "Поиск"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
+                "file": "Notes/Выборки.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Фармакотерапия_Бронхиальной_Астмы_Конспект"
+              "title": "Структура Выборки"
             }
           },
           {
@@ -230,8 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 491,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,14 +246,18 @@
       "graph:Граф": false
     }
   },
-  "active": "2d6c2e54f09d6c30",
+  "active": "8dbf838d0e2a956e",
   "lastOpenFiles": [
-    "PICRUSt2.md",
+    "Notes/Абсцесс головного или спинного мозга.md",
+    "Notes/Биннинг контигов.md",
+    "Notes/PICRUSt2.md",
     "Notes/KEGG.md",
+    "CLAUDE.md",
+    "PICRUSt2.md",
+    "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
     "Функциональные навыки меня.md",
     "PICRUSt2.md.tmp.325948.70fbf683f1a5",
     "PICRUSt2.md.tmp.325948.822f3b3f7b57",
-    "CLAUDE.md",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "CLAUDE.md.tmp.325948.df29fd38d086",
     "_.Settings/Media/Pasted image 20260626171004.png",
@@ -276,7 +279,6 @@
     "_. Home/Indexes/🦠Metagenomics/🦠Metagenomics.md",
     "Notes/Metatag_ 🦠Metagenomics — Расширение.md",
     "_. Home/Indexes/🦠Metagenomics/Metagenomics Tools.md",
-    "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
     "Notes/Конспект_Фармакология_ЖКТ.md",
     "Notes/NGS-3 Обработка данных.md",
     "Notes/VAMB.md",
@@ -285,9 +287,6 @@
     "Notes/Strain Tracking.md",
     "Notes/sourmash.md",
     "Notes/RefSeq.md",
-    "Notes/Prodigal.md",
-    "Notes/PRINSEQ.md",
-    "Notes/Pfam.md",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
     "_.Settings/Media/Pasted Image 20260602224701_608.png",
     "_.Settings/Media/Pasted image 20260424111910.png",
