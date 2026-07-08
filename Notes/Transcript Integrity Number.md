@@ -7,7 +7,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Показатель целостности РНК (1–100), отражающий степень деградации транскриптов в образце
 tags: []
 type: 📄note
 ⚙️Methods:

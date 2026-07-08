@@ -7,7 +7,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Метод подготовки образцов РНК, особенно для single-cell, на основе распознавания обратной транскриптазой cap и poly-A
 tags: []
 type: "📄note"
 ⚙️Methods:

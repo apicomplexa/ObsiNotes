@@ -4,7 +4,7 @@ date: 02-11-2025
 dg-publish: true
 excalidraw-plugin: parsed
 parent:
-summary: 
+summary: Влияние мисматчей в различных областях sgRNA на эффективность связывания и вероятность офтаргет-эффектов при CRISPR
 tags:
   - excalidraw
 type: 📄note

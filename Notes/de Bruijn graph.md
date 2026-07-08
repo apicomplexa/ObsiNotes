@@ -1,17 +1,5 @@
 ---
-aliases: []
-date: 05-04-2026
-dg-publish: true
-parent:
-summary:
-tags: []
-type: 📄note
----
-
-[](Метагеномная%20сборка.md)---
-
 aliases:
-
   - de Bruijn graph
   - граф де Брёйна
 date: 05-04-2026
@@ -20,19 +8,13 @@ parent:
 summary: Структура данных для представления перекрытий между последовательностями, используемая в геномной сборке
 tags: []
 type: 📄note
-
 💻Bioinfo:
-
   - mathModeling
-
 🖥️IT:
-
   - algorithm
   - strings
   - strings/comparison
-
 🧬Sequencing:
-
   - deNovo
 ---
 

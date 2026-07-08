@@ -5,7 +5,7 @@ aliases:
 date: 01-05-2023
 dg-publish: true
 parent:
-summary: 
+summary: Нуклеаза с цинковыми пальцами — programmable ДНК-связывающий белок для редактирования генома
 tags: []
 type: 📄note
 ✂️GeneEdit:

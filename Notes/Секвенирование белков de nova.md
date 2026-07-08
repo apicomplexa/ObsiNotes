@@ -6,7 +6,7 @@ cssclasses:
 date: 01-05-2023
 dg-publish: true
 parent:
-summary: 
+summary: Определение последовательности белков через тандемную масс-спектрометрию с фрагментацией пептидов и анализом масс-спектров
 tags: []
 type: 📄note
 📏Proteomic:

@@ -4,7 +4,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Выявление однонуклеотидных полиморфизмов из данных РНК-seq, несмотря на ограничения метода
 tags: []
 type: 📄note
 📊Transcriptomics: 

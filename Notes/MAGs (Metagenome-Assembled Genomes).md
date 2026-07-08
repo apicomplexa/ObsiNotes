@@ -1,18 +1,5 @@
 ---
-aliases: []
-date: 05-04-2026
-dg-publish: true
-parent:
-summary:
-tags:
-  - todo
-type: 📄note
----
-
-[](Метагеномная%20сборка.md)---
-
 aliases:
-
   - MAGs
   - metagenome-assembled genomes
 date: 05-04-2026
@@ -22,13 +9,9 @@ summary: Геномы или коллекции геномных фрагмен�
 tags:
   - todo
 type: 📄note
-
 💻Bioinfo:
-
   - systemBio
-
 🦠Metagenomics:
-
   - assembly
   - binning
 ---

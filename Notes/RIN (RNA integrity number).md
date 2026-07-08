@@ -8,7 +8,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Числовой индекс (1–10) целостности РНК, основанный на анализе распределения рибосомальных РНК
 tags: []
 type: 📄note
 ⚙️Methods:

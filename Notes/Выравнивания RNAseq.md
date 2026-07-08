@@ -6,7 +6,7 @@ creation date: 12-06-2023
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Картирование ридов на référence геном/транскриптом RNAseq с учётом особенностей сплайсинга
 tags:
   - 📌pin
 type: 📄note

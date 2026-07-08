@@ -4,7 +4,7 @@ aliases:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Этапы подготовки библиотеки РНК для секвенирования: отбор, синтез кДНК, фрагментация, подготовка и контроль качества
 tags: []
 type: 📄note
 ⚙️Methods:

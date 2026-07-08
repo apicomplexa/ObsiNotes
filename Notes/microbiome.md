@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Нормализация и трансформация ASV данных микробиома для статистического анализа и сравнения выборок
 tags: []
 type: 📄note
 💻Bioinfo:

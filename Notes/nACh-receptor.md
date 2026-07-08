@@ -8,7 +8,7 @@ date: 02-11-2025
 dg-publish: true
 nsmu: false
 parent:
-summary:
+summary: Первый наиболее изученный лиганд-зависимый ионный канал, активируемый ацетилхолином и никотином
 tags: []
 type: "📄note"
 🦠Cytology:

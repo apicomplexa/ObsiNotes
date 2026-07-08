@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Флюоресцентный зонд для real-time ПЦР, использующий FRET для детекции накопления ПЦР-продуктов
 tags: []
 type: 📄note
 ⚙️Methods:

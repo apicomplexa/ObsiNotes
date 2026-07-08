@@ -7,7 +7,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Проточная ячейка с адаптерами для секвенирования Illumina, содержащая параллельные дорожки
 tags: []
 type: "📄note"
 🧬Sequencing:

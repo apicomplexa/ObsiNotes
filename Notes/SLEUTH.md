@@ -5,7 +5,7 @@ creation date: 01-09-2023
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Программа для дифференциального анализа РНК-seq, использующая оценки неопределённости из kallisto
 tags: []
 type: 📄note
 💻Bioinfo:

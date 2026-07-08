@@ -3,7 +3,7 @@ aliases: []
 date: 02-11-2025
 dg-publish: true
 parent:
-summary: 
+summary: Метод деконволюции для оценки клеточного состава ткани из bulk-секвенирования РНК
 tags: []
 type: 📄note
 💻Bioinfo:

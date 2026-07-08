@@ -6,7 +6,7 @@ cssclasses:
 date: 02-11-2025
 dg-publish: true
 parent:
-summary:
+summary: Технологии массивного параллельного секвенирования ДНК и РНК
 tags: []
 type: "📄note"
 🧬Sequencing:
