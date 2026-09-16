@@ -266,8 +266,7 @@
                     },
                     {
                       "tabId": "tab-1789588634255-95m31pk",
-                      "conversationId": null,
-                      "draftModel": "opus"
+                      "conversationId": "conv-1789588790098-jhakv2icu"
                     }
                   ],
                   "activeTabId": "tab-1789588634255-95m31pk"
@@ -299,7 +298,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "afdb39788104ce3d",
+  "active": "2b9975d3e4104d97",
   "lastOpenFiles": [
     "_. Home/MultyTest.md",
     "Drawing 2026-09-02 17.00.13.excalidraw.md",
