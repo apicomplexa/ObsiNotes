@@ -55,7 +55,7 @@ plot_ordination(vst_physeq, vst_pcoa, color="char") +
     theme_bw() + theme(legend.position="none")
 ```
 
-![486](_.Settings/Media/Pasted%20image%2020260422093656.png)
+![399](_.Settings/Media/Pasted%20image%2020260422093656.png)
 
 > [!warning] Это исследовательская визуализация, не имеющая статистической значимости. но позволяет прикинуть, куда копать дальше
 

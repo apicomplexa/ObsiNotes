@@ -8,22 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d6c2e54f09d6c30",
+            "id": "afdb39788104ce3d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-02 17.00.13.excalidraw"
+            }
+          },
+          {
+            "id": "e05c3d76f6960b79",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-02 17.00.13.excalidraw"
+            }
+          },
+          {
+            "id": "b9971bf1c86151cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "Notes/EM-алгоритм.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "EM-алгоритм"
             }
           },
           {
-            "id": "8dbf838d0e2a956e",
+            "id": "78f9ba5cd0469d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,6 +59,21 @@
               },
               "icon": "lucide-file",
               "title": "PICRUSt2"
+            }
+          },
+          {
+            "id": "8ce62db610270a8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Нормализация AVS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Нормализация AVS"
             }
           }
         ],
@@ -58,7 +97,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -109,7 +150,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "picrust",
+                "query": "prio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -119,13 +160,23 @@
               "icon": "lucide-search",
               "title": "Поиск"
             }
+          },
+          {
+            "id": "6bd13da1767935d8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 327
+    "width": 261.2553405761719
   },
   "right": {
     "id": "96fc1bc1662eb85e",
@@ -141,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/PICRUSt2.md",
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура PICRUSt2"
+              "title": "Структура"
             }
           },
           {
@@ -211,27 +262,18 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "PICRUSt2.md"
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md"
               },
               "icon": "lucide-file-signature",
               "title": "Сноски"
             }
-          },
-          {
-            "id": "6bd13da1767935d8",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 482.4580078125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,8 +289,31 @@
       "graph:Граф": false
     }
   },
-  "active": "8dbf838d0e2a956e",
+  "active": "6bd13da1767935d8",
   "lastOpenFiles": [
+    "Drawing 2026-09-02 17.00.13.excalidraw.md",
+    "Notes/vegan.md",
+    "Notes/Phyloseq.md",
+    "Notes/PICRUSt2.md",
+    "Notes/EM-алгоритм.md",
+    "_. Home/Indexes/☣️Immunology.md",
+    "Без названия.canvas",
+    "Notes/Chao1 & Shannon.md",
+    "Notes/R cheatsheet.md",
+    "Notes/Нормализация AVS.md",
+    "Notes/DADA2.md",
+    "Projects/Статьи и рефераты/_Archive/Доклад патфиз - аутоимунные заболевания.md",
+    "Notes/R metaprogramming cheatsheet.md",
+    "_.Settings/Agent Skills/AUDIT Report 1 — Состояние хранилища.md",
+    "Notes/Бета разнообразие.md",
+    "Notes/Иерархическая кластеризация образцов AVS.md",
+    "Notes/Анализ главных координат.md",
+    "Notes/Создание моделей в R.md",
+    "_.Settings/Media/Pasted image 20260716154932.png",
+    "Notes/Визуализация ординации с Vegan.md",
+    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
+    "Notes/KEGG.md",
+    "Функциональные навыки меня.md",
     "Notes/Контроль качества метагеномных данных.md.tmp.70924.2bac44112dac",
     "Notes/Контаминация в метагеномике.md.tmp.70924.7ac07d199a3f",
     "Notes/Экстракция ДНК.md.tmp.70924.63b7812a2808",
@@ -259,35 +324,14 @@
     "Notes/Множественное сравнение.md.tmp.70924.c417478270b7",
     "Notes/Токсины микроорганизмов.md.tmp.70924.4c62aab21606",
     "Notes/Типы нервных волокн.md.tmp.70924.7eeda6008b76",
-    "Notes/Создание библиотеки RNAseq.md.tmp.70924.dba0470a147a",
     "Notes/Выборки.md",
     "Notes/Абсцесс головного или спинного мозга.md",
     "Notes/Биннинг контигов.md",
-    "Notes/PICRUSt2.md",
-    "Notes/KEGG.md",
     "CLAUDE.md",
     "PICRUSt2.md",
     "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md",
-    "Функциональные навыки меня.md",
-    "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
-    "Notes/Бутстрэп.md",
-    "Notes/Таксономическая классификация в метагеномике.md",
-    "Notes/Таксономическая классификация в метагеномике.md",
-    "claude-enterypoint.md",
-    "Notes/Маркерные гены.md",
-    "Notes/MetaPhlAn4.md",
-    "Notes/StrainPhlAn.md",
-    "_. Home/Indexes/🦠Metagenomics/🦠Metagenomics.md",
-    "Notes/Metatag_ 🦠Metagenomics — Расширение.md",
-    "_. Home/Indexes/🦠Metagenomics/Metagenomics Tools.md",
-    "Notes/Конспект_Фармакология_ЖКТ.md",
-    "Notes/NGS-3 Обработка данных.md",
-    "Notes/VAMB.md",
-    "Notes/Ultraplex.md",
-    "Notes/Trimmomatic.md",
-    "Notes/Strain Tracking.md",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
     "_.Settings/Media/Pasted Image 20260602224701_608.png",
     "_.Settings/Media/Pasted image 20260424111910.png",
@@ -297,9 +341,7 @@
     "_.Settings/Media/Pasted image 20260421150144.png",
     "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",
     "_. Home/Indexes/🦠Metagenomics/Классический пайплан обработки Метагеномных данных.canvas",
-    "_.Settings/Media/Pasted image 20260419172214.png",
     "Notes/Общий пайплайн обработки метагеномных данных.canvas",
-    "Без названия.canvas",
     "_. Home/Indexes/🦠Microbiology/Без названия.canvas",
     "4. OthersNotes/2. Мой бред/Без названия.canvas",
     "4. OthersNotes/3. DnD/Космическая Компания/Сессия 1/Сессия 1.canvas",

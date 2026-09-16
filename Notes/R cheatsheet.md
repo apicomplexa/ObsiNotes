@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - шпаргалка по R
 date: 02-11-2025
 dg-publish: true
 parent:
