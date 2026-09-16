@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789566508217-fh8fq0ovb",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789566508349-txszhja",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789566508205-6ihz07h",
+      "timestamp": 1789566508205,
+      "rawDisplayText": "В @_.Settings/Agent Skills/ лежат старые скилы которые я использовал в этом хранилище. Посмотри что там есть полезного и перенеси в .claude",
+      "canonicalText": "В @_.Settings/Agent Skills/ лежат старые скилы которые я использовал в этом хранилище. Посмотри что там есть полезного и перенеси в .claude",
+      "images": [],
+      "contentDigest": "07e03628cc5045efd9d237659af3008fdec216aed367763703a33b68346caaa0",
+      "providerUserMessageId": "a9a760d0-6399-46d3-890d-7364ff8fcc25"
+    }
+  ]
+}
