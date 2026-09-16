@@ -22,4 +22,4 @@ Compile the TypeScript Dataview sources into the `dist/` bundles the notes load 
 
 - Sources: `_.Settings/Templates/dataviews/<name>/view.ts` (+ components) → output `dist/dataviews/<name>/view.js`.
 - Notes reference the output via `dv.view('.../dist/dataviews/<name>')`.
-- See `SKILL DataviewJS.md` in `_.Settings/Agent Skills/` for the dataview architecture.
+- See the `dataviewjs` skill for the dataview architecture and TypeScript repo layout.

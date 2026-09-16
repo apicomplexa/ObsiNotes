@@ -26,4 +26,4 @@ Group findings by check, list affected file paths, and give a short count summar
 
 ## Reference
 
-The valid metatag table, tags, and types are in `_.Settings/Agent Skills/SKILL Vault Structure.md`.
+The valid metatag table, tags, and types are in the `vault-structure` skill.

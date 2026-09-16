@@ -10,7 +10,7 @@ Create a new QuickAdd `UserScript` for the vault. Describe the desired automatio
 
 ## Steps
 
-1. Read `_.Settings/Agent Skills/SKILL QuickAdd.md` for the current API, settings, and existing scripts (`convertLinks.js`, `format_with_regexp.js`, `restore_from_tech_copy.js`).
+1. Read the `quickadd` skill for the current API, settings, and existing scripts (`convertLinks.js`, `format_with_regexp.js`, `restore_from_tech_copy.js`).
 2. Create the script at `_.Settings/Templates/Scripts/<name>.js` using the UserScript signature:
 
 ```js

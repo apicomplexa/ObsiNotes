@@ -16,16 +16,20 @@ __ObsiNotes__ is a personal, academic Obsidian vault (medicine + bioinformatics/
 
 ## Read first
 
-Before any vault task, read these reference notes in `_.Settings/Agent Skills/`:
+Reference material lives in `.claude/skills/`. Before any vault task, invoke:
 
-- `SKILL Vault Structure.md` — folder layout, the full emoji-metatag table, plugin map, index system, and the don'ts. __Start here.__
-- `SKILL Obsidian CLI.md` — commands for operating on the vault.
+- `vault-structure` — folder layout, the full emoji-metatag table, plugin map, index system, and the don'ts. __Start here.__
+- `obsidian-cli` — commands for operating on the vault.
 
-Consult the matching skill when a task touches it: `SKILL DataviewJS.md`, `SKILL Templater.md`, `SKILL QuickAdd.md`, `SKILL Base.md`, `SKILL Excalidraw.md`, `SKILL Linter.md`.
+Consult the matching skill when a task touches it: `dataviewjs`, `templater`, `quickadd`, `obsidian-bases`, `excalidraw`, `frontmatter-linter`.
+
+Task skills: `new-note`, `new-quickadd-script`, `build-dataviews`, `vault-audit`.
+
+Historical refactor artifacts (`ACTION PLAN`, the two `AUDIT Report` notes) remain in `_.Settings/Agent Skills/`.
 
 ## Core conventions
 
-- Notes are classified by __emoji frontmatter metatags__ (e.g. `💻Bioinfo`, `🦠Metagenomics`, `📊Statistic`), __not__ by folders. One note may carry several metatags. The full list lives in `SKILL Vault Structure.md`.
+- Notes are classified by __emoji frontmatter metatags__ (e.g. `💻Bioinfo`, `🦠Metagenomics`, `📊Statistic`), __not__ by folders. One note may carry several metatags. The full list lives in the `vault-structure` skill.
 - Every note's frontmatter has `aliases / date / dg-publish / summary / type`. Default `type: 📄note`. Use the `_  📄CommonPage.md` Templater template (`_.Settings/Templates/Templater/`) as the frontmatter baseline.
 - `Notes/` is intentionally __flat__ — no subfolders.
 
@@ -43,7 +47,7 @@ Sources: `_.Settings/Templates/dataviews/<name>/view.ts` → output `dist/datavi
 
 obsidian-git backs up with message `vault backup: <timestamp>`. Working branch is `claude-refactor`; `main` is the backup branch. Don't commit manually unless asked — the `Stop` hook in `.claude/settings.json` auto-commits agent changes.
 
-## Don'ts (from SKILL Vault Structure.md)
+## Don'ts (from the `vault-structure` skill)
 
 - Don't create subfolders in `Notes/` — keep it flat.
 - Don't add the `dv_exclude` tag to normal notes (it's only for index pages).
