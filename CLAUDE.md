@@ -21,9 +21,11 @@ Reference material lives in `.claude/skills/`. Before any vault task, invoke:
 - `vault-structure` — folder layout, the full emoji-metatag table, plugin map, index system, and the don'ts. __Start here.__
 - `obsidian-cli` — commands for operating on the vault.
 
-Consult the matching skill when a task touches it: `dataviewjs`, `templater`, `quickadd`, `obsidian-bases`, `excalidraw`, `frontmatter-linter`.
+Consult the matching skill when a task touches it: `obsidian-markdown`, `dataviewjs`, `templater`, `quickadd`, `obsidian-bases`, `json-canvas`, `excalidraw`, `frontmatter-linter`, `defuddle`.
 
 Task skills: `new-note`, `new-quickadd-script`, `build-dataviews`, `vault-audit`.
+
+`obsidian-markdown`, `obsidian-bases`, `json-canvas`, `defuddle` and the `dev:*` section of `obsidian-cli` come from [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills); each carries an appended `ObsiNotes:` section with vault-specific conventions. When re-syncing upstream, keep that trailing section.
 
 Historical refactor artifacts (`ACTION PLAN`, the two `AUDIT Report` notes) remain in `_.Settings/Agent Skills/`.
 

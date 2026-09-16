@@ -19,7 +19,9 @@ obsidian vault="ObsiNotes" <команда> [параметры]
 - `file=<name>` резолвится как wikilink (по имени); `path=<path>` — точный путь с расширением.
 - Большинство команд по умолчанию работают с активным файлом, если `file`/`path` опущены.
 - Значения с пробелами — в кавычках. `\n` и `\t` работают в `content=`.
-- Полный актуальный каталог: `obsidian` (без аргументов) или `obsidian help <команда>`.
+- **Каталог команд — источник истины.** `obsidian` (без аргументов) или `obsidian help <команда>` всегда актуальнее любой документации, включая эту. Если команда ведёт себя не так, как здесь описано, — сверься с `help`.
+- Флаг `--copy` на любой команде кладёт вывод в буфер обмена; `total` на списочных командах возвращает счётчик.
+- Официальная документация: https://help.obsidian.md/cli
 
 ## Информация о хранилище
 
@@ -222,6 +224,28 @@ obsidian backlinks file="Имя заметки"
 obsidian append path="_. Home/Indexes/💻Bioinfo/💻Bioinfo.md" content="- [[Имя заметки]]"
 ```
 
+## Разработка и отладка (`dev:*`)
+
+Полезно при правке CSS-сниппетов, темы или отладке dataview-вьюх.
+
+```bash
+obsidian vault="ObsiNotes" dev:errors                 # захваченные ошибки
+obsidian vault="ObsiNotes" dev:errors clear
+obsidian vault="ObsiNotes" dev:console level=error    # консоль
+obsidian vault="ObsiNotes" dev:screenshot path=screenshot.png
+obsidian vault="ObsiNotes" dev:dom selector=".workspace-leaf" text
+obsidian vault="ObsiNotes" dev:css selector=".text_pill" prop=background-color
+obsidian vault="ObsiNotes" dev:mobile on
+```
+
+Цикл правки плагина или сниппета:
+1. `plugin:reload id=<id>` (или `snippet:disable` + `snippet:enable`)
+2. `dev:errors` — если есть ошибки, починить и повторить
+3. `dev:screenshot` или `dev:dom` — проверить визуально
+4. `dev:console level=error` — проверить предупреждения
+
+`dev:css` удобен для отладки плашек `text_pill` и стилей Supercharged Links.
+
 ## Ограничения
 
 1. Obsidian должен быть запущен.
@@ -230,3 +254,5 @@ obsidian append path="_. Home/Indexes/💻Bioinfo/💻Bioinfo.md" content="- [[�
 4. `create` с `template` может запустить Templater-JS и показать диалог.
 5. `delete` без `permanent` кладёт файл в корзину — восстановимо.
 6. Пути в `eval` экранируй аккуратно: они уходят в JS-строку.
+7. `daily:*` команд нет — core-плагин Daily Notes в этом хранилище выключен.
+8. Флага `silent` в установленной сборке нет; есть обратные — `open` и `newtab`.

@@ -38,15 +38,12 @@
             "id": "78f9ba5cd0469d0c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/PICRUSt2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "PICRUSt2"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-02 17.00.13.excalidraw"
             }
           },
           {
@@ -179,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/PICRUSt2.md",
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -249,7 +246,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Notes/PICRUSt2.md"
+                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md"
               },
               "icon": "lucide-file-signature",
               "title": "Сноски"
@@ -300,13 +297,15 @@
   },
   "active": "2b9975d3e4104d97",
   "lastOpenFiles": [
+    "CLAUDE.md.tmp.37452.20754f023bb9",
+    "CLAUDE.md",
+    "Notes/PICRUSt2.md",
     "sedmXJH6e",
     "_. Home/MultyTest.md",
     "Notes/EM-алгоритм.md",
     "Drawing 2026-09-02 17.00.13.excalidraw.md",
     "Notes/vegan.md",
     "Notes/Phyloseq.md",
-    "Notes/PICRUSt2.md",
     "_. Home/Indexes/☣️Immunology.md",
     "Без названия.canvas",
     "Notes/Chao1 & Shannon.md",
@@ -334,11 +333,9 @@
     "Notes/Торможение.md.tmp.70924.4dd88c8461f7",
     "Notes/Множественное сравнение.md.tmp.70924.c417478270b7",
     "Notes/Токсины микроорганизмов.md.tmp.70924.4c62aab21606",
-    "Notes/Типы нервных волокн.md.tmp.70924.7eeda6008b76",
     "Notes/Выборки.md",
     "Notes/Абсцесс головного или спинного мозга.md",
     "Notes/Биннинг контигов.md",
-    "CLAUDE.md",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
