@@ -81,13 +81,19 @@
   "inputPrompt": "multi-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
+  "namePastedImagesAfterNoteTitle": false,
+  "searchNestedChoices": true,
+  "templateFolderLauncherRow": "bottom",
   "devMode": false,
-  "templateFolderPath": "_.Settings/Templates/Scripts",
+  "templateFolderPaths": [
+    "_.Settings/Templates/Scripts"
+  ],
   "announceUpdates": "all",
-  "version": "2.12.3",
+  "version": "2.25.0",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
+  "enableUriCallbacks": false,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
@@ -120,9 +126,14 @@
           }
         ],
         "modelSource": "auto",
-        "apiKeyRef": "quickadd-ai-g4f"
+        "apiKeyRef": "quickadd-ai-g4f",
+        "id": "g4f"
       }
-    ]
+    ],
+    "defaultModelRef": {
+      "providerId": "g4f",
+      "name": "gpt-4o"
+    }
   },
   "migrations": {
     "migrateToMacroIDFromEmbeddedMacro": true,
@@ -137,7 +148,10 @@
     "backfillFileOpeningDefaults": true,
     "setProviderModelDiscoveryMode": true,
     "migrateProviderApiKeysToSecretStorage": true,
-    "repairTemplateFileExistsBehavior": true
+    "repairTemplateFileExistsBehavior": true,
+    "migrateToMultipleTemplateFolders": true,
+    "refreshStaleDefaultModelSeeds": true,
+    "pinAiModelRefs": true
   },
   "macros": [
     {

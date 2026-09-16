@@ -61,8 +61,7 @@
               "title": "Нормализация AVS"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -264,9 +263,14 @@
                     {
                       "tabId": "tab-1789565958974-bv7i7bm",
                       "conversationId": "conv-1789566508217-fh8fq0ovb"
+                    },
+                    {
+                      "tabId": "tab-1789588634255-95m31pk",
+                      "conversationId": null,
+                      "draftModel": "opus"
                     }
                   ],
-                  "activeTabId": "tab-1789565958974-bv7i7bm"
+                  "activeTabId": "tab-1789588634255-95m31pk"
                 }
               },
               "icon": "bot",
@@ -295,15 +299,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2b9975d3e4104d97",
+  "active": "afdb39788104ce3d",
   "lastOpenFiles": [
+    "_. Home/MultyTest.md",
+    "Drawing 2026-09-02 17.00.13.excalidraw.md",
     "CLAUDE.md.tmp.37452.20754f023bb9",
     "CLAUDE.md",
     "Notes/PICRUSt2.md",
     "sedmXJH6e",
-    "_. Home/MultyTest.md",
     "Notes/EM-алгоритм.md",
-    "Drawing 2026-09-02 17.00.13.excalidraw.md",
     "Notes/vegan.md",
     "Notes/Phyloseq.md",
     "_. Home/Indexes/☣️Immunology.md",
@@ -332,7 +336,6 @@
     "Notes/Фармакотерапия_Бронхиальной_Астмы_Конспект.md.tmp.70924.18a60e0146b6",
     "Notes/Торможение.md.tmp.70924.4dd88c8461f7",
     "Notes/Множественное сравнение.md.tmp.70924.c417478270b7",
-    "Notes/Токсины микроорганизмов.md.tmp.70924.4c62aab21606",
     "Notes/Выборки.md",
     "Notes/Абсцесс головного или спинного мозга.md",
     "Notes/Биннинг контигов.md",

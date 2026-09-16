@@ -71,7 +71,9 @@
       "style": "First letter",
       "ignore-case-words": true,
       "ignore-words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript",
-      "lowercase-words": "via, a, an, the, and, or, but, for, nor, so, yet, at, by, in, of, on, to, up, as, is, if, it, for, to, with, without, into, onto, per"
+      "lowercase-words": "via, a, an, the, and, or, but, for, nor, so, yet, at, by, in, of, on, to, up, as, is, if, it, for, to, with, without, into, onto, per",
+      "starting-word-ignore-characters": "'\"(‘“-",
+      "ending-word-ignore-characters": ".?!,:;'\")”’0123456789-"
     },
     "file-name-heading": {
       "enabled": false
@@ -279,6 +281,9 @@
   "recordLintOnSaveLogs": false,
   "displayChanged": false,
   "suppressMessageWhenNoChange": false,
+  "enableDiffPreviewView": true,
+  "suppressLintAllFilesConfirmationModal": false,
+  "suppressLintAllFilesInFolderConfirmationModal": false,
   "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,

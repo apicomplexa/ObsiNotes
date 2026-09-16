@@ -27,7 +27,8 @@
       "canonicalText": "Я нашел репозиторий https://github.com/kepano/obsidian-skills со скилами, оцени будет ли он полезен учитывая имеющиеся скилы, если да добавь скилы оттуда (или можифицируй имеющиеся)",
       "images": [],
       "contentDigest": "3def09f2947cb4f2cc110ed3a39c874dba3a338cbef9c95214d6462f9f5523b8",
-      "providerUserMessageId": "f4b9b191-77bd-4c42-8e42-371a4cf2ecd1"
+      "providerUserMessageId": "f4b9b191-77bd-4c42-8e42-371a4cf2ecd1",
+      "providerAssistantMessageId": "256ad46a-0bd7-4060-b353-5a8f47ebb2a5"
     }
   ]
 }
