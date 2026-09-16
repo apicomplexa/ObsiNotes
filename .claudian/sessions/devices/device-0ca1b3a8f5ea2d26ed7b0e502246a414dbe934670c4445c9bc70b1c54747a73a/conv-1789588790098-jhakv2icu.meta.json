@@ -1,8 +1,8 @@
 {
   "id": "conv-1789588790098-jhakv2icu",
   "providerId": "claude",
-  "title": "Напиши конспект для пары по Детским болезням на те...",
-  "titleGenerationStatus": "pending",
+  "title": "Конспект вакцинации от полиомиелита",
+  "titleGenerationStatus": "success",
   "createdAt": 1789588790106,
   "lastActivityAt": 1789588790106,
   "sessionId": "9d8aeed7-2fea-466b-b69c-fcc53d0acce6",
