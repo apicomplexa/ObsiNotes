@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "диспансеризация детей.md",
+                "file": "Вакцинопрофилактина.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "диспансеризация детей"
+              "title": "Вакцинопрофилактина"
             }
           },
           {
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "диспансеризация детей.md",
+                "file": "Вакцинопрофилактина.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -308,13 +308,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2b9975d3e4104d97",
+  "active": "78f9ba5cd0469d0c",
   "lastOpenFiles": [
+    "_tmp_disp_part1.md",
+    "_tmp_disp_part2.md",
+    "Вакцинопрофилактина.md",
+    "диспансеризация детей.md",
     "Drawing 2026-09-02 17.00.13.excalidraw.md",
     "Без названия.md",
-    "диспансеризация детей.md",
     "Notes/Нормализация AVS.md",
-    "Вакцинопрофилактина.md",
     "Notes/Вакцинация от полиомиелита.md",
     "Drawing 2026-09-17 18.47.54.excalidraw.md",
     "_. Home/MultyTest.md",
@@ -338,9 +340,7 @@
     "Notes/Анализ главных координат.md",
     "Notes/Создание моделей в R.md",
     "_.Settings/Media/Pasted image 20260716154932.png",
-    "Notes/Визуализация ординации с Vegan.md",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
-    "Notes/KEGG.md",
     "Notes/Контроль качества метагеномных данных.md.tmp.70924.2bac44112dac",
     "Notes/Контаминация в метагеномике.md.tmp.70924.7ac07d199a3f",
     "Notes/Экстракция ДНК.md.tmp.70924.63b7812a2808",
