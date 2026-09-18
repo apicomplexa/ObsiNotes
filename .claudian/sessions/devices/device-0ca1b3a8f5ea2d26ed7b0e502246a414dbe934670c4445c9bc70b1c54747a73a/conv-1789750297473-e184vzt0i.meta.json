@@ -1,0 +1,15 @@
+{
+  "id": "conv-1789750297473-e184vzt0i",
+  "providerId": "claude",
+  "title": "Fork: Конспект вакцинации от полиомиелита (#2)",
+  "createdAt": 1789750297477,
+  "lastActivityAt": 1789750297477,
+  "sessionId": null,
+  "selectedModel": "opus",
+  "providerState": {
+    "forkSource": {
+      "sessionId": "9d8aeed7-2fea-466b-b69c-fcc53d0acce6",
+      "resumeAt": "9eb67acc-0208-4d1d-a901-13e99e0f6382"
+    }
+  }
+}
