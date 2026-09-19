@@ -13,43 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/СеверФест2026/claude-web-export/00-severfest-moc.md",
+                "file": "Projects/СеверФест2026/_СеверФест 2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "00-severfest-moc"
-            }
-          },
-          {
-            "id": "04eabe787075efc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/СеверФест2026/claude-web-export/severfest-secret-layer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "severfest-secret-layer"
+              "title": "_СеверФест 2026"
             }
           },
           {
             "id": "8ce62db610270a8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/Нормализация AVS.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Нормализация AVS"
+              "icon": "excalidraw-icon",
+              "title": "СФ2026.excalidraw"
             }
           },
           {
@@ -181,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.8948974609375
+    "width": 437.4394226074219
   },
   "right": {
     "id": "96fc1bc1662eb85e",
@@ -320,19 +302,27 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2b9975d3e4104d97",
+  "active": "8ce62db610270a8c",
   "lastOpenFiles": [
-    "Projects/СеверФест2026/artefacts/Карточки ЧП — макет, тираж, раскладка.pdf",
+    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
+    "Projects/СеверФест2026/CLAUDE.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Обзор проекта.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Механика квеста.md",
+    "Notes/Нормализация AVS.md",
+    "Projects/СеверФест2026/media",
+    "Projects/СеверФест2026/Материалы",
+    "Projects/СеверФест2026/Артефакты",
+    "Projects/СеверФест2026/Реализация",
+    "Projects/СеверФест2026/Дизайн",
+    "Projects/СеверФест2026/Реализация/СФ - Лидерборд и техстек.md",
+    "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
     "Projects/СеверФест2026/artefacts",
-    "Projects/СеверФест2026/claude-web-export/severfest-quest-mechanics.md",
-    "Projects/СеверФест2026/claude-web-export/severfest-points-economy.md",
-    "Projects/СеверФест2026/claude-web-export/severfest-leaderboard-tech.md",
-    "Projects/СеверФест2026/claude-web-export/00-severfest-moc.md",
-    "Projects/СеверФест2026/СФ2026.excalidraw.md",
+    "Projects/СеверФест2026/_СеверФест 2026.md",
+    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
     "Projects/СеверФест2026/claude-web-export",
-    "Projects/СеверФест2026/claude-web-export/severfest-pitch.md",
-    "Projects/СеверФест2026/claude-web-export/severfest-overview.md",
-    "Projects/СеверФест2026/claude-web-export/severfest-secret-layer.md",
+    "Projects/СеверФест2026/Реализация/СФ - Питч начальству.md",
     "Notes/диспансеризация детей.md",
     "Notes/Вакцинопрофилактика.md",
     "Drawing 2026-09-17 18.47.54.excalidraw.md",
@@ -340,27 +330,19 @@
     "_tmp_disp_part1.md",
     "_tmp_disp_part2.md",
     "Без названия.md",
-    "Notes/Нормализация AVS.md",
     "Notes/Вакцинация от полиомиелита.md",
     "_. Home/MultyTest.md",
     "CLAUDE.md.tmp.37452.20754f023bb9",
     "CLAUDE.md",
     "Notes/PICRUSt2.md",
-    "sedmXJH6e",
     "Notes/EM-алгоритм.md",
     "Notes/vegan.md",
     "Notes/Phyloseq.md",
     "_. Home/Indexes/☣️Immunology.md",
     "Без названия.canvas",
     "Notes/Chao1 & Shannon.md",
-    "Notes/R cheatsheet.md",
     "_.Settings/Media/Pasted image 20260716154932.png",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
-    "Notes/Контроль качества метагеномных данных.md.tmp.70924.2bac44112dac",
-    "Notes/Контаминация в метагеномике.md.tmp.70924.7ac07d199a3f",
-    "Notes/Экстракция ДНК.md.tmp.70924.63b7812a2808",
-    "Notes/Метагеномная сборка.md.tmp.70924.8aecea80bbd2",
-    "Notes/MAGs (Metagenome-Assembled Genomes).md.tmp.70924.4cc8fa155d46",
     "_.Settings/Media/Pasted image 20260626171004.png",
     "_.Settings/Media/Pasted image 20260626170949.png",
     "_.Settings/Media/Pasted Image 20260602224958_753.png",
