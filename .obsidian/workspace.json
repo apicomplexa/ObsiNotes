@@ -131,8 +131,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "диспансеризация детей.md",
+                "file": "Projects/СеверФест2026/Артефакты/СФ - Экономика и квест — сводка для команды.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -238,10 +237,6 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1789842748698-xc9o7mm",
-                      "conversationId": "conv-1789842889874-yj24hq83a"
-                    },
-                    {
                       "tabId": "tab-1789847180063-6bo1q3f",
                       "conversationId": "conv-1789848395356-7ydsnjxv5"
                     }
@@ -258,8 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 610.2598876953125,
-    "collapsed": true
+    "width": 610.2598876953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,17 +270,17 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6bd13da1767935d8",
+  "active": "996702ddd556c297",
   "lastOpenFiles": [
-    "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
+    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
     "Projects/СеверФест2026/Артефакты/СФ - Экономика и квест — сводка для команды.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
     "Projects/СеверФест2026/_СеверФест 2026.md",
     "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
     "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
     "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md.tmp.28116.55516ef024f7",
     "Projects/СеверФест2026/Реализация/СФ - Питч начальству.md",
     "Projects/СеверФест2026/Реализация/СФ - Лидерборд и техстек.md",
-    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
     "Projects/СеверФест2026/Дизайн/СФ - Обзор проекта.md",
     "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md",
     "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
