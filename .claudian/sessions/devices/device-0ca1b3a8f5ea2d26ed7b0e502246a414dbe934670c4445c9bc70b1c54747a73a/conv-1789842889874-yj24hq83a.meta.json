@@ -1,0 +1,14 @@
+{
+  "id": "conv-1789842889874-yj24hq83a",
+  "providerId": "claude",
+  "title": "Я написал новую версию экономики",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1789842889882,
+  "lastActivityAt": 1789842889882,
+  "sessionId": "f0386eb5-e02b-4fe7-a947-efebdea312f5",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "f0386eb5-e02b-4fe7-a947-efebdea312f5"
+  },
+  "linkedContentPath": "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md"
+}

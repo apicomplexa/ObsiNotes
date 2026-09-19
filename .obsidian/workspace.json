@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "78f9ba5cd0469d0c",
+            "id": "8ce62db610270a8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,15 +23,18 @@
             }
           },
           {
-            "id": "8ce62db610270a8c",
+            "id": "f06b7776d707fd05",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md"
+                "file": "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "СФ2026.excalidraw"
+              "icon": "lucide-file",
+              "title": "СФ - Карточки Человека Паука"
             }
           },
           {
@@ -64,8 +67,7 @@
               "title": "Вакцинация от полиомиелита"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,9 +273,13 @@
                     {
                       "tabId": "tab-1789834379299-ygpxeiv",
                       "conversationId": "conv-1789836133501-ppzs43qll"
+                    },
+                    {
+                      "tabId": "tab-1789842748698-xc9o7mm",
+                      "conversationId": "conv-1789842889874-yj24hq83a"
                     }
                   ],
-                  "activeTabId": "tab-1789834379299-ygpxeiv"
+                  "activeTabId": "tab-1789842748698-xc9o7mm"
                 }
               },
               "icon": "bot",
@@ -285,7 +291,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 522.624267578125
+    "width": 614.82421875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,25 +310,26 @@
   },
   "active": "8ce62db610270a8c",
   "lastOpenFiles": [
-    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
-    "Projects/СеверФест2026/CLAUDE.md",
+    "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md",
     "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
+    "Projects/СеверФест2026/_СеверФест 2026.md",
+    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Механика квеста.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
+    "Projects/СеверФест2026/Реализация/СФ - Питч начальству.md",
+    "Projects/СеверФест2026/Реализация/СФ - Лидерборд и техстек.md",
+    "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
+    "Projects/СеверФест2026/CLAUDE.md",
     "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
     "Projects/СеверФест2026/Дизайн/СФ - Обзор проекта.md",
-    "Projects/СеверФест2026/Дизайн/СФ - Механика квеста.md",
     "Notes/Нормализация AVS.md",
     "Projects/СеверФест2026/media",
     "Projects/СеверФест2026/Материалы",
     "Projects/СеверФест2026/Артефакты",
     "Projects/СеверФест2026/Реализация",
     "Projects/СеверФест2026/Дизайн",
-    "Projects/СеверФест2026/Реализация/СФ - Лидерборд и техстек.md",
-    "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
     "Projects/СеверФест2026/artefacts",
-    "Projects/СеверФест2026/_СеверФест 2026.md",
-    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
     "Projects/СеверФест2026/claude-web-export",
-    "Projects/СеверФест2026/Реализация/СФ - Питч начальству.md",
     "Notes/диспансеризация детей.md",
     "Notes/Вакцинопрофилактика.md",
     "Drawing 2026-09-17 18.47.54.excalidraw.md",
@@ -340,7 +347,6 @@
     "Notes/Phyloseq.md",
     "_. Home/Indexes/☣️Immunology.md",
     "Без названия.canvas",
-    "Notes/Chao1 & Shannon.md",
     "_.Settings/Media/Pasted image 20260716154932.png",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "_.Settings/Media/Pasted image 20260626171004.png",
