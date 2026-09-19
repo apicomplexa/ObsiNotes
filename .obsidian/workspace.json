@@ -11,12 +11,15 @@
             "id": "996702ddd556c297",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md"
+                "file": "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Экономика v2.1.excalidraw"
+              "icon": "lucide-file",
+              "title": "СФ - Экономика баллов"
             }
           },
           {
@@ -132,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 437.4394226074219,
-    "collapsed": true
+    "width": 437.4394226074219
   },
   "right": {
     "id": "96fc1bc1662eb85e",
@@ -235,16 +237,13 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1789750304664-93ur7io",
-                      "conversationId": "conv-1789750368725-uisne8naa"
-                    },
-                    {
-                      "tabId": "tab-1789834379299-ygpxeiv",
-                      "conversationId": "conv-1789836133501-ppzs43qll"
-                    },
-                    {
                       "tabId": "tab-1789842748698-xc9o7mm",
                       "conversationId": "conv-1789842889874-yj24hq83a"
+                    },
+                    {
+                      "tabId": "tab-1789847180063-6bo1q3f",
+                      "conversationId": null,
+                      "draftModel": "opus"
                     }
                   ],
                   "activeTabId": "tab-1789842748698-xc9o7mm"
@@ -259,7 +258,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 614.82421875
+    "width": 610.2598876953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,21 +275,22 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2b9975d3e4104d97",
+  "active": "996702ddd556c297",
   "lastOpenFiles": [
-    "Projects/СеверФест2026/media/_preview-test.png",
-    "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md",
-    "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
-    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
-    "Projects/СеверФест2026/Дизайн/СФ - Механика квеста.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md.tmp.28116.55516ef024f7",
     "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
     "Projects/СеверФест2026/_СеверФест 2026.md",
-    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
     "Projects/СеверФест2026/Реализация/СФ - Питч начальству.md",
     "Projects/СеверФест2026/Реализация/СФ - Лидерборд и техстек.md",
-    "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
-    "Projects/СеверФест2026/CLAUDE.md",
+    "Projects/СеверФест2026/Материалы/СФ2026.excalidraw.md",
     "Projects/СеверФест2026/Дизайн/СФ - Обзор проекта.md",
+    "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md",
+    "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
+    "Projects/СеверФест2026/media/_preview-test.png",
+    "Projects/СеверФест2026/Дизайн/СФ - Механика квеста.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
+    "Projects/СеверФест2026/CLAUDE.md",
     "Notes/Нормализация AVS.md",
     "Projects/СеверФест2026/media",
     "Projects/СеверФест2026/Материалы",
@@ -325,7 +325,6 @@
     "_.Settings/Media/Pasted image 20260424111448.png",
     "_.Settings/Media/Pasted image 20260424102645.png",
     "_.Settings/Media/Pasted image 20260422093656.png",
-    "_.Settings/Media/Pasted image 20260421150144.png",
     "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",
     "_. Home/Indexes/🦠Metagenomics/Классический пайплан обработки Метагеномных данных.canvas",
     "Notes/Общий пайплайн обработки метагеномных данных.canvas",
