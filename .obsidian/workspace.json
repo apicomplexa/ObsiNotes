@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
+                "file": "Projects/СеверФест2026/_СеверФест 2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "СФ - Экономика баллов"
+              "title": "_СеверФест 2026"
             }
           },
           {
@@ -242,11 +242,10 @@
                     },
                     {
                       "tabId": "tab-1789847180063-6bo1q3f",
-                      "conversationId": null,
-                      "draftModel": "opus"
+                      "conversationId": "conv-1789848395356-7ydsnjxv5"
                     }
                   ],
-                  "activeTabId": "tab-1789842748698-xc9o7mm"
+                  "activeTabId": "tab-1789847180063-6bo1q3f"
                 }
               },
               "icon": "bot",
@@ -275,11 +274,12 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "996702ddd556c297",
+  "active": "2b9975d3e4104d97",
   "lastOpenFiles": [
-    "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md.tmp.28116.55516ef024f7",
     "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
     "Projects/СеверФест2026/Дизайн/СФ - Карточки Человека Паука.md",
+    "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md.tmp.28116.55516ef024f7",
     "Projects/СеверФест2026/_СеверФест 2026.md",
     "Projects/СеверФест2026/Реализация/СФ - Питч начальству.md",
     "Projects/СеверФест2026/Реализация/СФ - Лидерборд и техстек.md",
@@ -289,7 +289,6 @@
     "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
     "Projects/СеверФест2026/media/_preview-test.png",
     "Projects/СеверФест2026/Дизайн/СФ - Механика квеста.md",
-    "Projects/СеверФест2026/Дизайн/СФ - Экономика баллов.md",
     "Projects/СеверФест2026/CLAUDE.md",
     "Notes/Нормализация AVS.md",
     "Projects/СеверФест2026/media",
@@ -308,7 +307,6 @@
     "Без названия.md",
     "Notes/Вакцинация от полиомиелита.md",
     "_. Home/MultyTest.md",
-    "CLAUDE.md.tmp.37452.20754f023bb9",
     "CLAUDE.md",
     "Notes/PICRUSt2.md",
     "Notes/EM-алгоритм.md",

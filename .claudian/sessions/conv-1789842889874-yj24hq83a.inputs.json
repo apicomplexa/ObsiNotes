@@ -58,7 +58,8 @@
       "canonicalText": "Приведи остальные файлы проекта в соответствие с v2.1",
       "images": [],
       "contentDigest": "607a78f9e5389450ed53901b01bc89c3bfb546e2be53a281d55965697d6f8793",
-      "providerUserMessageId": "76be8f6c-bc03-440d-a06d-560e10feaa42"
+      "providerUserMessageId": "76be8f6c-bc03-440d-a06d-560e10feaa42",
+      "providerAssistantMessageId": "57c238e9-ba62-4819-97d6-b8ef14fd32fd"
     }
   ]
 }

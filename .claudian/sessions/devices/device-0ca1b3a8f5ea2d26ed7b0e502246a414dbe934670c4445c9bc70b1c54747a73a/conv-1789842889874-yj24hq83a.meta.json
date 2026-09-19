@@ -4,7 +4,7 @@
   "title": "Пересчет баллов и процентов в экономике",
   "titleGenerationStatus": "success",
   "createdAt": 1789842889882,
-  "lastActivityAt": 1789847490960,
+  "lastActivityAt": 1789847806505,
   "sessionId": "f0386eb5-e02b-4fe7-a947-efebdea312f5",
   "selectedModel": "opus",
   "providerState": {
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 547,
-    "cacheReadInputTokens": 223346,
+    "cacheCreationInputTokens": 1716,
+    "cacheReadInputTokens": 281643,
     "contextWindow": 1000000,
-    "contextTokens": 223895,
-    "percentage": 22,
+    "contextTokens": 283361,
+    "percentage": 28,
     "contextWindowIsAuthoritative": true
   }
 }

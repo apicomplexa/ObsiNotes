@@ -1,0 +1,14 @@
+{
+  "id": "conv-1789848395356-7ydsnjxv5",
+  "providerId": "claude",
+  "title": "Создай новый артефакт - md файл (который экспортир...",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1789848395365,
+  "lastActivityAt": 1789848395365,
+  "sessionId": "0f175296-7903-4ecf-beb7-cb8f3ac4f204",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "0f175296-7903-4ecf-beb7-cb8f3ac4f204"
+  },
+  "linkedContentPath": "Projects/СеверФест2026/_СеверФест 2026.md"
+}
