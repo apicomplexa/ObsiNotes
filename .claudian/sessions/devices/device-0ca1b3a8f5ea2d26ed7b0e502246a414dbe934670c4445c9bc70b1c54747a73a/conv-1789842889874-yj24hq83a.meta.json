@@ -1,8 +1,8 @@
 {
   "id": "conv-1789842889874-yj24hq83a",
   "providerId": "claude",
-  "title": "Я написал новую версию экономики",
-  "titleGenerationStatus": "pending",
+  "title": "Пересчет баллов и процентов в экономике",
+  "titleGenerationStatus": "success",
   "createdAt": 1789842889882,
   "lastActivityAt": 1789842889882,
   "sessionId": "f0386eb5-e02b-4fe7-a947-efebdea312f5",
