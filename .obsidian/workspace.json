@@ -131,7 +131,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -257,7 +258,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 610.2598876953125
+    "width": 610.2598876953125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -274,7 +276,7 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "996702ddd556c297",
+  "active": "6bd13da1767935d8",
   "lastOpenFiles": [
     "Projects/СеверФест2026/Дизайн/СФ - Тайный слой и Человек Паук.md",
     "Projects/СеверФест2026/Артефакты/СФ - Экономика и квест — сводка для команды.md",
