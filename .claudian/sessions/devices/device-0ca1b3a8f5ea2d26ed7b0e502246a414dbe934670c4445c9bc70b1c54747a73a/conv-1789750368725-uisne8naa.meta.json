@@ -4,11 +4,21 @@
   "title": "Улучшение транскрипта педиатрической лекции",
   "titleGenerationStatus": "success",
   "createdAt": 1789750368736,
-  "lastActivityAt": 1789750368736,
+  "lastActivityAt": 1789750714278,
   "sessionId": "6d910418-99c5-45eb-9446-04797398d6f2",
   "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "6d910418-99c5-45eb-9446-04797398d6f2"
   },
-  "linkedContentPath": "диспансеризация детей.md"
+  "linkedContentPath": "Notes/диспансеризация детей.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 1092,
+    "cacheReadInputTokens": 121424,
+    "contextWindow": 1000000,
+    "contextTokens": 122518,
+    "percentage": 12,
+    "contextWindowIsAuthoritative": true
+  }
 }
