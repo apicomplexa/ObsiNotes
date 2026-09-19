@@ -1,6 +1,6 @@
 ---
 name: excalidraw
-description: Excalidraw file format, embedding syntax, the vault's script library, and how Excalidraw files interact with Dataview queries. Use when creating, embedding, or querying .excalidraw.md diagrams.
+description: Excalidraw file format, embedding syntax, the vault's script library, how Excalidraw files interact with Dataview queries, and node tooling for editing .excalidraw.md scenes programmatically. Use when creating, embedding, querying, or bulk-editing .excalidraw.md diagrams.
 ---
 
 # excalidraw
@@ -9,7 +9,7 @@ description: Excalidraw file format, embedding syntax, the vault's script librar
 
 ## Структура файла
 
-Frontmatter: `excalidraw-plugin: parsed`, `tags: [excalidraw]`, опционально `aliases`. Далее предупреждающая строка и скрытый `%%`-блок `# Drawing` с JSON:
+Frontmatter: `excalidraw-plugin: parsed`, `tags: [excalidraw]`, опционально `aliases`. Далее предупреждающая строка и скрытый `%%`-блок с секциями `## Text Elements`, `## Embedded Files`, `## Drawing`. В последней — сцена:
 
 ```json
 {
@@ -19,6 +19,10 @@ Frontmatter: `excalidraw-plugin: parsed`, `tags: [excalidraw]`, опционал
   "appState": { "theme": "dark", "gridSize": null, "viewBackgroundColor": "#ffffff" }
 }
 ```
+
+На практике в хранилище сцена лежит не открытым текстом, а в блоке ` ```compressed-json ` — сжатая LZ-String. Прочитать её `cat`/`grep` нельзя; распаковка — в `scripts/` (см. ниже). Развернуть вручную: Command Palette → `Decompress current Excalidraw file`.
+
+При `excalidraw-plugin: parsed` текст блоков берётся из секции `## Text Elements`, а не из JSON сцены — это источник правды.
 
 Для редактирования файл открывают через More Options (⋯) → "Open as Excalidraw".
 
@@ -88,6 +92,27 @@ Metadata Menu их игнорирует: `fileIndexingExcludedExtensions: [".exc
 | `Uniform size.md` | Одинаковый размер элементов |
 
 Новые скрипты: Excalidraw Settings → Script Engine → указать папку.
+
+## Программная правка схемы
+
+Когда правок много и они механические (пересчитать числа, добавить десяток подписей, разложить блок комментариев), мышью это долго. В `scripts/` — инструменты для правки `.excalidraw.md` вне Obsidian; требуется только `node`, зависимостей нет.
+
+| Файл | Назначение |
+| --- | --- |
+| `scripts/excalidraw-io.js` | Основной модуль: `load()` → правки → `save()`. Сам распаковывает сцену, пересобирает `## Text Elements` и упаковывает обратно в формате плагина |
+| `scripts/lzstring.js` | Кодек LZ-String для блока `compressed-json` |
+| `scripts/dump-scene.js` | Читаемая выгрузка сцены: id, координаты, текст, привязки (`--tree` — только граф стрелок) |
+| `scripts/check-overlap.js` | Не легли ли новые блоки поверх существующих |
+| `scripts/render-preview.js` | Отрендерить PNG через запущенный Obsidian, чтобы посмотреть результат |
+
+```bash
+S=".claude/skills/excalidraw/scripts"
+node "$S/dump-scene.js" "Projects/.../Схема.excalidraw.md" --tree
+node "$S/check-overlap.js" "Projects/.../Схема.excalidraw.md" --color "#6741d9"
+node "$S/render-preview.js" "Projects/.../Схема.excalidraw.md" "media/_preview.png"
+```
+
+__Перед записью в хранилище читай [references/EDITING-PROGRAMMATICALLY.md](references/EDITING-PROGRAMMATICALLY.md)__ — там устройство формата, требование «id текстового элемента ровно 8 символов» и, главное, ловушка с __Obsidian Linter__: при внешней записи он вставляет пустые строки внутрь многострочных текстовых элементов и разваливает вёрстку схемы, причём через секунду-две после того, как скрипт отрапортовал об успехе.
 
 ## Экспорт
 

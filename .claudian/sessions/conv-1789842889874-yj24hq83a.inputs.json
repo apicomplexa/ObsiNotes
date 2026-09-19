@@ -18,7 +18,21 @@
       },
       "images": [],
       "contentDigest": "2d3f48017ad8e126a5157f438d102cfea1c76bb04aa1a9bb1e6e0e49e1a4e9a0",
-      "providerUserMessageId": "23fef155-1798-4970-bc30-7ed4d78dae81"
+      "providerUserMessageId": "23fef155-1798-4970-bc30-7ed4d78dae81",
+      "providerAssistantMessageId": "1271f2f7-2817-4f22-92e8-0c2399beb30d"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789843736802-ycbg61a",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789843736787-2ox7t57",
+      "timestamp": 1789843736787,
+      "rawDisplayText": "Вопрос несвязанный с материалом. В процессе работы ты писал много скриптов. Зачем они? Чтобы оперировать с excaldraw? Могут ли они пригодиться в будущем? Если да - сохрани их как часть скила excalidraw",
+      "canonicalText": "Вопрос несвязанный с материалом. В процессе работы ты писал много скриптов. Зачем они? Чтобы оперировать с excaldraw? Могут ли они пригодиться в будущем? Если да - сохрани их как часть скила excalidraw",
+      "images": [],
+      "contentDigest": "d3a601d052b0eea88aa5b3fdac13d2d3abdde5f8c717812d8575b1c17291c1ef",
+      "providerUserMessageId": "a5c986fc-ed71-487f-8a12-6ab9653404f7"
     }
   ]
 }

@@ -4,11 +4,21 @@
   "title": "Пересчет баллов и процентов в экономике",
   "titleGenerationStatus": "success",
   "createdAt": 1789842889882,
-  "lastActivityAt": 1789842889882,
+  "lastActivityAt": 1789843736787,
   "sessionId": "f0386eb5-e02b-4fe7-a947-efebdea312f5",
   "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "f0386eb5-e02b-4fe7-a947-efebdea312f5"
   },
-  "linkedContentPath": "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md"
+  "linkedContentPath": "Projects/СеверФест2026/Материалы/Экономика v2.1.excalidraw.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 364,
+    "cacheReadInputTokens": 177577,
+    "contextWindow": 1000000,
+    "contextTokens": 177943,
+    "percentage": 18,
+    "contextWindowIsAuthoritative": true
+  }
 }
