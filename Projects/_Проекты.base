@@ -22,12 +22,10 @@ views:
       - file.ctime
       - formula.Архивировано
     sort:
+      - property: status
+        direction: DESC
       - property: formula.Архивировано
         direction: ASC
-      - property: status
-        direction: ASC
-      - property: file.ctime
-        direction: DESC
       - property: formula.Свойсва
         direction: ASC
     columnSize:
