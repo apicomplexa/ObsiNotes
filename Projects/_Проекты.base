@@ -44,5 +44,5 @@ views:
       - file.name
       - file.ctime
       - status
-    imageAspectRatio: 1.1
-    cardSize: 350
+    imageAspectRatio: 0.85
+    cardSize: 190
