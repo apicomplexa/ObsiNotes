@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Бариатрия/CLAUDE.md",
+                "file": "Projects/Бариатрия/_Бариатрия.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "_Бариатрия"
             }
           }
         ]
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Бариатрия/CLAUDE.md",
+                "file": "Projects/Бариатрия/_Бариатрия.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
@@ -222,15 +222,11 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1789847180063-6bo1q3f",
-                      "conversationId": "conv-1789836133501-ppzs43qll"
-                    },
-                    {
-                      "tabId": "tab-1790507441613-ygk5yd3",
-                      "conversationId": "conv-1790507511420-afrc1pmqv"
+                      "tabId": "tab-1790508677355-xc98msw",
+                      "conversationId": "conv-1790508921821-5yrswkbb3"
                     }
                   ],
-                  "activeTabId": "tab-1790507441613-ygk5yd3"
+                  "activeTabId": "tab-1790508677355-xc98msw"
                 }
               },
               "icon": "bot",
@@ -242,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.9510498046875
+    "width": 1044.7864379882812
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,14 +255,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6599af1d5fdf928b",
+  "active": "2b9975d3e4104d97",
   "lastOpenFiles": [
+    "Projects/Бариатрия/CLAUDE.md",
     "Projects/Бариатрия/HeM43bue",
     "Projects/Бариатрия/Артефакты/Схемы/Схема 1 - Общая карта маршрута.pdf",
     "Projects/Бариатрия/Артефакты/Схемы/Схема 1 - Общая карта маршрута.svg",
     "Projects/Бариатрия/_Бариатрия.md",
     "Projects/_Проекты.base",
-    "Projects/Бариатрия/CLAUDE.md",
     "Projects/Бариатрия/Маршрут/БАР - Формы и приложения.md",
     "Projects/Бариатрия/Реализация/aLU87C5F",
     "Projects/Бариатрия/Маршрут/niib1riH",
@@ -279,7 +275,6 @@
     "Projects/Бариатрия/Артефакты/Схемы/Схема 5 - Пищевая и физическая реабилитация.svg",
     "Projects/Бариатрия/Артефакты/Схемы/Схема 4 - Стационарный этап по суткам.pdf",
     "Projects/Бариатрия/Артефакты/Схемы/Схема 4 - Стационарный этап по суткам.svg",
-    "Projects/Бариатрия/Артефакты/Схемы/Схема 3 - Догоспитальное обследование.pdf",
     "Projects/Бариатрия/Артефакты/Схемы/Схема 3 - Догоспитальное обследование.svg",
     "Projects/Бариатрия/Артефакты/Схемы/Схема 2 - Точки входа и постановка в очередь.svg",
     "Projects/Бариатрия/Маршрут/БАР - Единый центр бариатрии.md",

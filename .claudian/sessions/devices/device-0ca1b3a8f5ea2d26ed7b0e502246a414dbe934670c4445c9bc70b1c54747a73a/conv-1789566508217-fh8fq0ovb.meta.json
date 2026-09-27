@@ -10,6 +10,8 @@
   "providerState": {
     "providerSessionId": "98094417-3735-40ae-b28a-75e5bca68ce5"
   },
+  "isPinned": false,
+  "isArchived": true,
   "usage": {
     "model": "opus",
     "inputTokens": 2,

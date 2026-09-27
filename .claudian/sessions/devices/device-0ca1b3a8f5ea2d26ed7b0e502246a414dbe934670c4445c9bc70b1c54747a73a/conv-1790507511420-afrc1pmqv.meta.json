@@ -4,10 +4,22 @@
   "title": "Импортировать Claude-экспорт в Бариатрию",
   "titleGenerationStatus": "success",
   "createdAt": 1790507511434,
-  "lastActivityAt": 1790507511434,
+  "lastActivityAt": 1790508345674,
   "sessionId": "ed570156-57fa-4f8b-b167-8b68e73318e6",
   "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "ed570156-57fa-4f8b-b167-8b68e73318e6"
+  },
+  "isPinned": false,
+  "isArchived": true,
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 977,
+    "cacheReadInputTokens": 124604,
+    "contextWindow": 1000000,
+    "contextTokens": 125583,
+    "percentage": 13,
+    "contextWindowIsAuthoritative": true
   }
 }

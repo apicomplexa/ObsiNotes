@@ -11,6 +11,8 @@
     "providerSessionId": "6d910418-99c5-45eb-9446-04797398d6f2"
   },
   "linkedContentPath": "Notes/диспансеризация детей.md",
+  "isPinned": false,
+  "isArchived": true,
   "usage": {
     "model": "opus",
     "inputTokens": 2,

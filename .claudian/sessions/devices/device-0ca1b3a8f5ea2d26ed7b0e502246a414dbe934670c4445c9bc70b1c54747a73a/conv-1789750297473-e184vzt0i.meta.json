@@ -11,5 +11,7 @@
       "sessionId": "9d8aeed7-2fea-466b-b69c-fcc53d0acce6",
       "resumeAt": "9eb67acc-0208-4d1d-a901-13e99e0f6382"
     }
-  }
+  },
+  "isPinned": false,
+  "isArchived": true
 }

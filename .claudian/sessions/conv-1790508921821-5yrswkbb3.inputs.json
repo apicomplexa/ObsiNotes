@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1790508921821-5yrswkbb3",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790508921974-1tfjb6z",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1790508921808-0qj92x3",
+      "timestamp": 1790508921808,
+      "rawDisplayText": "[[Projects/Бариатрия/_Бариатрия.md|_Бариатрия]] Нужно для всех источников информации указанных в [[Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.docx|Маршрут пациента бариатрического профиля.docx]] сделать сохранение в Zotero в отдельную коллекцию Бариатрия",
+      "canonicalText": "[[Projects/Бариатрия/_Бариатрия.md|_Бариатрия]] Нужно для всех источников информации указанных в [[Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.docx|Маршрут пациента бариатрического профиля.docx]] сделать сохранение в Zotero в отдельную коллекцию Бариатрия",
+      "context": {
+        "linkedContent": {
+          "path": "Projects/Бариатрия/_Бариатрия.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "20d8bb6086507039cb66132736e7d19de1d7ac25f3be548cdc2fbc2a60f77032",
+      "providerUserMessageId": "afebd8cc-41c3-4ae5-bbe0-4b71ab75ab11"
+    }
+  ]
+}

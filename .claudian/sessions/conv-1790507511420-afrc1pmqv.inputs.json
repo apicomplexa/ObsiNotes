@@ -13,7 +13,8 @@
       "canonicalText": "/import-claude-export @Projects/Бариатрия/",
       "images": [],
       "contentDigest": "6da1e2d1ebfb1a5b9beabef4bccce49685e7fbaad05dd9ec01728bb43e6413f2",
-      "providerUserMessageId": "1df2e29e-50ef-4474-b4e4-487783817fb0"
+      "providerUserMessageId": "1df2e29e-50ef-4474-b4e4-487783817fb0",
+      "providerAssistantMessageId": "3dd9e83e-05e7-44e1-8e17-fbec70b5d40a"
     }
   ]
 }
