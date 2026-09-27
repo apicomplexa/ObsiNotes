@@ -1,14 +1,24 @@
 {
   "id": "conv-1790508921821-5yrswkbb3",
   "providerId": "claude",
-  "title": "[[Projects/Бариатрия/_Бариатрия",
-  "titleGenerationStatus": "pending",
+  "title": "Сохранить источники в коллекцию Zotero",
+  "titleGenerationStatus": "success",
   "createdAt": 1790508921831,
-  "lastActivityAt": 1790508921831,
+  "lastActivityAt": 1790509240672,
   "sessionId": "4246af2d-457d-4c1f-bff9-7c02908f307e",
   "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "4246af2d-457d-4c1f-bff9-7c02908f307e"
   },
-  "linkedContentPath": "Projects/Бариатрия/_Бариатрия.md"
+  "linkedContentPath": "Projects/Бариатрия/_Бариатрия.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 404,
+    "cacheReadInputTokens": 55887,
+    "contextWindow": 1000000,
+    "contextTokens": 56293,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
 }

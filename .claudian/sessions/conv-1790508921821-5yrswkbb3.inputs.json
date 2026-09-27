@@ -19,6 +19,19 @@
       "images": [],
       "contentDigest": "20d8bb6086507039cb66132736e7d19de1d7ac25f3be548cdc2fbc2a60f77032",
       "providerUserMessageId": "afebd8cc-41c3-4ae5-bbe0-4b71ab75ab11"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790509240688-51mf5ol",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1790509240672-87q25je",
+      "timestamp": 1790509240672,
+      "rawDisplayText": "Если у Zotero нет API то просто сделай файл который можно будет импортировать (.bib) должен рабоать",
+      "canonicalText": "Если у Zotero нет API то просто сделай файл который можно будет импортировать (.bib) должен рабоать",
+      "images": [],
+      "contentDigest": "de655bd9371b7363d373b618eb38ed868692fd4c33b725fddd7b177f2536d164",
+      "providerUserMessageId": "48acdc3b-4731-41a8-8c5c-f30009f617c8"
     }
   ]
 }
