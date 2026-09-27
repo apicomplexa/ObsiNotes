@@ -4,7 +4,7 @@
   "title": "Сохранить источники в коллекцию Zotero",
   "titleGenerationStatus": "success",
   "createdAt": 1790508921831,
-  "lastActivityAt": 1790510443650,
+  "lastActivityAt": 1790512581548,
   "sessionId": "4246af2d-457d-4c1f-bff9-7c02908f307e",
   "selectedModel": "opus",
   "providerState": {
@@ -14,11 +14,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 1092,
-    "cacheReadInputTokens": 111917,
+    "cacheCreationInputTokens": 1484,
+    "cacheReadInputTokens": 281805,
     "contextWindow": 1000000,
-    "contextTokens": 113011,
-    "percentage": 11,
+    "contextTokens": 283291,
+    "percentage": 28,
     "contextWindowIsAuthoritative": true
   }
 }
