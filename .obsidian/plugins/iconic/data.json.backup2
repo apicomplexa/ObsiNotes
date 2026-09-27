@@ -85,6 +85,10 @@
         "fd9f8c14707d7910"
       ]
     },
+    "Projects/СеверФест2026": {
+      "icon": "lucide-ticket-check",
+      "color": "green"
+    },
     "Projects/Статьи и рефераты": {
       "icon": "lucide-book-open",
       "unsynced": [

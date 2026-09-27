@@ -23,7 +23,9 @@ Reference material lives in `.claude/skills/`. Before any vault task, invoke:
 
 Consult the matching skill when a task touches it: `obsidian-markdown`, `dataviewjs`, `templater`, `quickadd`, `obsidian-bases`, `json-canvas`, `excalidraw`, `frontmatter-linter`, `defuddle`.
 
-Task skills: `new-note`, `new-quickadd-script`, `build-dataviews`, `vault-audit`.
+Task skills: `new-note`, `new-quickadd-script`, `build-dataviews`, `vault-audit`, `import-claude-export`.
+
+`import-claude-export` handles export packages from the claude.ai-side export skill (`MANIFEST.md` + MOC + topic notes + artifacts) — it unpacks them into a self-contained `Projects/` folder. Invoke it whenever such a package appears in the vault.
 
 `obsidian-markdown`, `obsidian-bases`, `json-canvas`, `defuddle` and the `dev:*` section of `obsidian-cli` come from [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills); each carries an appended `ObsiNotes:` section with vault-specific conventions. When re-syncing upstream, keep that trailing section.
 

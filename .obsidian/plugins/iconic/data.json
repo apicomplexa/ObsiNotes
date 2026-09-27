@@ -77,6 +77,10 @@
       ],
       "color": "red"
     },
+    "Projects/Бариатрия": {
+      "icon": "lucide-slice",
+      "color": "green"
+    },
     "Projects/Истории болезней": {
       "icon": "lucide-briefcase-medical",
       "color": "pink",
