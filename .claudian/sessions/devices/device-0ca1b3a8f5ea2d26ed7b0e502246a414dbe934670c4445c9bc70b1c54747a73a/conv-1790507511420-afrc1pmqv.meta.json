@@ -1,8 +1,8 @@
 {
   "id": "conv-1790507511420-afrc1pmqv",
   "providerId": "claude",
-  "title": "/import-claude-export @Projects/Бариатрия/",
-  "titleGenerationStatus": "pending",
+  "title": "Импортировать Claude-экспорт в Бариатрию",
+  "titleGenerationStatus": "success",
   "createdAt": 1790507511434,
   "lastActivityAt": 1790507511434,
   "sessionId": "ed570156-57fa-4f8b-b167-8b68e73318e6",
