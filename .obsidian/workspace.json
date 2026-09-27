@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "87add5ee6e9bcb3d",
+        "id": "cbb00e2c241f7890",
         "type": "tabs",
         "children": [
           {
-            "id": "5e03be6b54df403d",
+            "id": "1c5f499912385aff",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -218,9 +218,13 @@
                     {
                       "tabId": "tab-1789847180063-6bo1q3f",
                       "conversationId": "conv-1789836133501-ppzs43qll"
+                    },
+                    {
+                      "tabId": "tab-1790507441613-ygk5yd3",
+                      "conversationId": "conv-1790507511420-afrc1pmqv"
                     }
                   ],
-                  "activeTabId": "tab-1789847180063-6bo1q3f"
+                  "activeTabId": "tab-1790507441613-ygk5yd3"
                 }
               },
               "icon": "bot",
@@ -251,11 +255,11 @@
   },
   "active": "2b9975d3e4104d97",
   "lastOpenFiles": [
+    "Projects/Бариатрия/bariatric-routing-center-argument.md",
     "CLAUDE.md.tmp.31660.457a57c5040e",
     "Projects/СеверФест2026/Артефакты/Карточки ЧП — макет, тираж, раскладка.pdf",
     "Projects/Бариатрия/bariatric-routing-moc.md",
     "Projects/Бариатрия/svg-diagram-pipeline-python.md",
-    "Projects/Бариатрия/bariatric-routing-center-argument.md",
     "Projects/Бариатрия/bariatric-routing-document.md",
     "Projects/СеверФест2026/CLAUDE.md",
     "Projects/СеверФест2026/_СеверФест 2026.md",
@@ -284,7 +288,6 @@
     "Projects/СеверФест2026/Реализация",
     "Projects/СеверФест2026/Дизайн",
     "Projects/СеверФест2026/artefacts",
-    "Projects/СеверФест2026/claude-web-export",
     "Notes/диспансеризация детей.md",
     "Notes/Вакцинопрофилактика.md",
     "Drawing 2026-09-17 18.47.54.excalidraw.md",

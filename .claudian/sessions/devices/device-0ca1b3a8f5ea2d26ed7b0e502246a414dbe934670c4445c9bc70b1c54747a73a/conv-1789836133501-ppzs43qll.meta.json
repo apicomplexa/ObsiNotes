@@ -4,7 +4,7 @@
   "title": "Структурирование СеверФест2026",
   "titleGenerationStatus": "success",
   "createdAt": 1789836133510,
-  "lastActivityAt": 1790506809281,
+  "lastActivityAt": 1790507023349,
   "sessionId": "b3f1ea70-aee4-40e5-af9b-17606cbd2062",
   "selectedModel": "opus",
   "providerState": {
@@ -13,11 +13,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 2591,
-    "cacheReadInputTokens": 111962,
+    "cacheCreationInputTokens": 672,
+    "cacheReadInputTokens": 134201,
     "contextWindow": 1000000,
-    "contextTokens": 114555,
-    "percentage": 11,
+    "contextTokens": 134875,
+    "percentage": 13,
     "contextWindowIsAuthoritative": true
   }
 }
