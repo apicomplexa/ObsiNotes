@@ -77,6 +77,17 @@
       ],
       "color": "red"
     },
+    "Projects/_Проекты.base": {
+      "color": "pink",
+      "unsynced": [
+        "7a45edf05fd26873",
+        "fd9f8c14707d7910"
+      ]
+    },
+    "Projects/Бариатрия": {
+      "icon": "lucide-slice",
+      "color": "green"
+    },
     "Projects/Истории болезней": {
       "icon": "lucide-briefcase-medical",
       "color": "pink",
@@ -99,13 +110,6 @@
     },
     "Projects/Статьи и рефераты/_Archive": {
       "icon": "lucide-inbox",
-      "unsynced": [
-        "7a45edf05fd26873",
-        "fd9f8c14707d7910"
-      ]
-    },
-    "Projects/Статьи и рефераты/_Статьи и рефераты.base": {
-      "color": "pink",
       "unsynced": [
         "7a45edf05fd26873",
         "fd9f8c14707d7910"

@@ -1,10 +1,23 @@
 {
   "id": "conv-1790513054965-50nk9md2f",
   "providerId": "claude",
-  "title": "Создай новый артефакт в проекте [[Projects/Бариатр...",
-  "titleGenerationStatus": "pending",
+  "title": "Вступление доклада про ожирение в Архангельске",
+  "titleGenerationStatus": "success",
   "createdAt": 1790513054980,
-  "lastActivityAt": 1790513054980,
-  "sessionId": null,
-  "selectedModel": "opus"
+  "lastActivityAt": 1790580945047,
+  "sessionId": "16c505be-0316-4bb7-b521-7fdafb11fa9e",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "16c505be-0316-4bb7-b521-7fdafb11fa9e"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 13064,
+    "cacheReadInputTokens": 76026,
+    "contextWindow": 1000000,
+    "contextTokens": 89092,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
 }

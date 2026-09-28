@@ -6,13 +6,28 @@
       "schemaVersion": 1,
       "id": "msg-1790513055133-7zh016t",
       "userTurnOrdinal": 1,
-      "state": "staged",
+      "state": "accepted",
       "localMessageId": "msg-1790513054954-9cehmib",
       "timestamp": 1790513054954,
       "rawDisplayText": "Создай новый артефакт в проекте [[Projects/Бариатрия/_Бариатрия.md|_Бариатрия]] \nНужно написать введение для доклада на конферениции про ожирение, ситуацию в Архангельске, что мы имеем на данный момент. обстоятельства актуальности найти для доклада. Контекст - будет выступление на основе этого проекта. основная часть уже есть текущая задача - встапление",
       "canonicalText": "Создай новый артефакт в проекте [[Projects/Бариатрия/_Бариатрия.md|_Бариатрия]] \nНужно написать введение для доклада на конферениции про ожирение, ситуацию в Архангельске, что мы имеем на данный момент. обстоятельства актуальности найти для доклада. Контекст - будет выступление на основе этого проекта. основная часть уже есть текущая задача - встапление",
       "images": [],
-      "contentDigest": "3cd6b0f085677863f3309bcc11add8d529d52ace83fd652c68d02c31751074bd"
+      "contentDigest": "3cd6b0f085677863f3309bcc11add8d529d52ace83fd652c68d02c31751074bd",
+      "providerUserMessageId": "76a0e85e-1234-409a-a283-031635d59c79",
+      "providerAssistantMessageId": "c7633956-7b1e-4017-bc76-cbf7e0b1a4c6"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790580945125-zb76jdr",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1790580945047-urq9fc9",
+      "timestamp": 1790580945047,
+      "rawDisplayText": "продолжай",
+      "canonicalText": "продолжай",
+      "images": [],
+      "contentDigest": "4193135019ec3f145374abd417a61a220c1efdcfbed02849cb14d95df2c7db55",
+      "providerUserMessageId": "e07316fe-aec2-4af7-8272-f86ce9542881"
     }
   ]
 }

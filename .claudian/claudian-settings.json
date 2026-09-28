@@ -1,7 +1,7 @@
 {
   "userName": "Алекс",
   "permissionMode": "yolo",
-  "model": "haiku",
+  "model": "opus",
   "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -95,7 +95,7 @@
   "settingsProvider": "claude",
   "lastSelectedChatModel": null,
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "opus"
   },
   "savedProviderEffort": {
     "claude": "high"
