@@ -4,7 +4,7 @@
   "title": "Вступление доклада про ожирение в Архангельске",
   "titleGenerationStatus": "success",
   "createdAt": 1790513054980,
-  "lastActivityAt": 1790580945047,
+  "lastActivityAt": 1790581688451,
   "sessionId": "16c505be-0316-4bb7-b521-7fdafb11fa9e",
   "selectedModel": "opus",
   "providerState": {
@@ -13,11 +13,11 @@
   "usage": {
     "model": "opus",
     "inputTokens": 2,
-    "cacheCreationInputTokens": 13064,
-    "cacheReadInputTokens": 76026,
+    "cacheCreationInputTokens": 1196,
+    "cacheReadInputTokens": 109230,
     "contextWindow": 1000000,
-    "contextTokens": 89092,
-    "percentage": 9,
+    "contextTokens": 110428,
+    "percentage": 11,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -60,7 +60,31 @@ async function rpc(method, params) {
     noKey.forEach(i => console.warn('  -', i.data.title || i.data.nameOfAct));
   }
 
-  const json = await rpc('item.export', [keys, 'Better CSL JSON']);
+  // Основной путь — csljson локального API: он уже подставляет в id citation key
+  // от Better BibTeX и работает, даже когда HTTP-эндпоинты BBT не подняты
+  // (наблюдалось 28-09-2026: BBT ключи присваивает, а /better-bibtex/json-rpc даёт 404).
+  let json;
+  const csl = await request({
+    ...ZOTERO,
+    path: `/api/users/0/collections/${COLLECTION_KEY}/items/top?format=csljson&limit=200`,
+    method: 'GET',
+  });
+  if (csl.status === 200) {
+    const parsed = JSON.parse(csl.body);
+    const missing = parsed.filter(e => !e['citation-key']);
+    if (missing.length) {
+      console.warn('в csljson нет citation-key у', missing.length, 'записей — беру резервный путь через BBT');
+      json = await rpc('item.export', [keys, 'Better CSL JSON']);
+    } else {
+      // сортировка по citation key, чтобы диффы файла оставались читаемыми
+      parsed.sort((a, b) => String(a.id).localeCompare(String(b.id)));
+      json = `[\n${parsed.map(e => '  ' + JSON.stringify(e)).join(',\n')}\n]\n`;
+    }
+  } else {
+    console.warn('csljson недоступен (', csl.status, ') — беру резервный путь через BBT');
+    json = await rpc('item.export', [keys, 'Better CSL JSON']);
+  }
+
   JSON.parse(json); // проверка, что это валидный JSON
   fs.writeFileSync(OUT, json, 'utf8');
 

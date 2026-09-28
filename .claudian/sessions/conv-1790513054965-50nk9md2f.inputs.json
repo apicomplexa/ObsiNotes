@@ -27,7 +27,21 @@
       "canonicalText": "продолжай",
       "images": [],
       "contentDigest": "4193135019ec3f145374abd417a61a220c1efdcfbed02849cb14d95df2c7db55",
-      "providerUserMessageId": "e07316fe-aec2-4af7-8272-f86ce9542881"
+      "providerUserMessageId": "e07316fe-aec2-4af7-8272-f86ce9542881",
+      "providerAssistantMessageId": "12fb2dd4-f469-4576-aef2-e901e6111d9b"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1790581688471-i3bd25f",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1790581688451-uf7j7k9",
+      "timestamp": 1790581688451,
+      "rawDisplayText": "Я изменил форматирование, убрал блоки что не требуются. Теперь расставь ссылки по тексту и таблицам. Добавь записи в зотеро",
+      "canonicalText": "Я изменил форматирование, убрал блоки что не требуются. Теперь расставь ссылки по тексту и таблицам. Добавь записи в зотеро",
+      "images": [],
+      "contentDigest": "0cfed9e5d50dd3df03d0145f8b6aa2f8ef948c2886bdf9e3b2df5b691cb2de66",
+      "providerUserMessageId": "f921b14a-f071-4f9b-9915-6b6fede84c5a"
     }
   ]
 }

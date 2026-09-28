@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5c04c3ea11fd93ac",
+        "id": "04118af85b754709",
         "type": "tabs",
         "children": [
           {
-            "id": "d27b49b91d11b191",
+            "id": "cfdcd2e87130ad18",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -251,6 +251,11 @@
   },
   "active": "2b9975d3e4104d97",
   "lastOpenFiles": [
+    "Projects/Бариатрия/CLAUDE.md.tmp.26648.165f2f0a54f2",
+    "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md.tmp.26648.06f9f477af4b",
+    "Projects/Бариатрия/Материалы/_tmp-cite-table.py",
+    "Projects/Бариатрия/Материалы/bib-push-doklad.js",
+    "Projects/Бариатрия/Материалы/bib-push-doklad.js.tmp.26648.f9f9ab7ca22a",
     "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md",
     "Projects/Бариатрия/CLAUDE.md",
     "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
@@ -282,7 +287,6 @@
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 10 Виды бариатрических вмешательств.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 09 Этап 6. Предоперационная подготовка.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 08 Этап 5. Консилиум и информированное согласие.md",
-    "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 06 Этап 3. Первичная консультация хирурга.md",
     "Projects/Бариатрия/Артефакты/Разделы",
     "Projects/Бариатрия/media/bar-scheme-7.png",
     "Projects/Бариатрия/media/bar-scheme-6.png",
@@ -293,10 +297,6 @@
     "Projects/Бариатрия/media",
     "Projects/_Проекты.base",
     "Projects/Бариатрия/Материалы/Бариатрия.bib",
-    "Projects/Бариатрия/HeM43bue",
-    "Projects/Бариатрия/Артефакты/Схемы/Схема 1 - Общая карта маршрута.pdf",
-    "Projects/Бариатрия/Реализация/aLU87C5F",
-    "Projects/Бариатрия/Маршрут/niib1riH",
     "Без названия.canvas",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",
