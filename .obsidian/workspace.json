@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "04118af85b754709",
+        "id": "d49cd1bedf324e1a",
         "type": "tabs",
         "children": [
           {
-            "id": "cfdcd2e87130ad18",
+            "id": "19d450138b9dc775",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Функциональные навыки меня.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Функциональные навыки меня"
             }
           }
         ]
@@ -111,11 +116,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 437.4394226074219
+    "width": 290.5234375
   },
   "right": {
     "id": "96fc1bc1662eb85e",
@@ -190,8 +196,8 @@
             "state": {
               "type": "ReferenceListView",
               "state": {},
-              "icon": "quote-glyph",
-              "title": "References"
+              "icon": "lucide-ghost",
+              "title": "ReferenceListView"
             }
           },
           {
@@ -216,11 +222,12 @@
                   "version": 1,
                   "openTabs": [
                     {
-                      "tabId": "tab-1790512950101-x0icylh",
-                      "conversationId": "conv-1790513054965-50nk9md2f"
+                      "tabId": "tab-1790936759588-3808yn2",
+                      "conversationId": null,
+                      "draftModel": "opus"
                     }
                   ],
-                  "activeTabId": "tab-1790512950101-x0icylh"
+                  "activeTabId": "tab-1790936759588-3808yn2"
                 }
               },
               "icon": "bot",
@@ -232,33 +239,35 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.3173828125
+    "width": 536.3173828125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "canvas:Создать новый холст": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "obsidian-kanban:Создать новую доску": false,
-      "iconic:Открыть свод правил": false,
-      "templater-obsidian:Templater": false,
       "graph:Граф": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "obsidian-kanban:Create new board": false,
+      "iconic:Открыть свод правил": false,
+      "obsidian-git:Open Git source control": false,
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "2b9975d3e4104d97",
+  "active": "6bd13da1767935d8",
   "lastOpenFiles": [
+    "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
+    "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md",
+    "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md",
     "Projects/Бариатрия/CLAUDE.md.tmp.26648.165f2f0a54f2",
     "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md.tmp.26648.06f9f477af4b",
     "Projects/Бариатрия/Материалы/_tmp-cite-table.py",
     "Projects/Бариатрия/Материалы/bib-push-doklad.js",
     "Projects/Бариатрия/Материалы/bib-push-doklad.js.tmp.26648.f9f9ab7ca22a",
-    "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md",
     "Projects/Бариатрия/CLAUDE.md",
-    "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 16 Обоснование создания единого центра.md",
     "Projects/Бариатрия/Материалы/Бариатрия.json",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 15 Уязвимые места действующей маршрутизации.md",
@@ -296,7 +305,6 @@
     "Projects/Бариатрия/media/bar-scheme-2.png",
     "Projects/Бариатрия/media",
     "Projects/_Проекты.base",
-    "Projects/Бариатрия/Материалы/Бариатрия.bib",
     "Без названия.canvas",
     "_. Home/Indexes/🦠Metagenomics/16S анализ.canvas",
     "_. Home/Indexes/🦠Metagenomics/DADA2.canvas",

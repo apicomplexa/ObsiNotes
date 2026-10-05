@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k in ['rules','yaml_aliases_section_style','yaml_key_sort']}, indent=2\\)\\)\")"
+    ]
+  }
+}

@@ -41,7 +41,8 @@
       "canonicalText": "Я изменил форматирование, убрал блоки что не требуются. Теперь расставь ссылки по тексту и таблицам. Добавь записи в зотеро",
       "images": [],
       "contentDigest": "0cfed9e5d50dd3df03d0145f8b6aa2f8ef948c2886bdf9e3b2df5b691cb2de66",
-      "providerUserMessageId": "f921b14a-f071-4f9b-9915-6b6fede84c5a"
+      "providerUserMessageId": "f921b14a-f071-4f9b-9915-6b6fede84c5a",
+      "providerAssistantMessageId": "c7c58480-cc60-4c4d-ac1c-baae51c94659"
     }
   ]
 }

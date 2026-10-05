@@ -1,5 +1,5 @@
 {
-  "userName": "Алекс",
+  "userName": "Alex",
   "permissionMode": "yolo",
   "model": "opus",
   "thinkingBudget": "off",
@@ -21,7 +21,7 @@
     "focusInputKey": "i"
   },
   "requireCommandOrControlEnterToSend": false,
-  "locale": "ru",
+  "locale": "en",
   "providerConfigs": {
     "claude": {
       "enabled": true,
