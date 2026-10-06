@@ -131,8 +131,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -211,8 +210,8 @@
             "state": {
               "type": "ReferenceListView",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "ReferenceListView"
+              "icon": "quote-glyph",
+              "title": "References"
             }
           },
           {
@@ -221,20 +220,33 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Drawing 2026-09-02 17.00.13.excalidraw.md"
+                "file": "Без названия.md"
               },
               "icon": "lucide-file-signature",
               "title": "Сноски"
             }
           },
           {
-            "id": "2b9975d3e4104d97",
+            "id": "a377818bccb44304",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1791264871850-5fgi1qk",
+                      "conversationId": null,
+                      "draftModel": "opus",
+                      "providerId": "claude"
+                    }
+                  ],
+                  "activeTabId": "tab-1791264871850-5fgi1qk"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
             }
           }
         ],
@@ -242,8 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 536.3173828125,
-    "collapsed": true
+    "width": 536.3173828125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,10 +271,10 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "6bd13da1767935d8",
+  "active": "a377818bccb44304",
   "lastOpenFiles": [
-    "Без названия 1.md",
     "Без названия.md",
+    "Без названия 1.md",
     "Функциональные навыки меня.md",
     "CLAUDE.md",
     "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",

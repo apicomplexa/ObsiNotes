@@ -1,6 +1,6 @@
 {
   "userName": "Alex",
-  "permissionMode": "yolo",
+  "permissionMode": "manual",
   "model": "opus",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -156,7 +156,10 @@
     }
   },
   "settingsProvider": "claude",
-  "lastSelectedChatModel": null,
+  "lastSelectedChatModel": {
+    "providerId": "claude",
+    "model": "opus"
+  },
   "savedProviderModel": {
     "claude": "opus"
   },
@@ -165,7 +168,7 @@
   },
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
-    "claude": "yolo"
+    "claude": "manual"
   },
   "pendingProviderSessionInvalidations": {},
   "enableAutoScroll": true,
