@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Маршрут пациента бариатрического профиля"
+              "title": "CLAUDE"
             }
           }
         ],
@@ -239,9 +239,13 @@
                     {
                       "tabId": "tab-1791264871850-5fgi1qk",
                       "conversationId": "conv-1791272581740-r9do53br7"
+                    },
+                    {
+                      "tabId": "tab-1791317019673-f3z5dqd",
+                      "conversationId": "conv-1791317122624-kl7jr74cf"
                     }
                   ],
-                  "activeTabId": "tab-1791264871850-5fgi1qk"
+                  "activeTabId": "tab-1791317019673-f3z5dqd"
                 }
               },
               "icon": "bot",
@@ -272,6 +276,11 @@
   },
   "active": "a377818bccb44304",
   "lastOpenFiles": [
+    "Projects/Бариатрия/CLAUDE.md",
+    "Projects/Бариатрия/Артефакты/БАР-Доклад.Вступление.md",
+    "TECH_COPY_БАР-Доклад.Вступление.md",
+    "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
+    "TECH_COPY_Маршрут пациента бариатрического профиля.md",
     "Projects/Бариатрия/CLAUDE.md.tmp.40500.240c7cf0d812",
     "_.Settings/Templates/Scripts/make_tech_copy.js.tmp.40500.d0c70a3f3fa0",
     "_.Settings/Templates/Scripts/make_tech_copy.js.tmp.40500.56d7de74ad92",
@@ -282,17 +291,12 @@
     "_.Settings/Pandoc/reference-mobile.docx",
     "_.Settings/Pandoc/reference-official.docx",
     "_.Settings/Pandoc/mobile.yaml",
-    "_.Settings/Pandoc/official.yaml",
-    "Projects/Бариатрия/Артефакты/БАР-Доклад.Вступление.md",
-    "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
-    "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 04 Этап 1. Первичное обращение и скрининг.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 02 Общая организация маршрута.md",
     "CLAUDE.md",
     "Без названия.md",
     "Без названия 1.md",
     "Функциональные навыки меня.md",
-    "Projects/Бариатрия/CLAUDE.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 16 Обоснование создания единого центра.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 15 Уязвимые места действующей маршрутизации.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 07 Этап 4. Догоспитальное обследование.md",
