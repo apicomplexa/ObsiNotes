@@ -32,5 +32,5 @@ type: 🗂️index
 | Применение   | Профилирование, SNV | Сборка, структурные варианты | de novo сборка |
 
 ```dataviewjs
-dv.view('_.Settings/Templates/dist/dataviews/indexPage')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/indexPage')
 ```

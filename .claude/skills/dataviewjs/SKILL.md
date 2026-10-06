@@ -1,6 +1,6 @@
 ---
 name: dataviewjs
-description: DataviewJS API reference plus the vault's TypeScript dataview repo (_.Settings/Templates/dataviews → dist). Use when writing or debugging a dataviewjs block, an index page view, or editing view.ts sources.
+description: DataviewJS API reference plus the vault's TypeScript views in the obsidian-kit submodule (_.Settings/obsidian-kit/src/dataviews → dist). Use when writing or debugging a dataviewjs block, an index page view, or editing view.ts sources.
 ---
 
 # dataviewjs
@@ -17,7 +17,7 @@ DataviewJS — JS-интерфейс плагина Dataview (v0.5.68), внут
 
 ````md
 ```dataviewjs
-dv.view('_.Settings/Templates/dist/dataviews/indexPage')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/indexPage')
 ```
 ````
 
@@ -130,45 +130,27 @@ const cache = app.metadataCache.getFileCache(file)
 - Excalidraw-файлы исключай отдельно: `dv.pages('-#dv_exclude and -#excalidraw')`.
 - Метатеги — поля frontmatter с массивом субиндексов. Полная таблица — в скиле `vault-structure`.
 
-## TypeScript-репозиторий dataviews
+## TypeScript-views в obsidian-kit
+
+Views живут в подмодуле `_.Settings/obsidian-kit` (отдельный репозиторий). Исходники лежат в `src/`, заметки грузят закоммиченный `dist/`.
 
 ```
-_.Settings/Templates/
-├── dataviews/indexPage/
-│   ├── view.ts                     ✅ точка входа, вызывает displayIndexes()
-│   ├── dvWrappers/getIndexes.ts    ✅ находит index-поля во frontmatter
-│   └── views/
-│       ├── viewComponent.ts        ✅ базовый класс Component
-│       ├── searchTemplate.ts       ✅ obsiduanQueryTemplate()
-│       ├── pinedNotes.ts           ✅ displayPinnedNotes()
-│       ├── recentNotes.ts          ✅ displayRecentNotes()
-│       ├── singleIndexView.ts      ✅ класс SingleIndexView
-│       └── commonIndexPageVIew.ts  ⚠️ НЕЗАВЕРШЁН
-├── dist/dataviews/indexPage/view.js   # то, что реально грузится
-└── build-dataviews.cjs
+_.Settings/obsidian-kit/
+├── src/dataviews/
+│   ├── shared/getIndexes.ts        # index-поля во frontmatter (общий для views)
+│   ├── indexPage/                  # индексная страница по метатегу
+│   │   ├── view.ts                 # точка входа
+│   │   └── views/                  # Component, IndexPageTemplate(View), SingleIndexView,
+│   │                               # displayPinnedNotes, displayRecentNotes, obsidianQueryTemplate
+│   ├── tagIndexPage/view.ts        # страница по тегам текущей заметки ($nsmu, $📌pin)
+│   └── tableIndex/view.ts          # таблицы «заметка / summary / индексы» по подиндексам
+├── types/                          # dv (DataviewApi), Note, DataArray — глобальные декларации
+└── dist/dataviews/<name>/view.js   # то, что реально грузится
 ```
 
-### Сборка
+Файлы — обычные ES-модули с `import`. esbuild собирает каждый `view.ts` в один `view.js` формата iife; `dv` и `input` — глобалы, которые Dataview подставляет при `dv.view()`. Если рядом лежит `view.css`, он копируется в `dist`.
 
-```bash
-cd _.Settings/Templates && npm run build:dv
-```
-
-Компилирует каждую папку `dataviews/*/` (нужен `tsconfig.json`) в `dist/dataviews/*/view.js`. Подробности — скил `build-dataviews`.
-
-### Архитектура
-
-Файлы связаны через `/// <reference path>`, **не** ES-модули. `tsc --outFile view.js` склеивает всё в один файл — **порядок reference важен**.
-
-### Незавершённое: `commonIndexPageVIew.ts`
-
-Попытка рефакторинга на компонентную архитектуру, брошенная на полпути:
-- `IndexPageTemplate` собирает `indexesWithSubindexes`, но `render()` не вызывает дочерние компоненты.
-- `IndexPageTemplateView` рисует только шапку через `dv.paragraph`, сами индексы не рисует.
-
-Чтобы доделать:
-1. В `IndexPageTemplate.render()` создать `IndexPageTemplateView` с собранными данными и вызвать `view.render()`.
-2. В `IndexPageTemplateView.render()` итерироваться по indexes и рендерить `SingleIndexView` для каждого.
+Новый view: папка `src/dataviews/<name>/` с `view.ts`. Сборка и коммит описаны в скиле `build-kit` (`pixi run build`).
 
 ## Типовые паттерны
 

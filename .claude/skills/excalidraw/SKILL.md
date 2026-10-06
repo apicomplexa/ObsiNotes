@@ -29,7 +29,7 @@ Frontmatter: `excalidraw-plugin: parsed`, `tags: [excalidraw]`, опционал
 ## Создание
 
 - Command Palette → `Excalidraw: Create new drawing`
-- Из шаблона хранилища: `_.Settings/Templates/Templater/Template.excalidraw.md`
+- Из шаблона хранилища: `_.Settings/obsidian-kit/Templater/Template.excalidraw.md`
 - Через CLI: `obsidian vault="ObsiNotes" create name="Схема" template="Template.excalidraw"`
 
 ## Встраивание в заметку

@@ -26,7 +26,8 @@ ObsiNotes/
 ├── Lists/              # Списки к экзаменам
 ├── Excalidraw/Scripts/Downloaded/
 ├── _.Settings/
-│   ├── Templates/      # Templater, QuickAdd Scripts, dataviews (TS)
+│   ├── obsidian-kit/   # git-подмодуль: шаблоны Templater, QuickAdd-скрипты, dataviews, стили DOCX (TS → dist/)
+│   ├── Pandoc/         # данные хранилища для pandoc: pandoc-defaults.yaml, .csl, article.tplx
 │   └── Media/          # Вставленные изображения
 ├── .claude/            # Скилы и настройки агента
 └── .obsidian/          # Конфиг Obsidian

@@ -10,6 +10,6 @@
   "pandoc": "",
   "pdflatex": null,
   "outputFolder": "/home/apicomplexa/Downloads",
-  "extraArguments": "--defaults=/home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/pandoc-defaults.yaml\n--citeproc -f markdown+mark",
+  "extraArguments": "--defaults=/home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/Pandoc/pandoc-defaults.yaml\n--citeproc -f markdown+mark",
   "exportFrom": "md"
 }

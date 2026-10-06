@@ -30,5 +30,5 @@ cssclasses:
 ---
 
 ```dataviewjs
-dv.view('_.Settings/Templates/dataviews/tableIndexDW')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/tableIndex')
 ```

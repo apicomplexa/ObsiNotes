@@ -11,5 +11,5 @@ type: 🗂️index
 ---
 
  ```dataviewjs
-dv.view('_.Settings/Templates/dist/dataviews/tagIndexPage')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/tagIndexPage')
 ```

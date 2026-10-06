@@ -19,5 +19,5 @@ type: 🗂️index
 |<span class="blue">Выживаемость</span>|Критерий Гехана|            |  |     |     |
 
 ```dataviewjs
-dv.view('_.Settings/Templates/dist/dataviews/indexPage')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/indexPage')
 ```

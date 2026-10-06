@@ -23,7 +23,7 @@ Reference material lives in `.claude/skills/`. Before any vault task, invoke:
 
 Consult the matching skill when a task touches it: `obsidian-markdown`, `dataviewjs`, `templater`, `quickadd`, `obsidian-bases`, `json-canvas`, `excalidraw`, `frontmatter-linter`, `defuddle`.
 
-Task skills: `new-note`, `new-quickadd-script`, `build-dataviews`, `vault-audit`, `import-claude-export`.
+Task skills: `new-note`, `new-quickadd-script`, `build-kit`, `vault-audit`, `import-claude-export`.
 
 `import-claude-export` handles export packages from the claude.ai-side export skill (`MANIFEST.md` + MOC + topic notes + artifacts) — it unpacks them into a self-contained `Projects/` folder. Invoke it whenever such a package appears in the vault.
 
@@ -34,7 +34,7 @@ Historical refactor artifacts (`ACTION PLAN`, the two `AUDIT Report` notes) rema
 ## Core conventions
 
 - Notes are classified by __emoji frontmatter metatags__ (e.g. `💻Bioinfo`, `🦠Metagenomics`, `📊Statistic`), __not__ by folders. One note may carry several metatags. The full list lives in the `vault-structure` skill.
-- Every note's frontmatter has `aliases / date / dg-publish / summary / type`. Default `type: 📄note`. Use the `_  📄CommonPage.md` Templater template (`_.Settings/Templates/Templater/`) as the frontmatter baseline.
+- Every note's frontmatter has `aliases / date / dg-publish / summary / type`. Default `type: 📄note`. Use the `_  📄CommonPage.md` Templater template (`_.Settings/obsidian-kit/Templater/`) as the frontmatter baseline.
 - `Notes/` is intentionally __flat__ — no subfolders.
 
 ## Projects are self-contained
@@ -48,15 +48,17 @@ Each folder under `Projects/` is a closed unit. When working on a project:
 - Convention: main project note is `_<Project name>.md`, tagged `💡project` + `nsmu`; optional `status:` field on that note only.
 - A project may carry its own nested `CLAUDE.md` — read it before touching anything in that folder. Existing: `Projects/СеверФест2026/CLAUDE.md`.
 
-## Build
+## obsidian-kit (code submodule)
 
-Rebuild the TypeScript Dataviews after editing them:
+`_.Settings/obsidian-kit` is a separate git repo (submodule) holding all vault code in TypeScript: Dataview views, QuickAdd scripts, pandoc DOCX styles, plus the Templater templates. Sources in `src/`, the vault loads the committed `dist/`. Vault-specific data stays outside it — pandoc settings, `.csl` and `article.tplx` live in `_.Settings/Pandoc/`.
+
+After editing anything in the kit, rebuild (Node and pandoc are pinned by pixi; there is no system Node):
 
 ```
-cd _.Settings/Templates && npm run build:dv
+cd _.Settings/obsidian-kit && pixi run typecheck && pixi run build
 ```
 
-Sources: `_.Settings/Templates/dataviews/<name>/view.ts` → output `dist/dataviews/<name>/view.js`.
+Commit source + `dist/` inside the submodule with a meaningful message, then return the shell to the vault root — the Stop hook commits whatever repo the shell is in. See the `build-kit` skill and the kit's `README.md`.
 
 ## Git
 

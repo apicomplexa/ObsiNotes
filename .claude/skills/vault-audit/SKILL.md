@@ -9,7 +9,7 @@ Scan the vault and **report** frontmatter/classification problems. This skill is
 
 ## Scope
 
-Audit `.md` files in `Notes/`, `Lists/`, `_. Home/` (skip `.obsidian/`, `.trash/`, `_.Settings/Templates/node_modules/`).
+Audit `.md` files in `Notes/`, `Lists/`, `_. Home/` (skip `.obsidian/`, `.trash/`, `_.Settings/obsidian-kit/node_modules/`, `_.Settings/obsidian-kit/.pixi/`).
 
 ## Checks
 

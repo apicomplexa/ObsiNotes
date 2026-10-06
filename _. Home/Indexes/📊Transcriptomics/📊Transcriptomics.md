@@ -28,5 +28,5 @@ type: 🗂️index
 ![[Pasted image 20221220165122.png]]
 
 ```dataviewjs
-dv.view('_.Settings/Templates/dist/dataviews/indexPage')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/indexPage')
 ```

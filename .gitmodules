@@ -1,4 +1,4 @@
-[submodule "_.Settings/Templates"]
-	path = _.Settings/Templates
+[submodule "_.Settings/obsidian-kit"]
+	path = _.Settings/obsidian-kit
 	url = https://github.com/apicomplexa/obsidian_templates.git
 	branch = main

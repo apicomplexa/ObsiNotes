@@ -536,7 +536,7 @@ Emoji-имена свойств (`🎬Оценка`, `🎬Тип`) в `order`, `
 
 ## GRW.base
 
-Источник — заметки с тегом `🎬grw`, шаблон `_.Settings/Templates/Templater/grw.md`.
+Источник — заметки с тегом `🎬grw`, шаблон `_.Settings/obsidian-kit/Templater/grw.md`.
 Frontmatter: `status`, `🎬Автор`, `🎬Тип`, `🎬Жанры`, `🎬Оценка`, `summary`, `image`, `started`, `done`.
 
 ## Конвенции

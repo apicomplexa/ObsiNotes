@@ -22,5 +22,5 @@ type: 🗂️index
 ---
 
 ```dataviewjs
-dv.view('_.Settings/Templates/dist/dataviews/indexPage')
+dv.view('_.Settings/obsidian-kit/dist/dataviews/indexPage')
 ```

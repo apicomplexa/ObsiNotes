@@ -1,7 +1,7 @@
 {
   "data_version": 2,
   "command_timeout": 5,
-  "templates_folder": "_.Settings/Templates/Templater",
+  "templates_folder": "_.Settings/obsidian-kit/Templater",
   "templates_pairs": [],
   "trigger_on_file_creation_mode": "none",
   "auto_jump_to_cursor": true,
@@ -13,7 +13,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "_.Settings/Templates/Templater/_  📄CommonPage.md"
+    "_.Settings/obsidian-kit/Templater/_  📄CommonPage.md"
   ],
   "startup_templates": [],
   "intellisense_render": "1",

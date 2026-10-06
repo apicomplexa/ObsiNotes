@@ -148,7 +148,7 @@ obsidian quickadd:run choice="New common note" vars='{"title":"Kraken2"}'
 ## Templater
 
 ```bash
-obsidian templater:create-from-template template="_.Settings/Templates/Templater/_  📄CommonPage.md" file="Notes/Kraken2.md" open
+obsidian templater:create-from-template template="_.Settings/obsidian-kit/Templater/_  📄CommonPage.md" file="Notes/Kraken2.md" open
 ```
 
 ## Команды Obsidian

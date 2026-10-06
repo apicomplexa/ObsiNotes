@@ -18,7 +18,7 @@
       "outputPathTemplate": "/OthersNotes/Clippings/{{title}}.md",
       "imageOutputPathTemplate": "_.Settings/Media",
       "imageBaseNameTemplate": "image",
-      "templatePath": "_.Settings/Templates/Templater/Zotero tmp.md",
+      "templatePath": "_.Settings/obsidian-kit/Templater/Zotero tmp.md",
       "cslStyle": "gost-r-7-0-5-2008-numeric-alphabetical"
     }
   ],

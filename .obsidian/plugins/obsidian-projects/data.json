@@ -18,7 +18,7 @@
       },
       "defaultName": "",
       "templates": [
-        "_.Settings/Templates/grw.md"
+        "_.Settings/obsidian-kit/Templater/grw.md"
       ],
       "excludedNotes": [],
       "isDefault": false,
@@ -239,7 +239,7 @@
       "fieldConfig": {},
       "defaultName": "",
       "templates": [
-        "_.Settings/Templates/_  📄CommonPage.md"
+        "_.Settings/obsidian-kit/Templater/_  📄CommonPage.md"
       ],
       "excludedNotes": [],
       "isDefault": true,

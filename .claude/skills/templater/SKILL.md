@@ -1,11 +1,11 @@
 ---
 name: templater
-description: Templater syntax and tp.* API, plus the catalogue of templates living in _.Settings/Templates/Templater/. Use when writing or editing a Templater template, or when creating notes from one.
+description: Templater syntax and tp.* API, plus the catalogue of templates living in _.Settings/obsidian-kit/Templater/. Use when writing or editing a Templater template, or when creating notes from one.
 ---
 
 # templater
 
-Плагин `templater-obsidian`. Папка шаблонов хранилища: **`_.Settings/Templates/Templater/`**.
+Плагин `templater-obsidian`. Папка шаблонов хранилища: **`_.Settings/obsidian-kit/Templater/`**.
 
 ## Синтаксис
 
@@ -77,7 +77,7 @@ await tp.app.vault.modify(file, content)
 ## Создание файлов из шаблона
 
 ```js
-const templateFile = tp.app.vault.getAbstractFileByPath('_.Settings/Templates/Templater/_  📄CommonPage.md')
+const templateFile = tp.app.vault.getAbstractFileByPath('_.Settings/obsidian-kit/Templater/_  📄CommonPage.md')
 const newFile = await tp.file.create_new(templateFile, "Имя файла", true, "Notes/")
 
 const plain = await tp.file.create_new("# Содержимое", "Имя", false)
@@ -85,7 +85,7 @@ const plain = await tp.file.create_new("# Содержимое", "Имя", false
 
 Из CLI:
 ```bash
-obsidian vault="ObsiNotes" templater:create-from-template template="_.Settings/Templates/Templater/_  📄CommonPage.md" file="Notes/Kraken2.md" open
+obsidian vault="ObsiNotes" templater:create-from-template template="_.Settings/obsidian-kit/Templater/_  📄CommonPage.md" file="Notes/Kraken2.md" open
 ```
 
 ## Шаблоны хранилища
@@ -103,7 +103,7 @@ type: 📄note
 ```
 
 ### `_ 🗂️ IndexPage.md` — индексная страница
-`type: 🗂️index`, `tags: [dv_exclude]` + вызов `dv.view('_.Settings/Templates/dist/dataviews/indexPage')`.
+`type: 🗂️index`, `tags: [dv_exclude]` + вызов `dv.view('_.Settings/obsidian-kit/dist/dataviews/indexPage')`.
 
 ### `_ 💊 Pills.md` — цветные плашки
 Оборачивает выделенный текст в `<span class="text_pill ЦВЕТ">`. Цвет через `tp.system.suggester`.
@@ -136,7 +136,7 @@ done:
 
 Templater-шаблоны запускаются из макросов как обычные команды Obsidian:
 ```
-commandId: "templater-obsidian:create-_.Settings/Templates/Templater/_  📄CommonPage.md"
+commandId: "templater-obsidian:create-_.Settings/obsidian-kit/Templater/_  📄CommonPage.md"
 ```
 
 ## Типовой паттерн хранилища
