@@ -36,6 +36,13 @@
         "id": "53112b7f-ddac-4ec1-942e-44e8f4085236",
         "commands": [
           {
+            "name": "make_tech_copy",
+            "type": "UserScript",
+            "id": "fb1bbaa7-b4d8-4c88-9ee7-06d1e4f64722",
+            "path": "_.Settings/Templates/Scripts/make_tech_copy.js",
+            "settings": {}
+          },
+          {
             "name": "convertLinks",
             "type": "UserScript",
             "id": "ad1d0a0c-5285-4423-919c-bfa1976cd754",
