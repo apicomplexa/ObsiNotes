@@ -7,9 +7,9 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "link",
   "highDPIDiagrams": true,
-  "pandoc": "C:\\Users\\alex\\AppData\\Local\\Pandoc\\pandoc.exe",
+  "pandoc": "",
   "pdflatex": null,
-  "outputFolder": "C:\\Users\\alex\\Downloads",
-  "extraArguments": "--defaults=C:\\Users\\alex\\Clouds\\NextCloud\\Заметки\\ObsiNotes\\_.Settings\\pandoc-defaults.yaml\n--citeproc -f markdown+mark",
+  "outputFolder": "/home/apicomplexa/Downloads",
+  "extraArguments": "--defaults=/home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/pandoc-defaults.yaml\n--citeproc -f markdown+mark",
   "exportFrom": "md"
 }
