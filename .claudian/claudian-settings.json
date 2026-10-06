@@ -2,7 +2,6 @@
   "userName": "Alex",
   "permissionMode": "yolo",
   "model": "opus",
-  "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -14,7 +13,6 @@
   "sharedEnvironmentVariables": "",
   "envSnippets": [],
   "customContextLimits": {},
-  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
@@ -31,33 +29,98 @@
       "loadUserSettings": true,
       "enableChrome": true,
       "customModels": "",
-      "defaultModel": "opus",
       "lastModel": "haiku",
       "modelEnvironmentType": "",
       "titleModelEnvironmentType": "",
       "environmentVariables": "",
-      "environmentHash": ""
+      "environmentHash": "",
+      "outputStyle": null,
+      "promptSuggestions": false,
+      "discoveredOutputStyles": [
+        "default",
+        "Proactive",
+        "Concise",
+        "Explanatory",
+        "Learning"
+      ],
+      "modelAliases": {},
+      "visibleModels": [
+        "haiku",
+        "sonnet",
+        "opus",
+        "claude-fable-5-1"
+      ],
+      "selectedModels": [
+        {
+          "value": "opus",
+          "label": "Opus 5.5",
+          "description": "For complex work and everyday tasks",
+          "resolvedModel": "claude-opus-5-5",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "sonnet",
+          "label": "Sonnet 5.5",
+          "description": "Most efficient for simpler tasks",
+          "resolvedModel": "claude-sonnet-5-5",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "claude-fable-5-1",
+          "label": "Fable 5.1",
+          "description": "For your toughest challenges",
+          "resolvedModel": "claude-fable-5-1",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        },
+        {
+          "value": "haiku",
+          "label": "Haiku 4.5",
+          "description": "Fastest for quick answers",
+          "resolvedModel": "claude-haiku-4-5-20251001",
+          "reasoningMetadataResolved": true,
+          "supportedEffortLevels": []
+        }
+      ]
     },
     "codex": {
       "enabled": false,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
-      "customModels": "",
-      "discoveredModels": [],
       "modelAliases": {},
-      "visibleModels": null,
+      "visibleModels": [],
       "enableUltraEffort": false,
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "catalogTimestamp": 0,
-      "catalogFingerprint": "",
       "installationMethodsByHost": {},
-      "wslDistroOverridesByHost": {}
+      "wslDistroOverridesByHost": {},
+      "responseStyle": "pragmatic",
+      "responseVerbosity": "default",
+      "selectedModels": []
     },
     "grok": {
-      "catalogsByHost": {},
       "cliPath": "",
       "cliPathsByHost": {},
       "enabled": false,
@@ -65,7 +128,8 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredReasoningByModel": {},
-      "visibleModels": null
+      "visibleModels": [],
+      "selectedModelsByHost": {}
     },
     "opencode": {
       "cliPath": "",
@@ -75,21 +139,20 @@
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "selectedMode": "",
       "thinkingOptionsByModel": {},
-      "visibleModels": []
+      "visibleModels": [],
+      "selectedModels": []
     },
     "pi": {
       "cliPath": "",
       "cliPathsByHost": {},
-      "discoveredModels": [],
       "enabled": false,
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "toolMode": "all",
-      "visibleModels": []
+      "visibleModels": [],
+      "selectedModels": []
     }
   },
   "settingsProvider": "claude",
@@ -101,26 +164,30 @@
     "claude": "high"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
   "pendingProviderSessionInvalidations": {},
-  "lastCustomModel": "",
-  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
   "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
+  "enableZenMode": true,
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,
-  "collabEnabled": false,
-  "collabProjectsFolder": "workspace",
-  "collabGitPath": "",
+  "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
-  "hiddenProviderCommands": {}
+  "hiddenCommands": [],
+  "thinkingBudget": "off",
+  "customModelAliases": {},
+  "savedProviderThinkingBudget": {},
+  "lastCustomModel": "",
+  "collabEnabled": false,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": ""
 }

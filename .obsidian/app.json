@@ -11,5 +11,7 @@
     "margin": "0",
     "downscalePercent": 75
   },
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "settingsPopoutWindow": true,
+  "strictLineBreaks": true
 }

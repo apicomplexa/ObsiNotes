@@ -2,16 +2,17 @@
   "accentColor": "",
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
-    "KabanColors",
     "supercharged-links-gen",
-    "coloredTags",
-    "main",
     "dv-full-width",
-    "darker-img",
-    "noctalia"
+    "KabanColors",
+    "main",
+    "coloredTags",
+    "darker-img"
   ],
-  "theme": "system",
+  "theme": "obsidian",
   "showViewHeader": true,
   "showRibbon": false,
-  "baseFontSize": 16
+  "baseFontSize": 16,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Droid Sans"
 }

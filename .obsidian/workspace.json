@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Функциональные навыки меня.md",
+                "file": "Без названия.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Функциональные навыки меня"
+              "title": "Без названия"
+            }
+          },
+          {
+            "id": "727209edec6048bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Без названия 1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Без названия 1"
             }
           }
         ]
@@ -216,22 +231,10 @@
             "id": "2b9975d3e4104d97",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
-              "state": {
-                "tabWorkspace": {
-                  "version": 1,
-                  "openTabs": [
-                    {
-                      "tabId": "tab-1790936759588-3808yn2",
-                      "conversationId": null,
-                      "draftModel": "opus"
-                    }
-                  ],
-                  "activeTabId": "tab-1790936759588-3808yn2"
-                }
-              },
-              "icon": "bot",
-              "title": "Claudian"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ],
@@ -259,6 +262,10 @@
   },
   "active": "6bd13da1767935d8",
   "lastOpenFiles": [
+    "Без названия 1.md",
+    "Без названия.md",
+    "Функциональные навыки меня.md",
+    "CLAUDE.md",
     "Projects/Бариатрия/Артефакты/Маршрут пациента бариатрического профиля.md",
     "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md",
     "Projects/Бариатрия/Артефакты/БАР - Доклад. Вступление.md",
@@ -292,10 +299,6 @@
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 17 Заключение.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 14 Осложнения и нежелательные явления.md",
     "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 13 Этап 9. Отдалённое наблюдение.md",
-    "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 11 Этап 7. Стационарный этап.md",
-    "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 10 Виды бариатрических вмешательств.md",
-    "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 09 Этап 6. Предоперационная подготовка.md",
-    "Projects/Бариатрия/Артефакты/Разделы/БАР - Док 08 Этап 5. Консилиум и информированное согласие.md",
     "Projects/Бариатрия/Артефакты/Разделы",
     "Projects/Бариатрия/media/bar-scheme-7.png",
     "Projects/Бариатрия/media/bar-scheme-6.png",
