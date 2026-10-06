@@ -36,6 +36,13 @@
         "id": "53112b7f-ddac-4ec1-942e-44e8f4085236",
         "commands": [
           {
+            "name": "docx_style_begin",
+            "type": "UserScript",
+            "id": "80a1951b-22c9-41ef-bed1-34560439ec28",
+            "path": "_.Settings/Templates/Scripts/docx_style_begin.js",
+            "settings": {}
+          },
+          {
             "name": "make_tech_copy",
             "type": "UserScript",
             "id": "fb1bbaa7-b4d8-4c88-9ee7-06d1e4f64722",
@@ -73,6 +80,13 @@
             "type": "Wait",
             "id": "ac8aec03-bdd8-44f3-8745-f229b3e50998",
             "time": 1000
+          },
+          {
+            "name": "docx_style_finish",
+            "type": "UserScript",
+            "id": "95cb8d96-3ac3-4f69-94f4-f7125acdae61",
+            "path": "_.Settings/Templates/Scripts/docx_style_finish.js",
+            "settings": {}
           },
           {
             "name": "restore_from_tech_copy",

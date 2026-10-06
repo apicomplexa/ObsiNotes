@@ -1,0 +1,10 @@
+# Стиль экспорта «Для телефона» — подключается макросом «Export: DOC» поверх
+# _.Settings/pandoc-defaults.yaml. Оформление — в reference-mobile.docx,
+# пересобрать: python3 "_.Settings/Pandoc/build_reference_docs.py"
+reference-doc: /home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/Pandoc/reference-mobile.docx
+filters:
+  - /home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/Pandoc/docx-captions.lua
+# Оглавление-поле на телефоне не обновить (нет F9) — отключаем; навигация по заголовкам
+# в мобильном Word есть и без него. Значение из defaults перекрывает toc во frontmatter.
+metadata:
+  toc: false

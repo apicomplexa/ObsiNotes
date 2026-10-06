@@ -56,16 +56,38 @@ module.exports = async (params) => {
 
 ### `Export: DOC`
 Экспорт текущей заметки в DOCX с форматированием.
-1. `make_tech_copy.js` — создаёт TECH_COPY с исходника, дописывает маркер
-2. `convertLinks.js` — wikilinks в markdown-ссылки, врезки раскрываются
-3. `format_with_regexp.js` — callouts и task-символы в Unicode (копию не трогает, если маркер уже стоит)
-4. Wait 1000 мс
-5. `obsidian-pandoc:pandoc-export-docx`
-6. Wait 1000 мс
-7. `restore_from_tech_copy.js` — восстановить оригинал
+1. `docx_style_begin.js` — выбор стиля оформления (suggester), подмена настроек obsidian-pandoc в памяти
+2. `make_tech_copy.js` — создаёт TECH_COPY с исходника, дописывает маркер
+3. `convertLinks.js` — wikilinks в markdown-ссылки, врезки раскрываются
+4. `format_with_regexp.js` — callouts и task-символы в Unicode (копию не трогает, если маркер уже стоит)
+5. Wait 1000 мс
+6. `obsidian-pandoc:pandoc-export-docx`
+7. Wait 1000 мс
+8. `docx_style_finish.js` — ждёт файл, переносит его в папку экспорта, возвращает настройки плагина
+9. `restore_from_tech_copy.js` — восстановить оригинал
 
-Шаги 2–3 **портят оригинальный файл** ради совместимости с Pandoc; TECH_COPY хранит исходник для отката.
+Шаги 3–4 **портят оригинальный файл** ради совместимости с Pandoc; TECH_COPY хранит исходник для отката.
 Копия обязана сниматься **до** `convertLinks.js` — иначе откат вернёт раскрытый текст (баг до 06-10-2026).
+Если экспорт оборвался (отменили выбор уровня рекурсии и т. п.), следующий запуск `make_tech_copy.js`
+сам вернёт заметку из TECH_COPY и продолжит.
+
+#### Стили оформления DOCX (`_.Settings/Pandoc/`)
+
+| Стиль | Файлы | Имя результата |
+| --- | --- | --- |
+| 📄 Официальный — A4, Times New Roman 12, поля 2 / 1 / 1,5 / 1,5 см (лево / право / верх / низ), каждый заголовок 1 уровня с новой страницы, титул без номера, номера страниц внизу по центру, оглавление (Word предложит обновить поля при открытии) | `official.yaml`, `reference-official.docx` | `<заметка>.docx` |
+| 📱 Для телефона — страница 9,5 × 19 см, Arial 11, без абзацного отступа и выравнивания по ширине, без разрывов страниц и оглавления | `mobile.yaml`, `reference-mobile.docx` | `<заметка> (телефон).docx` |
+
+- `docx_style_begin.js` добавляет `--defaults=_.Settings/Pandoc/<стиль>.yaml` поверх `_.Settings/pandoc-defaults.yaml`
+  и временно направляет вывод плагина во временную папку: плагин всегда называет файл по имени заметки,
+  иначе стили перезаписывали бы друг друга. Настройки плагина **не сохраняются** на диск, только в памяти.
+- Оформление живёт в reference-docx. Не править их в Word — править словари в `build_reference_docs.py`
+  и пересобирать: `python3 "_.Settings/Pandoc/build_reference_docs.py"` (stdlib, нужен только pandoc).
+- `docx-captions.lua` (подключён в обоих yaml): абзац из одного `__Таблица N. …__` → стиль «Table Caption»
+  (держится с таблицей), абзац из одной картинки → «Figure» (по центру), `_Схема N. …_` / `_Рисунок …_` →
+  «Image Caption». Подписи в заметках пишутся обычным markdown.
+- Новый стиль: `<имя>.yaml` + функция в `build_reference_docs.py` + строка в `STYLES` в `docx_style_begin.js`.
+- Пути к yaml не должны содержать пробелов: плагин режет `extraArguments` по пробелам.
 
 ### `🖨️Make tech copy`
 Не выведен в Choices. Сохранить файл, затем `format_with_regexp.js`.

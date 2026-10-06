@@ -1,0 +1,6 @@
+# Стиль экспорта «Официальный» — подключается макросом «Export: DOC» поверх
+# _.Settings/pandoc-defaults.yaml. Оформление — в reference-official.docx,
+# пересобрать: python3 "_.Settings/Pandoc/build_reference_docs.py"
+reference-doc: /home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/Pandoc/reference-official.docx
+filters:
+  - /home/apicomplexa/Documents/obsidian_vaults/ObsiNotes/_.Settings/Pandoc/docx-captions.lua
